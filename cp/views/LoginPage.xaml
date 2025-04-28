@@ -1,0 +1,30 @@
+﻿<Page x:Class="cp.views.LoginPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:vms="clr-namespace:cp.viewModels"
+      xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+      Title="LoginPage">
+
+    <Page.DataContext>
+        <vms:LoginViewModel/>
+    </Page.DataContext>
+
+    <Grid Margin="40">
+        <StackPanel Width="300" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <TextBlock Text="Вход" FontSize="24" Margin="0,0,0,20" HorizontalAlignment="Center"/>
+            <xctk:WatermarkTextBox  
+                Watermark="Логин"  
+                Text="{Binding Username, UpdateSourceTrigger=PropertyChanged}"  
+                Margin="0,5"  
+                Width="300"/>
+
+            <PasswordBox PasswordChanged="PwdBox_PasswordChanged" Margin="0,5"/>
+            <Button Content="Войти"
+              Command="{Binding LoginCommand}"
+              Margin="0,20,0,0"/>
+            <Button Content="Регистрация"
+              Command="{Binding GoToRegisterCommand}"
+              Style="{StaticResource LinkButton}" />
+        </StackPanel>
+    </Grid>
+</Page>

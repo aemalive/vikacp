@@ -5,21 +5,29 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:cp.views"
       xmlns:vms="clr-namespace:cp.viewModels"
-      xmlns:helpers="clr-namespace:cp.helpers" 
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
       Title="ProfilePage">
 
     <Page.DataContext>
-        <vms:ProfileViewModel />
+        <vms:ProfileViewModel/>
     </Page.DataContext>
 
     <Page.Resources>
-        <!-- Регистрируем конвертер -->
-        <helpers:PasswordBoxToPasswordConverter x:Key="PasswordConverter"/>
+        <BooleanToVisibilityConverter x:Key="BoolToVis" />
     </Page.Resources>
 
-    <Grid Margin="10">
+    <Grid Margin="20">
+        <StackPanel>
+            <TextBlock Text="{Binding FullName}" FontSize="18"/>
+            <TextBlock Text="Админский раздел" 
+               Visibility="{Binding IsAdmin, 
+                            Converter={StaticResource BoolToVis}}"/>
+            <TextBlock Text="Пользовательский раздел" 
+               Visibility="{Binding IsCustomer, 
+                            Converter={StaticResource BoolToVis}}"/>
+        </StackPanel>
 
     </Grid>
+
 </Page>

@@ -7,48 +7,96 @@
       "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\views\\profilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\viewmodels\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\viewmodels\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\helpers\\passwordboxtopasswordconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\helpers\\passwordboxtopasswordconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\views\\profilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\views\\profilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\models\\flowershopdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\models\\flowershopdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\models\\flowershopdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\models\\flowershopdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\viewmodels\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\viewmodels\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\commands\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\commands\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\assets\\svg\\profile_icon.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\assets\\svg\\profile_icon.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\assets\\svg\\basket.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\assets\\svg\\basket.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\views\\basketpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\views\\basketpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\views\\catalogpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\views\\catalogpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\models\\flower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\models\\flower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\helpers\\passwordboxtopasswordconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\helpers\\passwordboxtopasswordconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,43 +106,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "BaseViewModel.cs",
-              "DocumentMoniker": "D:\\reps\\cp\\cp\\viewModels\\BaseViewModel.cs",
-              "RelativeDocumentMoniker": "cp\\viewModels\\BaseViewModel.cs",
-              "ToolTip": "D:\\reps\\cp\\cp\\viewModels\\BaseViewModel.cs",
-              "RelativeToolTip": "cp\\viewModels\\BaseViewModel.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\reps\\cp\\cp\\App.xaml.cs",
+              "RelativeDocumentMoniker": "cp\\App.xaml.cs",
+              "ToolTip": "D:\\reps\\cp\\cp\\App.xaml.cs",
+              "RelativeToolTip": "cp\\App.xaml.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwCsAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T19:59:42.537Z"
+              "WhenOpened": "2025-04-13T19:56:31.69Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\reps\\cp\\cp\\models\\User.cs",
-              "RelativeDocumentMoniker": "cp\\models\\User.cs",
-              "ToolTip": "D:\\reps\\cp\\cp\\models\\User.cs",
-              "RelativeToolTip": "cp\\models\\User.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAswAQAAAAdAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "D:\\reps\\cp\\cp\\viewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "cp\\viewModels\\LoginViewModel.cs",
+              "ToolTip": "D:\\reps\\cp\\cp\\viewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "cp\\viewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAADgAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T20:02:35.138Z"
+              "WhenOpened": "2025-04-28T13:55:40.64Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ProfileViewModel.cs",
-              "DocumentMoniker": "D:\\reps\\cp\\cp\\viewModels\\ProfileViewModel.cs",
-              "RelativeDocumentMoniker": "cp\\viewModels\\ProfileViewModel.cs",
-              "ToolTip": "D:\\reps\\cp\\cp\\viewModels\\ProfileViewModel.cs",
-              "RelativeToolTip": "cp\\viewModels\\ProfileViewModel.cs",
-              "ViewState": "AgIAAFIAAAAAAAAAAADwv04AAAAtAAAAAAAAAA==",
+              "Title": "ProfilePage.xaml.cs",
+              "DocumentMoniker": "D:\\reps\\cp\\cp\\views\\ProfilePage.xaml.cs",
+              "RelativeDocumentMoniker": "cp\\views\\ProfilePage.xaml.cs",
+              "ToolTip": "D:\\reps\\cp\\cp\\views\\ProfilePage.xaml.cs",
+              "RelativeToolTip": "cp\\views\\ProfilePage.xaml.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAUwBgAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T20:46:47.982Z"
+              "WhenOpened": "2025-04-28T13:00:42.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FlowerShopDbContextFactory.cs",
+              "DocumentMoniker": "D:\\reps\\cp\\cp\\models\\FlowerShopDbContextFactory.cs",
+              "RelativeDocumentMoniker": "cp\\models\\FlowerShopDbContextFactory.cs",
+              "ToolTip": "D:\\reps\\cp\\cp\\models\\FlowerShopDbContextFactory.cs",
+              "RelativeToolTip": "cp\\models\\FlowerShopDbContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T14:46:04.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\reps\\cp\\cp\\App.xaml",
+              "RelativeDocumentMoniker": "cp\\App.xaml",
+              "ToolTip": "D:\\reps\\cp\\cp\\App.xaml",
+              "RelativeToolTip": "cp\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-13T19:56:27.873Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -110,31 +186,197 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BaseViewModel.cs",
+              "DocumentMoniker": "D:\\reps\\cp\\cp\\viewModels\\BaseViewModel.cs",
+              "RelativeDocumentMoniker": "cp\\viewModels\\BaseViewModel.cs",
+              "ToolTip": "D:\\reps\\cp\\cp\\viewModels\\BaseViewModel.cs",
+              "RelativeToolTip": "cp\\viewModels\\BaseViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA8AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T19:59:42.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "D:\\reps\\cp\\cp\\views\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "cp\\views\\LoginPage.xaml",
+              "ToolTip": "D:\\reps\\cp\\cp\\views\\LoginPage.xaml",
+              "RelativeToolTip": "cp\\views\\LoginPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-28T13:54:38.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "D:\\reps\\cp\\cp\\commands\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "cp\\commands\\RelayCommand.cs",
+              "ToolTip": "D:\\reps\\cp\\cp\\commands\\RelayCommand.cs",
+              "RelativeToolTip": "cp\\commands\\RelayCommand.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAmwDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T20:02:27.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FlowerShopDbContext.cs",
+              "DocumentMoniker": "D:\\reps\\cp\\cp\\models\\FlowerShopDbContext.cs",
+              "RelativeDocumentMoniker": "cp\\models\\FlowerShopDbContext.cs",
+              "ToolTip": "D:\\reps\\cp\\cp\\models\\FlowerShopDbContext.cs",
+              "RelativeToolTip": "cp\\models\\FlowerShopDbContext.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAowDgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T20:16:45.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 6,
               "Title": "MainViewModel.cs",
               "DocumentMoniker": "D:\\reps\\cp\\cp\\viewModels\\MainViewModel.cs",
               "RelativeDocumentMoniker": "cp\\viewModels\\MainViewModel.cs",
               "ToolTip": "D:\\reps\\cp\\cp\\viewModels\\MainViewModel.cs",
               "RelativeToolTip": "cp\\viewModels\\MainViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowAsAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T20:01:31.204Z"
+              "WhenOpened": "2025-04-13T20:01:31.204Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "D:\\reps\\cp\\cp\\App.xaml.cs",
-              "RelativeDocumentMoniker": "cp\\App.xaml.cs",
-              "ToolTip": "D:\\reps\\cp\\cp\\App.xaml.cs",
-              "RelativeToolTip": "cp\\App.xaml.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAUwCUAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "LoginPage.xaml.cs",
+              "DocumentMoniker": "D:\\reps\\cp\\cp\\views\\LoginPage.xaml.cs",
+              "RelativeDocumentMoniker": "cp\\views\\LoginPage.xaml.cs",
+              "ToolTip": "D:\\reps\\cp\\cp\\views\\LoginPage.xaml.cs",
+              "RelativeToolTip": "cp\\views\\LoginPage.xaml.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T19:56:31.69Z"
+              "WhenOpened": "2025-04-28T13:55:02.041Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
+              "Title": "ProfileViewModel.cs",
+              "DocumentMoniker": "D:\\reps\\cp\\cp\\viewModels\\ProfileViewModel.cs",
+              "RelativeDocumentMoniker": "cp\\viewModels\\ProfileViewModel.cs",
+              "ToolTip": "D:\\reps\\cp\\cp\\viewModels\\ProfileViewModel.cs",
+              "RelativeToolTip": "cp\\viewModels\\ProfileViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T20:46:47.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\reps\\cp\\cp\\services\\AuthService.cs",
+              "RelativeDocumentMoniker": "cp\\services\\AuthService.cs",
+              "ToolTip": "D:\\reps\\cp\\cp\\services\\AuthService.cs",
+              "RelativeToolTip": "cp\\services\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T14:07:29.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\reps\\cp\\cp\\views\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "cp\\views\\MainWindow.xaml",
+              "ToolTip": "D:\\reps\\cp\\cp\\views\\MainWindow.xaml",
+              "RelativeToolTip": "cp\\views\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-13T19:54:41.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "basket.svg",
+              "DocumentMoniker": "D:\\reps\\cp\\cp\\assets\\svg\\basket.svg",
+              "RelativeDocumentMoniker": "cp\\assets\\svg\\basket.svg",
+              "ToolTip": "D:\\reps\\cp\\cp\\assets\\svg\\basket.svg",
+              "RelativeToolTip": "cp\\assets\\svg\\basket.svg",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-28T12:04:45.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\reps\\cp\\cp\\models\\User.cs",
+              "RelativeDocumentMoniker": "cp\\models\\User.cs",
+              "ToolTip": "D:\\reps\\cp\\cp\\models\\User.cs",
+              "RelativeToolTip": "cp\\models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T20:02:35.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\reps\\cp\\cp\\appsettings.json",
+              "RelativeDocumentMoniker": "cp\\appsettings.json",
+              "ToolTip": "D:\\reps\\cp\\cp\\appsettings.json",
+              "RelativeToolTip": "cp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-28T13:44:40.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BasketPage.xaml",
+              "DocumentMoniker": "D:\\reps\\cp\\cp\\views\\BasketPage.xaml",
+              "RelativeDocumentMoniker": "cp\\views\\BasketPage.xaml",
+              "ToolTip": "D:\\reps\\cp\\cp\\views\\BasketPage.xaml",
+              "RelativeToolTip": "cp\\views\\BasketPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-28T12:04:28.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Flower.cs",
+              "DocumentMoniker": "D:\\reps\\cp\\cp\\models\\Flower.cs",
+              "RelativeDocumentMoniker": "cp\\models\\Flower.cs",
+              "ToolTip": "D:\\reps\\cp\\cp\\models\\Flower.cs",
+              "RelativeToolTip": "cp\\models\\Flower.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T12:04:36.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CatalogPage.xaml",
+              "DocumentMoniker": "D:\\reps\\cp\\cp\\views\\CatalogPage.xaml",
+              "RelativeDocumentMoniker": "cp\\views\\CatalogPage.xaml",
+              "ToolTip": "D:\\reps\\cp\\cp\\views\\CatalogPage.xaml",
+              "RelativeToolTip": "cp\\views\\CatalogPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-28T12:04:25.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "profile_icon.svg",
+              "DocumentMoniker": "D:\\reps\\cp\\cp\\assets\\svg\\profile_icon.svg",
+              "RelativeDocumentMoniker": "cp\\assets\\svg\\profile_icon.svg",
+              "ToolTip": "D:\\reps\\cp\\cp\\assets\\svg\\profile_icon.svg",
+              "RelativeToolTip": "cp\\assets\\svg\\profile_icon.svg",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-28T12:04:46.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "PasswordBoxToPasswordConverter.cs",
               "DocumentMoniker": "D:\\reps\\cp\\cp\\helpers\\PasswordBoxToPasswordConverter.cs",
               "RelativeDocumentMoniker": "cp\\helpers\\PasswordBoxToPasswordConverter.cs",
@@ -146,30 +388,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\reps\\cp\\cp\\views\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "cp\\views\\MainWindow.xaml",
-              "ToolTip": "D:\\reps\\cp\\cp\\views\\MainWindow.xaml",
-              "RelativeToolTip": "cp\\views\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-13T19:54:41.622Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "FlowerShopDbContext.cs",
-              "DocumentMoniker": "D:\\reps\\cp\\cp\\models\\FlowerShopDbContext.cs",
-              "RelativeDocumentMoniker": "cp\\models\\FlowerShopDbContext.cs",
-              "ToolTip": "D:\\reps\\cp\\cp\\models\\FlowerShopDbContext.cs",
-              "RelativeToolTip": "cp\\models\\FlowerShopDbContext.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAADwvwsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T20:16:45.357Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 23,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\reps\\cp\\cp\\views\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "cp\\views\\MainWindow.xaml.cs",
@@ -178,30 +397,6 @@
               "ViewState": "AgIAAA4AAAAAAAAAAADgvxkAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-13T20:05:05.365Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "RelayCommand.cs",
-              "DocumentMoniker": "D:\\reps\\cp\\cp\\commands\\RelayCommand.cs",
-              "RelativeDocumentMoniker": "cp\\commands\\RelayCommand.cs",
-              "ToolTip": "D:\\reps\\cp\\cp\\commands\\RelayCommand.cs",
-              "RelativeToolTip": "cp\\commands\\RelayCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T20:02:27.615Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "App.xaml",
-              "DocumentMoniker": "D:\\reps\\cp\\cp\\App.xaml",
-              "RelativeDocumentMoniker": "cp\\App.xaml",
-              "ToolTip": "D:\\reps\\cp\\cp\\App.xaml",
-              "RelativeToolTip": "cp\\App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-13T19:56:27.873Z",
-              "EditorCaption": ""
             }
           ]
         }

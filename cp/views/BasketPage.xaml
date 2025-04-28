@@ -9,7 +9,7 @@
       Title="BasketPage">
 
     <Grid>
-        <TextBlock HorizontalAlignment="Left" Margin="225,105,0,0" TextWrapping="Wrap" Text="BasketPage" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="BasketPage" VerticalAlignment="Top"/>
 
     </Grid>
 </Page>

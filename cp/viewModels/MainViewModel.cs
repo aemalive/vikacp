@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Input;
 using cp.views;
 using cp.commands;
+using cp.services;
 
 namespace cp.viewModels
 {
@@ -37,7 +38,6 @@ namespace cp.viewModels
         private void NavigateToPage(string pageName)
         {
             var frame = (App.Current.MainWindow as MainWindow).MainFrame;
-
             switch (pageName)
             {
                 case "CatalogPage":
@@ -47,7 +47,10 @@ namespace cp.viewModels
                     frame.Navigate(new BasketPage());
                     break;
                 case "ProfilePage":
-                    frame.Navigate(new ProfilePage());
+                    if (!AuthService.IsAuthenticated)
+                        frame.Navigate(new LoginPage());
+                    else
+                        frame.Navigate(new ProfilePage());
                     break;
                 default:
                     break;
