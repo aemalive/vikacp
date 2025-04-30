@@ -13,7 +13,6 @@
         <StackPanel Width="300" VerticalAlignment="Center" HorizontalAlignment="Center">
             <TextBlock Text="Вход" FontSize="24" Margin="0,0,0,20" HorizontalAlignment="Center"/>
 
-            <!-- Логин -->
             <Label Content="Логин" HorizontalAlignment="Left"/>
             <xctk:WatermarkTextBox  
                 Watermark="Введите логин"  
@@ -21,11 +20,9 @@
                 Margin="0,5"  
                 Width="300"/>
 
-            <!-- Пароль -->
             <Label Content="Пароль" HorizontalAlignment="Left"/>
             <PasswordBox PasswordChanged="PwdBox_PasswordChanged" Margin="0,5" Width="300"/>
 
-            <!-- Кнопки -->
             <Button Content="Войти"
               Command="{Binding LoginCommand}"
               Margin="0,20,0,0"/>

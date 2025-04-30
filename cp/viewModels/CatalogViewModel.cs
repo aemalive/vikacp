@@ -22,8 +22,11 @@ namespace cp.viewModels
             {
                 _selectedFlower = value;
                 OnPropertyChanged();
+                // Когда выбран элемент, выполняется команда
+                OpenDetailsCommand?.Execute(value);
             }
         }
+
         public ObservableCollection<Flower> Flowers { get; set; }
 
         public ICommand OpenDetailsCommand { get; }
@@ -31,6 +34,7 @@ namespace cp.viewModels
         public bool IsAdmin => AuthService.CurrentUser?.Role == "ADMIN";
 
         public ICommand AddProductCommand { get; }
+
         public ICommand EditProductCommand { get; }
 
         public CatalogViewModel()
@@ -42,9 +46,10 @@ namespace cp.viewModels
             AddProductCommand = new RelayCommand(OpenAddProductPage);
             EditProductCommand = new RelayCommand<Flower>(EditProduct);
         }
-        private void EditProduct(Flower flower)
+
+        private void OpenDetails(Flower flower)
         {
-            var page = new EditProductPage(flower);
+            var page = new FlowerDetailsPage(flower);
             (App.Current.MainWindow.DataContext as MainViewModel).CurrentPage = page;
         }
 
@@ -53,9 +58,10 @@ namespace cp.viewModels
             var page = new AddProductPage();
             (App.Current.MainWindow.DataContext as MainViewModel).CurrentPage = page;
         }
-        private void OpenDetails(Flower flower)
+
+        private void EditProduct(Flower flower)
         {
-            var page = new FlowerDetailsPage(flower);
+            var page = new EditProductPage(flower);
             (App.Current.MainWindow.DataContext as MainViewModel).CurrentPage = page;
         }
     }

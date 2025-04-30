@@ -32,9 +32,9 @@
             />
 
         <ListBox Grid.Row="1"
-         ItemsSource="{Binding Flowers}" 
-         SelectedItem="{Binding SelectedFlower}" 
-         Margin="10">
+                 ItemsSource="{Binding Flowers}"
+                 SelectedItem="{Binding SelectedFlower}" 
+                 Margin="10">
             <ListBox.ItemTemplate>
                 <DataTemplate>
                     <Border BorderBrush="Gray" BorderThickness="1" Padding="10" Margin="5">
@@ -46,16 +46,12 @@
                                 <TextBlock Text="{Binding Price, StringFormat='Цена: {0:C}'}" Margin="0,5,0,0"/>
                                 <TextBlock Text="{Binding Description}" TextWrapping="Wrap" Width="300" Margin="0,5,0,0"/>
 
-                                <Button Content="Подробнее"
-                                Command="{Binding DataContext.OpenDetailsCommand, RelativeSource={RelativeSource AncestorType=ListBox}}"
-                                CommandParameter="{Binding}"
-                                Margin="0,10,0,0"/>
                                 <Button Content="Редактировать"
-                Command="{Binding DataContext.EditProductCommand, RelativeSource={RelativeSource AncestorType=ListBox}}"
-                CommandParameter="{Binding}"
-                Visibility="{Binding DataContext.IsAdmin, 
-                                     RelativeSource={RelativeSource AncestorType=ListBox}, 
-                                     Converter={StaticResource BoolToVis}}"/>
+                                        Command="{Binding DataContext.EditProductCommand, RelativeSource={RelativeSource AncestorType=ListBox}}"
+                                        CommandParameter="{Binding}"
+                                        Visibility="{Binding DataContext.IsAdmin, 
+                                                            RelativeSource={RelativeSource AncestorType=ListBox}, 
+                                                            Converter={StaticResource BoolToVis}}"/>
                             </StackPanel>
                         </StackPanel>
                     </Border>

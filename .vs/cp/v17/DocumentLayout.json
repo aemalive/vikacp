@@ -3,6 +3,34 @@
   "WorkspaceRootPath": "D:\\reps\\cp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\helpers\\booleantovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\helpers\\booleantovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\viewmodels\\catalogviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\viewmodels\\catalogviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\viewmodels\\flowerdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\viewmodels\\flowerdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\views\\catalogpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\views\\catalogpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\viewmodels\\editproductviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\viewmodels\\editproductviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -23,20 +51,8 @@
       "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\views\\editproductpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\viewmodels\\catalogviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\viewmodels\\catalogviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\views\\addproductpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\views\\addproductpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\views\\catalogpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\views\\catalogpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\viewmodels\\flowerdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\viewmodels\\flowerdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\views\\flowerdetailspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -61,10 +77,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\models\\flowershopdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\models\\flowershopdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -93,14 +105,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -137,10 +141,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\views\\basketpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\views\\basketpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\helpers\\passwordboxtopasswordconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\helpers\\passwordboxtopasswordconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -150,49 +150,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EditProductPage.xaml.cs",
-              "DocumentMoniker": "D:\\reps\\cp\\cp\\views\\EditProductPage.xaml.cs",
-              "RelativeDocumentMoniker": "cp\\views\\EditProductPage.xaml.cs",
-              "ToolTip": "D:\\reps\\cp\\cp\\views\\EditProductPage.xaml.cs",
-              "RelativeToolTip": "cp\\views\\EditProductPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T10:59:45.915Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EditProductViewModel.cs",
-              "DocumentMoniker": "D:\\reps\\cp\\cp\\viewModels\\EditProductViewModel.cs",
-              "RelativeDocumentMoniker": "cp\\viewModels\\EditProductViewModel.cs",
-              "ToolTip": "D:\\reps\\cp\\cp\\viewModels\\EditProductViewModel.cs",
-              "RelativeToolTip": "cp\\viewModels\\EditProductViewModel.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAqwFgAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T10:56:52.799Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EditProductPage.xaml",
-              "DocumentMoniker": "D:\\reps\\cp\\cp\\views\\EditProductPage.xaml",
-              "RelativeDocumentMoniker": "cp\\views\\EditProductPage.xaml",
-              "ToolTip": "D:\\reps\\cp\\cp\\views\\EditProductPage.xaml",
-              "RelativeToolTip": "cp\\views\\EditProductPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-30T10:55:16.733Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "CatalogPage.xaml",
               "DocumentMoniker": "D:\\reps\\cp\\cp\\views\\CatalogPage.xaml",
               "RelativeDocumentMoniker": "cp\\views\\CatalogPage.xaml",
@@ -204,45 +166,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CatalogViewModel.cs",
-              "DocumentMoniker": "D:\\reps\\cp\\cp\\viewModels\\CatalogViewModel.cs",
-              "RelativeDocumentMoniker": "cp\\viewModels\\CatalogViewModel.cs",
-              "ToolTip": "D:\\reps\\cp\\cp\\viewModels\\CatalogViewModel.cs",
-              "RelativeToolTip": "cp\\viewModels\\CatalogViewModel.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAA6wDgAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "BooleanToVisibilityConverter.cs",
+              "DocumentMoniker": "D:\\reps\\cp\\cp\\helpers\\BooleanToVisibilityConverter.cs",
+              "RelativeDocumentMoniker": "cp\\helpers\\BooleanToVisibilityConverter.cs",
+              "ToolTip": "D:\\reps\\cp\\cp\\helpers\\BooleanToVisibilityConverter.cs",
+              "RelativeToolTip": "cp\\helpers\\BooleanToVisibilityConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T08:38:19.122Z",
+              "WhenOpened": "2025-04-30T11:33:02.647Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "FlowerDetailsPage.xaml.cs",
-              "DocumentMoniker": "D:\\reps\\cp\\cp\\views\\FlowerDetailsPage.xaml.cs",
-              "RelativeDocumentMoniker": "cp\\views\\FlowerDetailsPage.xaml.cs",
-              "ToolTip": "D:\\reps\\cp\\cp\\views\\FlowerDetailsPage.xaml.cs",
-              "RelativeToolTip": "cp\\views\\FlowerDetailsPage.xaml.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAQwBcAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T08:49:36.449Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AddProductPage.xaml",
-              "DocumentMoniker": "D:\\reps\\cp\\cp\\views\\AddProductPage.xaml",
-              "RelativeDocumentMoniker": "cp\\views\\AddProductPage.xaml",
-              "ToolTip": "D:\\reps\\cp\\cp\\views\\AddProductPage.xaml",
-              "RelativeToolTip": "cp\\views\\AddProductPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-30T10:19:25.223Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "AddProductViewModel.cs",
               "DocumentMoniker": "D:\\reps\\cp\\cp\\viewModels\\AddProductViewModel.cs",
               "RelativeDocumentMoniker": "cp\\viewModels\\AddProductViewModel.cs",
@@ -250,25 +187,50 @@
               "RelativeToolTip": "cp\\viewModels\\AddProductViewModel.cs",
               "ViewState": "AgIAAC0AAAAAAAAAAAA5wDYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T11:02:12.055Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T11:02:12.055Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AddProductPage.xaml.cs",
-              "DocumentMoniker": "D:\\reps\\cp\\cp\\views\\AddProductPage.xaml.cs",
-              "RelativeDocumentMoniker": "cp\\views\\AddProductPage.xaml.cs",
-              "ToolTip": "D:\\reps\\cp\\cp\\views\\AddProductPage.xaml.cs",
-              "RelativeToolTip": "cp\\views\\AddProductPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "D:\\reps\\cp\\cp\\viewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "cp\\viewModels\\LoginViewModel.cs",
+              "ToolTip": "D:\\reps\\cp\\cp\\viewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "cp\\viewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T10:58:53.757Z",
+              "WhenOpened": "2025-04-28T13:55:40.64Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 2,
+              "Title": "LoginPage.xaml.cs",
+              "DocumentMoniker": "D:\\reps\\cp\\cp\\views\\LoginPage.xaml.cs",
+              "RelativeDocumentMoniker": "cp\\views\\LoginPage.xaml.cs",
+              "ToolTip": "D:\\reps\\cp\\cp\\views\\LoginPage.xaml.cs",
+              "RelativeToolTip": "cp\\views\\LoginPage.xaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAUwBkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T13:55:02.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CatalogViewModel.cs",
+              "DocumentMoniker": "D:\\reps\\cp\\cp\\viewModels\\CatalogViewModel.cs",
+              "RelativeDocumentMoniker": "cp\\viewModels\\CatalogViewModel.cs",
+              "ToolTip": "D:\\reps\\cp\\cp\\viewModels\\CatalogViewModel.cs",
+              "RelativeToolTip": "cp\\viewModels\\CatalogViewModel.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAA5wDIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T08:38:19.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "LoginPage.xaml",
               "DocumentMoniker": "D:\\reps\\cp\\cp\\views\\LoginPage.xaml",
               "RelativeDocumentMoniker": "cp\\views\\LoginPage.xaml",
@@ -280,19 +242,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "FlowerDetailsPage.xaml",
-              "DocumentMoniker": "D:\\reps\\cp\\cp\\views\\FlowerDetailsPage.xaml",
-              "RelativeDocumentMoniker": "cp\\views\\FlowerDetailsPage.xaml",
-              "ToolTip": "D:\\reps\\cp\\cp\\views\\FlowerDetailsPage.xaml",
-              "RelativeToolTip": "cp\\views\\FlowerDetailsPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-30T08:45:03.339Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "FlowerDetailsViewModel.cs",
               "DocumentMoniker": "D:\\reps\\cp\\cp\\viewModels\\FlowerDetailsViewModel.cs",
               "RelativeDocumentMoniker": "cp\\viewModels\\FlowerDetailsViewModel.cs",
@@ -305,7 +255,89 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FlowerDetailsPage.xaml.cs",
+              "DocumentMoniker": "D:\\reps\\cp\\cp\\views\\FlowerDetailsPage.xaml.cs",
+              "RelativeDocumentMoniker": "cp\\views\\FlowerDetailsPage.xaml.cs",
+              "ToolTip": "D:\\reps\\cp\\cp\\views\\FlowerDetailsPage.xaml.cs",
+              "RelativeToolTip": "cp\\views\\FlowerDetailsPage.xaml.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAQwBcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T08:49:36.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AddProductPage.xaml",
+              "DocumentMoniker": "D:\\reps\\cp\\cp\\views\\AddProductPage.xaml",
+              "RelativeDocumentMoniker": "cp\\views\\AddProductPage.xaml",
+              "ToolTip": "D:\\reps\\cp\\cp\\views\\AddProductPage.xaml",
+              "RelativeToolTip": "cp\\views\\AddProductPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-30T10:19:25.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EditProductPage.xaml",
+              "DocumentMoniker": "D:\\reps\\cp\\cp\\views\\EditProductPage.xaml",
+              "RelativeDocumentMoniker": "cp\\views\\EditProductPage.xaml",
+              "ToolTip": "D:\\reps\\cp\\cp\\views\\EditProductPage.xaml",
+              "RelativeToolTip": "cp\\views\\EditProductPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-30T10:55:16.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EditProductViewModel.cs",
+              "DocumentMoniker": "D:\\reps\\cp\\cp\\viewModels\\EditProductViewModel.cs",
+              "RelativeDocumentMoniker": "cp\\viewModels\\EditProductViewModel.cs",
+              "ToolTip": "D:\\reps\\cp\\cp\\viewModels\\EditProductViewModel.cs",
+              "RelativeToolTip": "cp\\viewModels\\EditProductViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T10:56:52.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EditProductPage.xaml.cs",
+              "DocumentMoniker": "D:\\reps\\cp\\cp\\views\\EditProductPage.xaml.cs",
+              "RelativeDocumentMoniker": "cp\\views\\EditProductPage.xaml.cs",
+              "ToolTip": "D:\\reps\\cp\\cp\\views\\EditProductPage.xaml.cs",
+              "RelativeToolTip": "cp\\views\\EditProductPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T10:59:45.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AddProductPage.xaml.cs",
+              "DocumentMoniker": "D:\\reps\\cp\\cp\\views\\AddProductPage.xaml.cs",
+              "RelativeDocumentMoniker": "cp\\views\\AddProductPage.xaml.cs",
+              "ToolTip": "D:\\reps\\cp\\cp\\views\\AddProductPage.xaml.cs",
+              "RelativeToolTip": "cp\\views\\AddProductPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T10:58:53.757Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 13,
+              "Title": "FlowerDetailsPage.xaml",
+              "DocumentMoniker": "D:\\reps\\cp\\cp\\views\\FlowerDetailsPage.xaml",
+              "RelativeDocumentMoniker": "cp\\views\\FlowerDetailsPage.xaml",
+              "ToolTip": "D:\\reps\\cp\\cp\\views\\FlowerDetailsPage.xaml",
+              "RelativeToolTip": "cp\\views\\FlowerDetailsPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-30T08:45:03.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "Flower.cs",
               "DocumentMoniker": "D:\\reps\\cp\\cp\\models\\Flower.cs",
               "RelativeDocumentMoniker": "cp\\models\\Flower.cs",
@@ -313,12 +345,11 @@
               "RelativeToolTip": "cp\\models\\Flower.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T12:04:36.695Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T12:04:36.695Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "FlowerShopDbContext.cs",
               "DocumentMoniker": "D:\\reps\\cp\\cp\\models\\FlowerShopDbContext.cs",
               "RelativeDocumentMoniker": "cp\\models\\FlowerShopDbContext.cs",
@@ -326,12 +357,11 @@
               "RelativeToolTip": "cp\\models\\FlowerShopDbContext.cs",
               "ViewState": "AgIAADYAAAAAAAAAAAAowE4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T20:16:45.357Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-13T20:16:45.357Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\reps\\cp\\cp\\views\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "cp\\views\\MainWindow.xaml.cs",
@@ -339,12 +369,11 @@
               "RelativeToolTip": "cp\\views\\MainWindow.xaml.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAUwBsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T20:05:05.365Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-13T20:05:05.365Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "FlowerShopDbContextFactory.cs",
               "DocumentMoniker": "D:\\reps\\cp\\cp\\models\\FlowerShopDbContextFactory.cs",
               "RelativeDocumentMoniker": "cp\\models\\FlowerShopDbContextFactory.cs",
@@ -352,37 +381,22 @@
               "RelativeToolTip": "cp\\models\\FlowerShopDbContextFactory.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T14:46:04.384Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T14:46:04.384Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\reps\\cp\\cp\\views\\MainWindow.xaml",
               "RelativeDocumentMoniker": "cp\\views\\MainWindow.xaml",
               "ToolTip": "D:\\reps\\cp\\cp\\views\\MainWindow.xaml",
               "RelativeToolTip": "cp\\views\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-13T19:54:41.622Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-13T19:54:41.622Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "LoginViewModel.cs",
-              "DocumentMoniker": "D:\\reps\\cp\\cp\\viewModels\\LoginViewModel.cs",
-              "RelativeDocumentMoniker": "cp\\viewModels\\LoginViewModel.cs",
-              "ToolTip": "D:\\reps\\cp\\cp\\viewModels\\LoginViewModel.cs",
-              "RelativeToolTip": "cp\\viewModels\\LoginViewModel.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAIwEcAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T13:55:40.64Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "AuthService.cs",
               "DocumentMoniker": "D:\\reps\\cp\\cp\\services\\AuthService.cs",
               "RelativeDocumentMoniker": "cp\\services\\AuthService.cs",
@@ -390,12 +404,11 @@
               "RelativeToolTip": "cp\\services\\AuthService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T14:07:29.644Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T14:07:29.644Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "MainViewModel.cs",
               "DocumentMoniker": "D:\\reps\\cp\\cp\\viewModels\\MainViewModel.cs",
               "RelativeDocumentMoniker": "cp\\viewModels\\MainViewModel.cs",
@@ -403,24 +416,22 @@
               "RelativeToolTip": "cp\\viewModels\\MainViewModel.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAowBgAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T20:01:31.204Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-13T20:01:31.204Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "ProfilePage.xaml",
               "DocumentMoniker": "D:\\reps\\cp\\cp\\views\\ProfilePage.xaml",
               "RelativeDocumentMoniker": "cp\\views\\ProfilePage.xaml",
               "ToolTip": "D:\\reps\\cp\\cp\\views\\ProfilePage.xaml",
               "RelativeToolTip": "cp\\views\\ProfilePage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-13T20:33:59.096Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-13T20:33:59.096Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "ProfilePage.xaml.cs",
               "DocumentMoniker": "D:\\reps\\cp\\cp\\views\\ProfilePage.xaml.cs",
               "RelativeDocumentMoniker": "cp\\views\\ProfilePage.xaml.cs",
@@ -428,12 +439,11 @@
               "RelativeToolTip": "cp\\views\\ProfilePage.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T13:00:42.677Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T13:00:42.677Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "ProfileViewModel.cs",
               "DocumentMoniker": "D:\\reps\\cp\\cp\\viewModels\\ProfileViewModel.cs",
               "RelativeDocumentMoniker": "cp\\viewModels\\ProfileViewModel.cs",
@@ -441,12 +451,11 @@
               "RelativeToolTip": "cp\\viewModels\\ProfileViewModel.cs",
               "ViewState": "AgIAABMAAAAAAAAAAADwvyUAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T20:46:47.982Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-13T20:46:47.982Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\reps\\cp\\cp\\models\\User.cs",
               "RelativeDocumentMoniker": "cp\\models\\User.cs",
@@ -454,25 +463,11 @@
               "RelativeToolTip": "cp\\models\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T20:02:35.138Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-13T20:02:35.138Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "LoginPage.xaml.cs",
-              "DocumentMoniker": "D:\\reps\\cp\\cp\\views\\LoginPage.xaml.cs",
-              "RelativeDocumentMoniker": "cp\\views\\LoginPage.xaml.cs",
-              "ToolTip": "D:\\reps\\cp\\cp\\views\\LoginPage.xaml.cs",
-              "RelativeToolTip": "cp\\views\\LoginPage.xaml.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAAB4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T13:55:02.041Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "D:\\reps\\cp\\cp\\App.xaml.cs",
               "RelativeDocumentMoniker": "cp\\App.xaml.cs",
@@ -480,24 +475,22 @@
               "RelativeToolTip": "cp\\App.xaml.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAUwCgAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T19:56:31.69Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-13T19:56:31.69Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "RegisterPage.xaml",
               "DocumentMoniker": "D:\\reps\\cp\\cp\\views\\RegisterPage.xaml",
               "RelativeDocumentMoniker": "cp\\views\\RegisterPage.xaml",
               "ToolTip": "D:\\reps\\cp\\cp\\views\\RegisterPage.xaml",
               "RelativeToolTip": "cp\\views\\RegisterPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-30T08:54:28.045Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T08:54:28.045Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "BaseViewModel.cs",
               "DocumentMoniker": "D:\\reps\\cp\\cp\\viewModels\\BaseViewModel.cs",
               "RelativeDocumentMoniker": "cp\\viewModels\\BaseViewModel.cs",
@@ -505,12 +498,11 @@
               "RelativeToolTip": "cp\\viewModels\\BaseViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwA8AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T19:59:42.537Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-13T19:59:42.537Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "RelayCommand.cs",
               "DocumentMoniker": "D:\\reps\\cp\\cp\\commands\\RelayCommand.cs",
               "RelativeDocumentMoniker": "cp\\commands\\RelayCommand.cs",
@@ -522,7 +514,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "App.xaml",
               "DocumentMoniker": "D:\\reps\\cp\\cp\\App.xaml",
               "RelativeDocumentMoniker": "cp\\App.xaml",
@@ -534,7 +526,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "basket.svg",
               "DocumentMoniker": "D:\\reps\\cp\\cp\\assets\\svg\\basket.svg",
               "RelativeDocumentMoniker": "cp\\assets\\svg\\basket.svg",
@@ -546,7 +538,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\reps\\cp\\cp\\appsettings.json",
               "RelativeDocumentMoniker": "cp\\appsettings.json",
@@ -558,19 +550,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "BasketPage.xaml",
               "DocumentMoniker": "D:\\reps\\cp\\cp\\views\\BasketPage.xaml",
               "RelativeDocumentMoniker": "cp\\views\\BasketPage.xaml",
               "ToolTip": "D:\\reps\\cp\\cp\\views\\BasketPage.xaml",
               "RelativeToolTip": "cp\\views\\BasketPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-28T12:04:28.584Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T12:04:28.584Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "profile_icon.svg",
               "DocumentMoniker": "D:\\reps\\cp\\cp\\assets\\svg\\profile_icon.svg",
               "RelativeDocumentMoniker": "cp\\assets\\svg\\profile_icon.svg",
@@ -579,18 +570,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-04-28T12:04:46.613Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "PasswordBoxToPasswordConverter.cs",
-              "DocumentMoniker": "D:\\reps\\cp\\cp\\helpers\\PasswordBoxToPasswordConverter.cs",
-              "RelativeDocumentMoniker": "cp\\helpers\\PasswordBoxToPasswordConverter.cs",
-              "ToolTip": "D:\\reps\\cp\\cp\\helpers\\PasswordBoxToPasswordConverter.cs",
-              "RelativeToolTip": "cp\\helpers\\PasswordBoxToPasswordConverter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T20:56:24.716Z"
             }
           ]
         }
