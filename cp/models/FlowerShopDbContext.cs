@@ -46,7 +46,7 @@ namespace cp.models
                 {
                     Id = 1,
                     Username = "admin",
-                    Password = "admin",        
+                    Password = "admin",
                     FullName = "Administrator",
                     Role = "ADMIN",
                     Email = "admin@flowershop.local"
@@ -61,6 +61,18 @@ namespace cp.models
                     Email = "user@flowershop.local"
                 }
             );
+
+            modelBuilder.Entity<Flower>().HasData(
+                new Flower
+                {
+                    Id = 1,
+                    Name = "flower1",
+                    Price = 123,
+                    Description = "Пример цветка",
+                    ImageURL = "https://example.com/image.jpg"
+                }
+            );
+
         }
 
     }

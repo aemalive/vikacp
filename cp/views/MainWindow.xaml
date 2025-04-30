@@ -98,6 +98,7 @@
 
         <Frame x:Name="MainFrame"
                Grid.Row="1"
+               Content="{Binding CurrentPage}"
                NavigationUIVisibility="Hidden"
                Margin="10"/>
     </Grid>

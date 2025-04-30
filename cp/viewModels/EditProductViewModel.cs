@@ -1,0 +1,91 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using cp.commands;
+using cp.models;
+using cp.views;
+using System.Windows.Input;
+using System.Windows;
+using Microsoft.Win32;
+
+namespace cp.viewModels
+{
+    public class EditProductViewModel : BaseViewModel
+    {
+        private Flower _flower;
+        public Flower Flower
+        {
+            get => _flower;
+            set { _flower = value; OnPropertyChanged(); }
+        }
+
+        public string Name
+        {
+            get => Flower.Name;
+            set { Flower.Name = value; OnPropertyChanged(); }
+        }
+
+        public string Price
+        {
+            get => Flower.Price.ToString();
+            set
+            {
+                if (decimal.TryParse(value, out var price))
+                {
+                    Flower.Price = price;
+                    OnPropertyChanged();
+                }
+            }
+        }
+
+        public string Description
+        {
+            get => Flower.Description;
+            set { Flower.Description = value; OnPropertyChanged(); }
+        }
+
+        public string ImageURL
+        {
+            get => Flower.ImageURL;
+            set { Flower.ImageURL = value; OnPropertyChanged(); }
+        }
+
+        public ICommand SaveChangesCommand { get; }
+        public ICommand SelectImageCommand { get; }
+        public EditProductViewModel(Flower flower)
+        {
+            Flower = flower ?? throw new ArgumentNullException(nameof(flower));
+
+            SaveChangesCommand = new RelayCommand(SaveChanges);
+            SelectImageCommand = new RelayCommand(SelectImage);
+        }
+
+        private void SaveChanges()
+        {
+            using (var db = new FlowerShopDbContext())
+            {
+                db.Flowers.Update(Flower);
+                db.SaveChanges();
+            }
+
+            MessageBox.Show("Изменения успешно сохранены!", "Успех", MessageBoxButton.OK, MessageBoxImage.Information);
+
+            (App.Current.MainWindow.DataContext as MainViewModel).CurrentPage = new CatalogPage();
+        }
+        private void SelectImage()
+        {
+            var dialog = new OpenFileDialog
+            {
+                Filter = "Изображения (*.png;*.jpg;*.jpeg)|*.png;*.jpg;*.jpeg",
+                Title = "Выберите изображение"
+            };
+
+            if (dialog.ShowDialog() == true)
+            {
+                ImageURL = dialog.FileName;
+            }
+        }
+    }
+}

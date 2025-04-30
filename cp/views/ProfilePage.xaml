@@ -9,9 +9,6 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="ProfilePage">
 
-    <Page.DataContext>
-        <vms:ProfileViewModel/>
-    </Page.DataContext>
 
     <Page.Resources>
         <BooleanToVisibilityConverter x:Key="BoolToVis" />
@@ -26,6 +23,10 @@
             <TextBlock Text="Пользовательский раздел" 
                Visibility="{Binding IsCustomer, 
                             Converter={StaticResource BoolToVis}}"/>
+            <Button Content="Выйти" 
+                    Command="{Binding LogoutCommand}" 
+                    Margin="0,20,0,0" 
+                    HorizontalAlignment="Center"/>
         </StackPanel>
 
     </Grid>

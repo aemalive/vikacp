@@ -29,6 +29,14 @@ namespace cp.Migrations
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("ImageURL")
+                        .IsRequired()
+                        .HasColumnType("text");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("text");
@@ -36,12 +44,19 @@ namespace cp.Migrations
                     b.Property<decimal>("Price")
                         .HasColumnType("numeric");
 
-                    b.Property<int>("Quantity")
-                        .HasColumnType("integer");
-
                     b.HasKey("Id");
 
                     b.ToTable("Flowers");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Description = "Пример цветка",
+                            ImageURL = "https://example.com/image.jpg",
+                            Name = "flower1",
+                            Price = 123m
+                        });
                 });
 
             modelBuilder.Entity("cp.models.User", b =>

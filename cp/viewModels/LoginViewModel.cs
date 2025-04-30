@@ -8,6 +8,7 @@ using cp.models;
 using System.Windows.Input;
 using System.Windows;
 using cp.services;
+using cp.views;
 
 namespace cp.viewModels
 {
@@ -49,7 +50,8 @@ namespace cp.viewModels
 
         private bool CanLogin()
         {
-            return !string.IsNullOrWhiteSpace(Username) && !string.IsNullOrWhiteSpace(Password);
+            return !string.IsNullOrWhiteSpace(Username)
+                && !string.IsNullOrWhiteSpace(Password);
         }
 
         private void OnLogin()
@@ -60,18 +62,20 @@ namespace cp.viewModels
             if (user != null)
             {
                 AuthService.CurrentUser = user;
-                (Application.Current.MainWindow.DataContext as MainViewModel)
-                    .CurrentPage = "CatalogPage";
+                var mainVm = (Application.Current.MainWindow.DataContext as MainViewModel);
+                mainVm.CurrentPage = new CatalogPage();
             }
             else
-                MessageBox.Show("Неверный логин или пароль");
+            {
+                MessageBox.Show("Неверный логин или пароль", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Warning);
+            }
         }
-
-
 
         private void OnGoToRegister()
         {
-            (Application.Current.MainWindow.DataContext as MainViewModel).CurrentPage = "RegisterPage";
+            var mainVm = (Application.Current.MainWindow.DataContext as MainViewModel);
+            mainVm.CurrentPage = new RegisterPage();
         }
+
     }
 }

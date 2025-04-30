@@ -4,12 +4,65 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:cp.views"
+      xmlns:vms="clr-namespace:cp.viewModels"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
       Title="CatalogPage">
 
+    <Page.DataContext>
+        <vms:CatalogViewModel />
+    </Page.DataContext>
+
+    <Page.Resources>
+        <BooleanToVisibilityConverter x:Key="BoolToVis" />
+    </Page.Resources>
+
+
     <Grid>
-        <TextBlock HorizontalAlignment="Left"  TextWrapping="Wrap" Text="catalogPage" VerticalAlignment="Top"/>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Button Content="Добавить товар"
+            Visibility="{Binding IsAdmin, Converter={StaticResource BoolToVis}}"
+            Command="{Binding AddProductCommand}"
+            Margin="10"
+            HorizontalAlignment="Right"
+            />
+
+        <ListBox Grid.Row="1"
+         ItemsSource="{Binding Flowers}" 
+         SelectedItem="{Binding SelectedFlower}" 
+         Margin="10">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Border BorderBrush="Gray" BorderThickness="1" Padding="10" Margin="5">
+                        <StackPanel Orientation="Horizontal" Margin="5">
+                            <Image Source="{Binding ImageURL}" Width="100" Height="100" Margin="10"/>
+
+                            <StackPanel Orientation="Vertical" Margin="10,0,0,0">
+                                <TextBlock Text="{Binding Name}" FontWeight="Bold" FontSize="16"/>
+                                <TextBlock Text="{Binding Price, StringFormat='Цена: {0:C}'}" Margin="0,5,0,0"/>
+                                <TextBlock Text="{Binding Description}" TextWrapping="Wrap" Width="300" Margin="0,5,0,0"/>
+
+                                <Button Content="Подробнее"
+                                Command="{Binding DataContext.OpenDetailsCommand, RelativeSource={RelativeSource AncestorType=ListBox}}"
+                                CommandParameter="{Binding}"
+                                Margin="0,10,0,0"/>
+                                <Button Content="Редактировать"
+                Command="{Binding DataContext.EditProductCommand, RelativeSource={RelativeSource AncestorType=ListBox}}"
+                CommandParameter="{Binding}"
+                Visibility="{Binding DataContext.IsAdmin, 
+                                     RelativeSource={RelativeSource AncestorType=ListBox}, 
+                                     Converter={StaticResource BoolToVis}}"/>
+                            </StackPanel>
+                        </StackPanel>
+                    </Border>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
 
     </Grid>
+
 </Page>

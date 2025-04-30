@@ -12,13 +12,20 @@
     <Grid Margin="40">
         <StackPanel Width="300" VerticalAlignment="Center" HorizontalAlignment="Center">
             <TextBlock Text="Вход" FontSize="24" Margin="0,0,0,20" HorizontalAlignment="Center"/>
+
+            <!-- Логин -->
+            <Label Content="Логин" HorizontalAlignment="Left"/>
             <xctk:WatermarkTextBox  
-                Watermark="Логин"  
+                Watermark="Введите логин"  
                 Text="{Binding Username, UpdateSourceTrigger=PropertyChanged}"  
                 Margin="0,5"  
                 Width="300"/>
 
-            <PasswordBox PasswordChanged="PwdBox_PasswordChanged" Margin="0,5"/>
+            <!-- Пароль -->
+            <Label Content="Пароль" HorizontalAlignment="Left"/>
+            <PasswordBox PasswordChanged="PwdBox_PasswordChanged" Margin="0,5" Width="300"/>
+
+            <!-- Кнопки -->
             <Button Content="Войти"
               Command="{Binding LoginCommand}"
               Margin="0,20,0,0"/>
@@ -27,4 +34,5 @@
               Style="{StaticResource LinkButton}" />
         </StackPanel>
     </Grid>
+
 </Page>

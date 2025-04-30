@@ -2,10 +2,19 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
+    <Compile Update="views\AddProductPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="views\BasketPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="views\CatalogPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="views\EditProductPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="views\FlowerDetailsPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="views\LoginPage.xaml.cs">
@@ -15,6 +24,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="views\ProfilePage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="views\RegisterPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>

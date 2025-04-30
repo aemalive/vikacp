@@ -38,11 +38,11 @@ namespace cp
         {
             await _host.StartAsync();
 
-            using (var scope = _host.Services.CreateScope())
-            {
-                var db = scope.ServiceProvider.GetRequiredService<FlowerShopDbContext>();
-                db.Database.Migrate();
-            }
+            //using (var scope = _host.Services.CreateScope())
+            //{
+            //    var db = scope.ServiceProvider.GetRequiredService<FlowerShopDbContext>();
+            //    db.Database.Migrate();
+            //}
 
             var mainWindow = _host.Services.GetRequiredService<MainWindow>();
             mainWindow.Show();
