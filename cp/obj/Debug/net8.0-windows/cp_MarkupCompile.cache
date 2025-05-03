@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 D:\reps\cp\cp\App.xaml
-9-1068225796
+10-1241959739
 
-36-217398442
+38706227268
 264-2090017860
-views\AddProductPage.xaml;views\BasketPage.xaml;views\CatalogPage.xaml;views\EditProductPage.xaml;views\FlowerDetailsPage.xaml;views\LoginPage.xaml;views\MainWindow.xaml;views\ProfilePage.xaml;views\RegisterPage.xaml;
+views\AddProductPage.xaml;views\BasketPage.xaml;views\CatalogPage.xaml;views\EditProductPage.xaml;views\EditUserPage.xaml;views\FlowerDetailsPage.xaml;views\LoginPage.xaml;views\MainWindow.xaml;views\ProfilePage.xaml;views\RegisterPage.xaml;
 
 False
 

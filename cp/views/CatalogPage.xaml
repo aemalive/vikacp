@@ -24,15 +24,28 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
-        <Button Content="Добавить товар"
-            Visibility="{Binding IsAdmin, Converter={StaticResource BoolToVis}}"
-            Command="{Binding AddProductCommand}"
-            Margin="10"
-            HorizontalAlignment="Right"
-            />
+        <StackPanel Orientation="Horizontal" Margin="0,0,0,10" Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Stretch" >
+
+            <TextBox Width="200"
+                 Margin="0,0,10,0"
+                 Text="{Binding SearchText, UpdateSourceTrigger=PropertyChanged}" />
+
+            <ComboBox Width="150"
+                  Margin="0,0,10,0"
+                  SelectedItem="{Binding SelectedSortOption}"
+                  ItemsSource="{Binding SortOptions}" />
+
+            <Button Content="Сбросить"
+                Command="{Binding ResetFiltersCommand}"
+                Margin="0,0,10,0" />
+
+            <Button Content="Добавить товар"
+                Visibility="{Binding IsAdmin, Converter={StaticResource BoolToVis}}"
+                Command="{Binding AddProductCommand}" />
+        </StackPanel>
 
         <ListBox Grid.Row="1"
-                 ItemsSource="{Binding Flowers}"
+                 ItemsSource="{Binding FilteredFlowers}"
                  SelectedItem="{Binding SelectedFlower}" 
                  Margin="10">
             <ListBox.ItemTemplate>

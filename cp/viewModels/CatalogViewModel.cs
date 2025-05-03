@@ -22,7 +22,6 @@ namespace cp.viewModels
             {
                 _selectedFlower = value;
                 OnPropertyChanged();
-                // Когда выбран элемент, выполняется команда
                 OpenDetailsCommand?.Execute(value);
             }
         }
@@ -37,14 +36,18 @@ namespace cp.viewModels
 
         public ICommand EditProductCommand { get; }
 
+
         public CatalogViewModel()
         {
             using var db = new FlowerShopDbContext();
-            Flowers = new ObservableCollection<Flower>(db.Flowers.ToList());
+            _allFlowers = new ObservableCollection<Flower>(db.Flowers.ToList());
+            FilteredFlowers = new ObservableCollection<Flower>(_allFlowers);
 
             OpenDetailsCommand = new RelayCommand<Flower>(OpenDetails);
             AddProductCommand = new RelayCommand(OpenAddProductPage);
             EditProductCommand = new RelayCommand<Flower>(EditProduct);
+
+            ResetFiltersCommand = new RelayCommand(ResetFilters);
         }
 
         private void OpenDetails(Flower flower)
@@ -64,5 +67,66 @@ namespace cp.viewModels
             var page = new EditProductPage(flower);
             (App.Current.MainWindow.DataContext as MainViewModel).CurrentPage = page;
         }
+
+
+        private ObservableCollection<Flower> _allFlowers;
+
+        private string _searchText;
+        public string SearchText
+        {
+            get => _searchText;
+            set
+            {
+                _searchText = value;
+                OnPropertyChanged();
+                ApplyFilters();
+            }
+        }
+
+        public ObservableCollection<Flower> FilteredFlowers { get; set; } = new();
+
+        public List<string> SortOptions { get; } = new() { "По названию", "По цене (возр.)", "По цене (убыв.)" };
+
+        private string _selectedSortOption;
+        public string SelectedSortOption
+        {
+            get => _selectedSortOption;
+            set
+            {
+                _selectedSortOption = value;
+                OnPropertyChanged();
+                ApplyFilters();
+            }
+        }
+
+        public ICommand ResetFiltersCommand { get; }
+
+        private void ApplyFilters()
+        {
+            var filtered = _allFlowers.AsEnumerable();
+
+            if (!string.IsNullOrWhiteSpace(SearchText))
+                filtered = filtered.Where(f => f.Name.Contains(SearchText, StringComparison.OrdinalIgnoreCase));
+
+            filtered = SelectedSortOption switch
+            {
+                "По названию" => filtered.OrderBy(f => f.Name),
+                "По цене (возр.)" => filtered.OrderBy(f => f.Price),
+                "По цене (убыв.)" => filtered.OrderByDescending(f => f.Price),
+                _ => filtered
+            };
+
+            FilteredFlowers.Clear();
+            foreach (var flower in filtered)
+                FilteredFlowers.Add(flower);
+        }
+
+        private void ResetFilters()
+        {
+            SearchText = string.Empty;
+            SelectedSortOption = null;
+            ApplyFilters();
+        }
+
     }
 }

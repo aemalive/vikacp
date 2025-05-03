@@ -42,13 +42,13 @@
                     BorderThickness="0"
                     Foreground="Black" />
             <Button Grid.Column="2"
-        Command="{Binding NavigateCommand}"
-        CommandParameter="BasketPage"
-        Margin="10,0"
-        VerticalAlignment="Center"
-        HorizontalAlignment="Right"
-        Background="Transparent"
-        BorderThickness="0">
+                    Command="{Binding NavigateCommand}"
+                    CommandParameter="BasketPage"
+                    Margin="10,0"
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Right"
+                    Background="Transparent"
+                    BorderThickness="0">
                 <Rectangle Width="40" Height="40">
                     <Rectangle.Fill>
                         <DrawingBrush Stretch="Uniform">
@@ -65,13 +65,13 @@
             </Button>
 
             <Button Grid.Column="3"
-        Command="{Binding NavigateCommand}"
-        CommandParameter="ProfilePage"
-        Margin="10,0,20,0"
-        VerticalAlignment="Center"
-        HorizontalAlignment="Right"
-        Background="Transparent"
-        BorderThickness="0">
+                    Command="{Binding NavigateCommand}"
+                    CommandParameter="ProfilePage"
+                    Margin="10,0,20,0"
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Right"
+                    Background="Transparent"
+                    BorderThickness="0">
                 <Rectangle Width="40" Height="40">
                     <Rectangle.Fill>
                         <DrawingBrush Stretch="Uniform">
