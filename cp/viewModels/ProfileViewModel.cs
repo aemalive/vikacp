@@ -2,6 +2,7 @@
 using cp.models;
 using cp.services;
 using cp.views;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -21,12 +22,26 @@ namespace cp.viewModels
         public string FullName => AuthService.CurrentUser.FullName;
         public string Role => AuthService.CurrentUser.Role;
 
+        private Order _selectedOrder;
+        public Order SelectedOrder
+        {
+            get => _selectedOrder;
+            set
+            {
+                _selectedOrder = value;
+                OnPropertyChanged();
+                OpenDetailsCommand?.Execute(value);
+            }
+        }
         public bool IsAdmin => Role == "ADMIN";
         public bool IsCustomer => Role == "USER";
 
         public ICommand LogoutCommand { get; }
+        public ICommand OpenDetailsCommand { get; }
 
         private readonly Action<string> _navigate;
+
+        public ObservableCollection<Order> OrderHistory { get; }
 
         public ProfileViewModel(Action<string> navigate)
         {
@@ -34,10 +49,28 @@ namespace cp.viewModels
             LogoutCommand = new RelayCommand(Logout);
 
             using var db = new FlowerShopDbContext();
+
             Users = new ObservableCollection<User>(db.Users.ToList());
 
             EditUserCommand = new RelayCommand<User>(EditUser);
 
+            if (IsCustomer)
+            {
+                OrderHistory = new ObservableCollection<Order>(
+                    db.Orders
+                      .Include(o => o.OrderItems)
+                          .ThenInclude(oi => oi.Flower)
+                      .Where(o => o.UserId == AuthService.CurrentUser.Id)
+                      .OrderByDescending(o => o.OrderDate)
+                      .ToList());
+
+            }
+            OpenDetailsCommand = new RelayCommand<Order>(OpenDetails);
+        }
+        private void OpenDetails(Order order)
+        {
+            var page = new OrderDetailsPage(order);
+            (App.Current.MainWindow.DataContext as MainViewModel).CurrentPage = page;
         }
 
         private void Logout()

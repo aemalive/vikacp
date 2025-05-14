@@ -26,11 +26,11 @@
 
             <TextBlock Text="Админский раздел" 
                        Visibility="{Binding IsAdmin, Converter={StaticResource BoolToVis}}"
-                       Foreground="DarkRed" FontWeight="SemiBold" Margin="0,0,0,5"/>
+                        FontWeight="SemiBold" Margin="0,0,0,5"/>
 
             <TextBlock Text="Пользовательский раздел" 
                        Visibility="{Binding IsCustomer, Converter={StaticResource BoolToVis}}"
-                       Foreground="DarkGreen" FontWeight="SemiBold" Margin="0,0,0,5"/>
+                        FontWeight="SemiBold" Margin="0,0,0,5"/>
 
             <Button Content="Выйти" 
                     Command="{Binding LogoutCommand}" 
@@ -65,6 +65,23 @@
                 </DataTemplate>
             </ListBox.ItemTemplate>
         </ListBox>
+        <ListBox Grid.Row="1"
+         Visibility="{Binding IsCustomer, Converter={StaticResource BoolToVis}}"
+         ItemsSource="{Binding OrderHistory}"
+         SelectedItem="{Binding SelectedOrder, Mode=TwoWay}"
+         Margin="0,0,0,10">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Border BorderBrush="Gray" BorderThickness="1" Padding="10" Margin="5">
+                        <StackPanel Orientation="Vertical">
+                            <TextBlock Text="{Binding OrderDate, StringFormat='Дата заказа: {0:dd.MM.yyyy HH:mm}'}" FontWeight="Bold"/>
+                            <TextBlock Text="{Binding TotalPrice, StringFormat='Сумма: {0:C}'}" Margin="0,5,0,0"/>
+                        </StackPanel>
+                    </Border>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+
     </Grid>
 
 </Page>

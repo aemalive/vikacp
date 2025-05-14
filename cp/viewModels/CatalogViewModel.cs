@@ -39,6 +39,7 @@ namespace cp.viewModels
 
         public ICommand EditProductCommand { get; }
         public ICommand AddToCartCommand { get; }
+        public ICommand DeleteProductCommand { get; }
 
         public CatalogViewModel()
         {
@@ -49,6 +50,7 @@ namespace cp.viewModels
             OpenDetailsCommand = new RelayCommand<Flower>(OpenDetails);
             AddProductCommand = new RelayCommand(OpenAddProductPage);
             EditProductCommand = new RelayCommand<Flower>(EditProduct);
+            DeleteProductCommand = new RelayCommand<Flower>(DeleteProduct);
 
             ResetFiltersCommand = new RelayCommand(ResetFilters);
 
@@ -73,7 +75,27 @@ namespace cp.viewModels
             (App.Current.MainWindow.DataContext as MainViewModel).CurrentPage = page;
         }
 
+        private void DeleteProduct(Flower flower)
+        {
+            if (flower == null) return;
 
+            var result = MessageBox.Show($"Вы уверены, что хотите удалить «{flower.Name}»?", "Подтверждение удаления", MessageBoxButton.YesNo, MessageBoxImage.Warning);
+            if (result != MessageBoxResult.Yes)
+                return;
+
+            using (var db = new FlowerShopDbContext())
+            {
+                var flowerToDelete = db.Flowers.FirstOrDefault(f => f.Id == flower.Id);
+                if (flowerToDelete != null)
+                {
+                    db.Flowers.Remove(flowerToDelete);
+                    db.SaveChanges();
+                }
+            }
+
+            _allFlowers.Remove(flower);
+            FilteredFlowers.Remove(flower);
+        }
         private ObservableCollection<Flower> _allFlowers;
 
         private string _searchText;

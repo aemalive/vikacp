@@ -1,4 +1,6 @@
-﻿using System;
+﻿using cp.models;
+using cp.viewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,7 +14,6 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using cp.viewModels;
 
 namespace cp.views
 {
@@ -26,5 +27,6 @@ namespace cp.views
             InitializeComponent();
             DataContext = viewModel;
         }
+
     }
 }

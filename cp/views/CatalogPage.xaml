@@ -65,6 +65,12 @@
                                         Visibility="{Binding DataContext.IsAdmin, 
                                                             RelativeSource={RelativeSource AncestorType=ListBox}, 
                                                             Converter={StaticResource BoolToVis}}"/>
+                                <Button Content="Удалить"
+        Command="{Binding DataContext.DeleteProductCommand, RelativeSource={RelativeSource AncestorType=ListBox}}"
+        CommandParameter="{Binding}"
+        Visibility="{Binding DataContext.IsAdmin, RelativeSource={RelativeSource AncestorType=ListBox}, Converter={StaticResource BoolToVis}}"
+        Margin="0,5,0,0"/>
+
                                 <Button Content="Добавить в корзину"
         Command="{Binding DataContext.AddToCartCommand, RelativeSource={RelativeSource AncestorType=ListBox}}"
         CommandParameter="{Binding}"

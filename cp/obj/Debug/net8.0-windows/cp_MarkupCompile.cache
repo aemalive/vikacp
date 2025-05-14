@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 D:\reps\cp\cp\App.xaml
-111997793128
+12-618242127
 
-61-1931165243
-264-1628488117
-views\AddProductPage.xaml;views\CartPage.xaml;views\CatalogPage.xaml;views\EditProductPage.xaml;views\EditUserPage.xaml;views\FlowerDetailsPage.xaml;views\LoginPage.xaml;views\MainWindow.xaml;views\OrderPage.xaml;views\ProfilePage.xaml;views\RegisterPage.xaml;
+71-674691515
+2651501633704
+views\AddProductPage.xaml;views\CartPage.xaml;views\CatalogPage.xaml;views\EditProductPage.xaml;views\EditUserPage.xaml;views\FlowerDetailsPage.xaml;views\LoginPage.xaml;views\MainWindow.xaml;views\OrderDetailsPage.xaml;views\OrderPage.xaml;views\ProfilePage.xaml;views\RegisterPage.xaml;
 
 False
 

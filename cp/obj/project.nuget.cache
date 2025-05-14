@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "+r6PxvDJyqY=",
+  "dgSpecHash": "qe9tY2BknBg=",
   "success": true,
   "projectFilePath": "D:\\reps\\cp\\cp\\cp.csproj",
   "expectedPackageFiles": [
@@ -58,6 +58,7 @@
     "C:\\Users\\aborigen\\.nuget\\packages\\microsoft.win32.systemevents\\9.0.4\\microsoft.win32.systemevents.9.0.4.nupkg.sha512",
     "C:\\Users\\aborigen\\.nuget\\packages\\microsoft.windows.compatibility\\9.0.4\\microsoft.windows.compatibility.9.0.4.nupkg.sha512",
     "C:\\Users\\aborigen\\.nuget\\packages\\mono.texttemplating\\3.0.0\\mono.texttemplating.3.0.0.nupkg.sha512",
+    "C:\\Users\\aborigen\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\aborigen\\.nuget\\packages\\npgsql\\9.0.3\\npgsql.9.0.3.nupkg.sha512",
     "C:\\Users\\aborigen\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\9.0.4\\npgsql.entityframeworkcore.postgresql.9.0.4.nupkg.sha512",
     "C:\\Users\\aborigen\\.nuget\\packages\\runtime.android-arm.runtime.native.system.io.ports\\9.0.4\\runtime.android-arm.runtime.native.system.io.ports.9.0.4.nupkg.sha512",

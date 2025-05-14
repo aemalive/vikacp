@@ -1,14 +1,43 @@
 ﻿<Page x:Class="cp.views.RegisterPage"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
-      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
       xmlns:local="clr-namespace:cp.views"
-      mc:Ignorable="d" 
+      xmlns:vms="clr-namespace:cp.viewModels"
+      mc:Ignorable="d"
       d:DesignHeight="450" d:DesignWidth="800"
       Title="RegisterPage">
 
+    <Page.DataContext>
+        <vms:RegisterViewModel />
+    </Page.DataContext>
+
     <Grid>
-        
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Width="300">
+            <TextBlock Text="Регистрация" FontSize="24" FontWeight="Bold" Margin="0,0,0,20" HorizontalAlignment="Center"/>
+
+            <StackPanel Margin="0,10">
+                <Label Content="Имя пользователя"/>
+                <TextBox Width="200" Text="{Binding Username}" Margin="0,5"/>
+            </StackPanel>
+
+            <StackPanel Margin="0,10">
+                <Label Content="Пароль"/>
+                <TextBox Width="200" Text="{Binding Password}" Margin="0,5"/>
+            </StackPanel>
+
+            <StackPanel Margin="0,10">
+                <Label Content="Полное имя"/>
+                <TextBox Width="200" Text="{Binding FullName}" Margin="0,5"/>
+            </StackPanel>
+
+            <StackPanel Margin="0,10">
+                <Label Content="Электронная почта"/>
+                <TextBox Width="200" Text="{Binding Email}" Margin="0,5"/>
+            </StackPanel>
+
+            <Button Content="Зарегистрироваться" Width="200" Margin="0,20" Command="{Binding RegisterCommand}"/>
+        </StackPanel>
     </Grid>
 </Page>

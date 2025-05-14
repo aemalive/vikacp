@@ -4,11 +4,79 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:cp.views"
+      xmlns:vms="clr-namespace:cp.viewModels"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
       Title="OrderPage">
+    <Page.DataContext>
+        <vms:OrderViewModel />
+    </Page.DataContext>
 
-    <Grid>
-        <TextBlock Text="order"></TextBlock>
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="Информация о заказе"
+                   FontSize="24" 
+                   FontWeight="Bold" 
+                   Grid.Row="0"
+                   Margin="0 0 0 20" />
+
+        <StackPanel Grid.Row="1" Margin="0 0 0 10">
+            <StackPanel Margin="0 0 0 10">
+                <Label Content="Адрес" HorizontalAlignment="Left"/>
+                <TextBox Text="{Binding Address}" Width="300" Margin="0,5"/>
+            </StackPanel>
+
+            <StackPanel Margin="0 0 0 10">
+                <Label Content="Время доставки" HorizontalAlignment="Left"/>
+                <TextBox Text="{Binding DeliveryTime}" Width="300" Margin="0,5"/>
+            </StackPanel>
+
+            <StackPanel Margin="0 0 0 10">
+                <Label Content="Комментарий" HorizontalAlignment="Left"/>
+                <TextBox Text="{Binding Comment}" Width="300" Margin="0,5"/>
+            </StackPanel>
+        </StackPanel>
+
+        <ScrollViewer Grid.Row="2" VerticalScrollBarVisibility="Auto" Margin="0 0 0 10">
+            <StackPanel>
+                <ItemsControl ItemsSource="{Binding Order.OrderItems}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <Border BorderBrush="Gray" BorderThickness="1" Padding="10" Margin="5">
+                                <StackPanel Orientation="Horizontal">
+
+                                    <StackPanel Orientation="Vertical" Width="200">
+                                        <TextBlock Text="{Binding Flower.Name}" FontWeight="Bold" FontSize="16"/>
+                                        <TextBlock Text="{Binding Price, StringFormat='Цена: {0:C}'}"/>
+                                    </StackPanel>
+
+                                    <StackPanel Orientation="Vertical" Margin="10,0,0,0" Width="100">
+                                        <TextBlock Text="Количество"/>
+                                        <TextBlock Text="{Binding Quantity}"/>
+                                    </StackPanel>
+
+                                    <StackPanel Orientation="Vertical" Margin="10,0,0,0" Width="100">
+                                        <TextBlock Text="Сумма"/>
+                                        <TextBlock Text="{Binding Total, StringFormat={}{0:C}}"/>
+                                    </StackPanel>
+                                </StackPanel>
+                            </Border>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </StackPanel>
+        </ScrollViewer>
+
+        <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0 20 0 0">
+            <TextBlock Text="{Binding TotalAmount, StringFormat='Общая сумма: {0:C}'}" FontSize="18" FontWeight="Bold" VerticalAlignment="Center" Margin="20"/>
+            <Button Content="Подтвердить заказ" Width="150" Height="30" Command="{Binding ConfirmOrderCommand}" Margin="20"/>
+            <Button Content="Отменить заказ" Width="150" Height="30" Command="{Binding CancelOrderCommand}" Margin="20"/>
+        </StackPanel>
     </Grid>
 </Page>

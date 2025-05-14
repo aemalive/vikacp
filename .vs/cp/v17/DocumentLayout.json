@@ -3,88 +3,92 @@
   "WorkspaceRootPath": "D:\\reps\\cp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\views\\cartpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\views\\cartpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\views\\orderpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\views\\orderpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\viewmodels\\cartviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\viewmodels\\cartviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\viewmodels\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\viewmodels\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\viewmodels\\flowerdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\viewmodels\\flowerdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\views\\orderpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\views\\orderpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\viewmodels\\catalogviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\viewmodels\\catalogviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\views\\cartpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\views\\cartpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\viewmodels\\orderdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\viewmodels\\orderdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\viewmodels\\addproductviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\viewmodels\\addproductviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\views\\registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\views\\registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\views\\cartpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\views\\cartpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\viewmodels\\orderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\viewmodels\\orderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\viewmodels\\edituserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\viewmodels\\edituserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\viewmodels\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\viewmodels\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\models\\flowershopdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\models\\flowershopdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\viewmodels\\cartviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\viewmodels\\cartviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\models\\flower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\models\\flower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\views\\profilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\views\\profilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\views\\profilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\views\\profilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\views\\orderdetailspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\views\\orderdetailspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\views\\orderdetailspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\views\\orderdetailspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\views\\flowerdetailspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\views\\flowerdetailspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\views\\edituserpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\views\\edituserpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\views\\flowerdetailspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\views\\flowerdetailspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\viewmodels\\editproductviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -95,24 +99,72 @@
       "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\views\\catalogpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\viewmodels\\addproductviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\viewmodels\\addproductviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\viewmodels\\flowerdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\viewmodels\\flowerdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\views\\flowerdetailspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\views\\flowerdetailspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\commands\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\commands\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\models\\flowershopdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\models\\flowershopdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\models\\flower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\models\\flower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\views\\addproductpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\views\\addproductpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\viewmodels\\edituserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\viewmodels\\edituserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\views\\cartpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\views\\cartpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\models\\flowershopdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\models\\flowershopdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\commands\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\commands\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\views\\editproductpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -123,16 +175,8 @@
       "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\models\\flowershopdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\models\\flowershopdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\helpers\\booleantovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\helpers\\booleantovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\views\\catalogpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -143,28 +187,8 @@
       "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\views\\edituserpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\views\\profilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\views\\profilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\views\\edituserpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\views\\edituserpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\views\\profilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\views\\profilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\views\\editproductpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\views\\editproductpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -177,14 +201,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\views\\addproductpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\views\\addproductpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\views\\flowerdetailspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\views\\flowerdetailspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\views\\registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\views\\registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\assets\\svg\\profile_icon.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
@@ -201,102 +217,12 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "DockedWidth": 170,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LoginViewModel.cs",
-              "DocumentMoniker": "D:\\reps\\cp\\cp\\viewModels\\LoginViewModel.cs",
-              "RelativeDocumentMoniker": "cp\\viewModels\\LoginViewModel.cs",
-              "ToolTip": "D:\\reps\\cp\\cp\\viewModels\\LoginViewModel.cs",
-              "RelativeToolTip": "cp\\viewModels\\LoginViewModel.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAIA4wEgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T13:55:40.64Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "OrderItem.cs",
-              "DocumentMoniker": "D:\\reps\\cp\\cp\\models\\OrderItem.cs",
-              "RelativeDocumentMoniker": "cp\\models\\OrderItem.cs",
-              "ToolTip": "D:\\reps\\cp\\cp\\models\\OrderItem.cs",
-              "RelativeToolTip": "cp\\models\\OrderItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T06:39:14.195Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MainViewModel.cs",
-              "DocumentMoniker": "D:\\reps\\cp\\cp\\viewModels\\MainViewModel.cs",
-              "RelativeDocumentMoniker": "cp\\viewModels\\MainViewModel.cs",
-              "ToolTip": "D:\\reps\\cp\\cp\\viewModels\\MainViewModel.cs",
-              "RelativeToolTip": "cp\\viewModels\\MainViewModel.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAAwDQAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T20:01:31.204Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "CartPage.xaml.cs",
-              "DocumentMoniker": "D:\\reps\\cp\\cp\\views\\CartPage.xaml.cs",
-              "RelativeDocumentMoniker": "cp\\views\\CartPage.xaml.cs",
-              "ToolTip": "D:\\reps\\cp\\cp\\views\\CartPage.xaml.cs",
-              "RelativeToolTip": "cp\\views\\CartPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T07:10:14.991Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CartViewModel.cs",
-              "DocumentMoniker": "D:\\reps\\cp\\cp\\viewModels\\CartViewModel.cs",
-              "RelativeDocumentMoniker": "cp\\viewModels\\CartViewModel.cs",
-              "ToolTip": "D:\\reps\\cp\\cp\\viewModels\\CartViewModel.cs",
-              "RelativeToolTip": "cp\\viewModels\\CartViewModel.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAADwv0AAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T06:58:57.094Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "BaseViewModel.cs",
-              "DocumentMoniker": "D:\\reps\\cp\\cp\\viewModels\\BaseViewModel.cs",
-              "RelativeDocumentMoniker": "cp\\viewModels\\BaseViewModel.cs",
-              "ToolTip": "D:\\reps\\cp\\cp\\viewModels\\BaseViewModel.cs",
-              "RelativeToolTip": "cp\\viewModels\\BaseViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T19:59:42.537Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CartPage.xaml",
-              "DocumentMoniker": "D:\\reps\\cp\\cp\\views\\CartPage.xaml",
-              "RelativeDocumentMoniker": "cp\\views\\CartPage.xaml",
-              "ToolTip": "D:\\reps\\cp\\cp\\views\\CartPage.xaml",
-              "RelativeToolTip": "cp\\views\\CartPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-14T06:56:43.928Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "OrderPage.xaml",
               "DocumentMoniker": "D:\\reps\\cp\\cp\\views\\OrderPage.xaml",
               "RelativeDocumentMoniker": "cp\\views\\OrderPage.xaml",
@@ -308,163 +234,59 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OrderViewModel.cs",
+              "DocumentMoniker": "D:\\reps\\cp\\cp\\viewModels\\OrderViewModel.cs",
+              "RelativeDocumentMoniker": "cp\\viewModels\\OrderViewModel.cs",
+              "ToolTip": "D:\\reps\\cp\\cp\\viewModels\\OrderViewModel.cs",
+              "RelativeToolTip": "cp\\viewModels\\OrderViewModel.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAswD0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T08:20:02.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "D:\\reps\\cp\\cp\\App.xaml.cs",
-              "RelativeDocumentMoniker": "cp\\App.xaml.cs",
-              "ToolTip": "D:\\reps\\cp\\cp\\App.xaml.cs",
-              "RelativeToolTip": "cp\\App.xaml.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAgwCgAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T19:56:31.69Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Order.cs",
-              "DocumentMoniker": "D:\\reps\\cp\\cp\\models\\Order.cs",
-              "RelativeDocumentMoniker": "cp\\models\\Order.cs",
-              "ToolTip": "D:\\reps\\cp\\cp\\models\\Order.cs",
-              "RelativeToolTip": "cp\\models\\Order.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAASwBEAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T04:05:51.39Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "ProfileViewModel.cs",
               "DocumentMoniker": "D:\\reps\\cp\\cp\\viewModels\\ProfileViewModel.cs",
               "RelativeDocumentMoniker": "cp\\viewModels\\ProfileViewModel.cs",
               "ToolTip": "D:\\reps\\cp\\cp\\viewModels\\ProfileViewModel.cs",
               "RelativeToolTip": "cp\\viewModels\\ProfileViewModel.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAowBsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAywEoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-13T20:46:47.982Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "FlowerDetailsViewModel.cs",
-              "DocumentMoniker": "D:\\reps\\cp\\cp\\viewModels\\FlowerDetailsViewModel.cs",
-              "RelativeDocumentMoniker": "cp\\viewModels\\FlowerDetailsViewModel.cs",
-              "ToolTip": "D:\\reps\\cp\\cp\\viewModels\\FlowerDetailsViewModel.cs",
-              "RelativeToolTip": "cp\\viewModels\\FlowerDetailsViewModel.cs",
-              "ViewState": "AgIAAGUAAAAAAAAAAAAuwH0AAAA2AAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\reps\\cp\\cp\\views\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "cp\\views\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\reps\\cp\\cp\\views\\MainWindow.xaml.cs",
+              "RelativeToolTip": "cp\\views\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAowBkAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T08:42:19.846Z",
+              "WhenOpened": "2025-04-13T20:05:05.365Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CatalogViewModel.cs",
-              "DocumentMoniker": "D:\\reps\\cp\\cp\\viewModels\\CatalogViewModel.cs",
-              "RelativeDocumentMoniker": "cp\\viewModels\\CatalogViewModel.cs",
-              "ToolTip": "D:\\reps\\cp\\cp\\viewModels\\CatalogViewModel.cs",
-              "RelativeToolTip": "cp\\viewModels\\CatalogViewModel.cs",
-              "ViewState": "AgIAAJcAAAAAAAAAAAAnwK4AAAAJAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "D:\\reps\\cp\\cp\\viewModels\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "cp\\viewModels\\MainViewModel.cs",
+              "ToolTip": "D:\\reps\\cp\\cp\\viewModels\\MainViewModel.cs",
+              "RelativeToolTip": "cp\\viewModels\\MainViewModel.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAYwEQAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T08:38:19.122Z",
+              "WhenOpened": "2025-04-13T20:01:31.204Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "CartItem.cs",
-              "DocumentMoniker": "D:\\reps\\cp\\cp\\models\\CartItem.cs",
-              "RelativeDocumentMoniker": "cp\\models\\CartItem.cs",
-              "ToolTip": "D:\\reps\\cp\\cp\\models\\CartItem.cs",
-              "RelativeToolTip": "cp\\models\\CartItem.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAiwBAAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T06:38:56.82Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "EditUserViewModel.cs",
-              "DocumentMoniker": "D:\\reps\\cp\\cp\\viewModels\\EditUserViewModel.cs",
-              "RelativeDocumentMoniker": "cp\\viewModels\\EditUserViewModel.cs",
-              "ToolTip": "D:\\reps\\cp\\cp\\viewModels\\EditUserViewModel.cs",
-              "RelativeToolTip": "cp\\viewModels\\EditUserViewModel.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACoAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T15:52:42.044Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Cart.cs",
-              "DocumentMoniker": "D:\\reps\\cp\\cp\\models\\Cart.cs",
-              "RelativeDocumentMoniker": "cp\\models\\Cart.cs",
-              "ToolTip": "D:\\reps\\cp\\cp\\models\\Cart.cs",
-              "RelativeToolTip": "cp\\models\\Cart.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAIwBEAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T06:38:34.119Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Flower.cs",
-              "DocumentMoniker": "D:\\reps\\cp\\cp\\models\\Flower.cs",
-              "RelativeDocumentMoniker": "cp\\models\\Flower.cs",
-              "ToolTip": "D:\\reps\\cp\\cp\\models\\Flower.cs",
-              "RelativeToolTip": "cp\\models\\Flower.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T12:04:36.695Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "FlowerShopDbContext.cs",
-              "DocumentMoniker": "D:\\reps\\cp\\cp\\models\\FlowerShopDbContext.cs",
-              "RelativeDocumentMoniker": "cp\\models\\FlowerShopDbContext.cs",
-              "ToolTip": "D:\\reps\\cp\\cp\\models\\FlowerShopDbContext.cs",
-              "RelativeToolTip": "cp\\models\\FlowerShopDbContext.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAA5wBkAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T20:16:45.357Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\reps\\cp\\cp\\models\\User.cs",
-              "RelativeDocumentMoniker": "cp\\models\\User.cs",
-              "ToolTip": "D:\\reps\\cp\\cp\\models\\User.cs",
-              "RelativeToolTip": "cp\\models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T20:02:35.138Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "D:\\reps\\cp\\cp\\services\\AuthService.cs",
-              "RelativeDocumentMoniker": "cp\\services\\AuthService.cs",
-              "ToolTip": "D:\\reps\\cp\\cp\\services\\AuthService.cs",
-              "RelativeToolTip": "cp\\services\\AuthService.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBUAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T14:07:29.644Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\reps\\cp\\cp\\views\\MainWindow.xaml",
               "RelativeDocumentMoniker": "cp\\views\\MainWindow.xaml",
@@ -476,45 +298,146 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "EditProductViewModel.cs",
-              "DocumentMoniker": "D:\\reps\\cp\\cp\\viewModels\\EditProductViewModel.cs",
-              "RelativeDocumentMoniker": "cp\\viewModels\\EditProductViewModel.cs",
-              "ToolTip": "D:\\reps\\cp\\cp\\viewModels\\EditProductViewModel.cs",
-              "RelativeToolTip": "cp\\viewModels\\EditProductViewModel.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAuwFIAAAAOAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "CartViewModel.cs",
+              "DocumentMoniker": "D:\\reps\\cp\\cp\\viewModels\\CartViewModel.cs",
+              "RelativeDocumentMoniker": "cp\\viewModels\\CartViewModel.cs",
+              "ToolTip": "D:\\reps\\cp\\cp\\viewModels\\CartViewModel.cs",
+              "RelativeToolTip": "cp\\viewModels\\CartViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T05:32:44.545Z",
+              "WhenOpened": "2025-05-14T06:58:57.094Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "CatalogPage.xaml",
-              "DocumentMoniker": "D:\\reps\\cp\\cp\\views\\CatalogPage.xaml",
-              "RelativeDocumentMoniker": "cp\\views\\CatalogPage.xaml",
-              "ToolTip": "D:\\reps\\cp\\cp\\views\\CatalogPage.xaml",
-              "RelativeToolTip": "cp\\views\\CatalogPage.xaml",
+              "DocumentIndex": 9,
+              "Title": "RegisterPage.xaml",
+              "DocumentMoniker": "D:\\reps\\cp\\cp\\views\\RegisterPage.xaml",
+              "RelativeDocumentMoniker": "cp\\views\\RegisterPage.xaml",
+              "ToolTip": "D:\\reps\\cp\\cp\\views\\RegisterPage.xaml",
+              "RelativeToolTip": "cp\\views\\RegisterPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-28T12:04:25.856Z",
+              "WhenOpened": "2025-04-30T08:54:28.045Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 16,
+              "Title": "ProfilePage.xaml.cs",
+              "DocumentMoniker": "D:\\reps\\cp\\cp\\views\\ProfilePage.xaml.cs",
+              "RelativeDocumentMoniker": "cp\\views\\ProfilePage.xaml.cs",
+              "ToolTip": "D:\\reps\\cp\\cp\\views\\ProfilePage.xaml.cs",
+              "RelativeToolTip": "cp\\views\\ProfilePage.xaml.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAuwBwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T13:00:42.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "AddProductViewModel.cs",
               "DocumentMoniker": "D:\\reps\\cp\\cp\\viewModels\\AddProductViewModel.cs",
               "RelativeDocumentMoniker": "cp\\viewModels\\AddProductViewModel.cs",
               "ToolTip": "D:\\reps\\cp\\cp\\viewModels\\AddProductViewModel.cs",
               "RelativeToolTip": "cp\\viewModels\\AddProductViewModel.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAAwFYAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAAwFAAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-30T11:02:12.055Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CartPage.xaml",
+              "DocumentMoniker": "D:\\reps\\cp\\cp\\views\\CartPage.xaml",
+              "RelativeDocumentMoniker": "cp\\views\\CartPage.xaml",
+              "ToolTip": "D:\\reps\\cp\\cp\\views\\CartPage.xaml",
+              "RelativeToolTip": "cp\\views\\CartPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-14T06:56:43.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\reps\\cp\\cp\\appsettings.json",
+              "RelativeDocumentMoniker": "cp\\appsettings.json",
+              "ToolTip": "D:\\reps\\cp\\cp\\appsettings.json",
+              "RelativeToolTip": "cp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-28T13:44:40.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrderDetailsViewModel.cs",
+              "DocumentMoniker": "D:\\reps\\cp\\cp\\viewModels\\OrderDetailsViewModel.cs",
+              "RelativeDocumentMoniker": "cp\\viewModels\\OrderDetailsViewModel.cs",
+              "ToolTip": "D:\\reps\\cp\\cp\\viewModels\\OrderDetailsViewModel.cs",
+              "RelativeToolTip": "cp\\viewModels\\OrderDetailsViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T12:31:19.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "D:\\reps\\cp\\cp\\viewModels\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "cp\\viewModels\\RegisterViewModel.cs",
+              "ToolTip": "D:\\reps\\cp\\cp\\viewModels\\RegisterViewModel.cs",
+              "RelativeToolTip": "cp\\viewModels\\RegisterViewModel.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAmwDgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T13:02:22.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ProfilePage.xaml",
+              "DocumentMoniker": "D:\\reps\\cp\\cp\\views\\ProfilePage.xaml",
+              "RelativeDocumentMoniker": "cp\\views\\ProfilePage.xaml",
+              "ToolTip": "D:\\reps\\cp\\cp\\views\\ProfilePage.xaml",
+              "RelativeToolTip": "cp\\views\\ProfilePage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-13T20:33:59.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 24,
+              "Title": "FlowerDetailsViewModel.cs",
+              "DocumentMoniker": "D:\\reps\\cp\\cp\\viewModels\\FlowerDetailsViewModel.cs",
+              "RelativeDocumentMoniker": "cp\\viewModels\\FlowerDetailsViewModel.cs",
+              "ToolTip": "D:\\reps\\cp\\cp\\viewModels\\FlowerDetailsViewModel.cs",
+              "RelativeToolTip": "cp\\viewModels\\FlowerDetailsViewModel.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAiwDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T08:42:19.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "OrderDetailsPage.xaml",
+              "DocumentMoniker": "D:\\reps\\cp\\cp\\views\\OrderDetailsPage.xaml",
+              "RelativeDocumentMoniker": "cp\\views\\OrderDetailsPage.xaml",
+              "ToolTip": "D:\\reps\\cp\\cp\\views\\OrderDetailsPage.xaml",
+              "RelativeToolTip": "cp\\views\\OrderDetailsPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-14T12:30:43.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "FlowerDetailsPage.xaml",
               "DocumentMoniker": "D:\\reps\\cp\\cp\\views\\FlowerDetailsPage.xaml",
               "RelativeDocumentMoniker": "cp\\views\\FlowerDetailsPage.xaml",
@@ -526,7 +449,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 15,
               "Title": "Review.cs",
               "DocumentMoniker": "D:\\reps\\cp\\cp\\models\\Review.cs",
               "RelativeDocumentMoniker": "cp\\models\\Review.cs",
@@ -539,56 +462,123 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "RelayCommand.cs",
-              "DocumentMoniker": "D:\\reps\\cp\\cp\\commands\\RelayCommand.cs",
-              "RelativeDocumentMoniker": "cp\\commands\\RelayCommand.cs",
-              "ToolTip": "D:\\reps\\cp\\cp\\commands\\RelayCommand.cs",
-              "RelativeToolTip": "cp\\commands\\RelayCommand.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAUwCgAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 14,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\reps\\cp\\cp\\models\\User.cs",
+              "RelativeDocumentMoniker": "cp\\models\\User.cs",
+              "ToolTip": "D:\\reps\\cp\\cp\\models\\User.cs",
+              "RelativeToolTip": "cp\\models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T20:02:27.615Z",
+              "WhenOpened": "2025-04-13T20:02:35.138Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "AddProductPage.xaml",
-              "DocumentMoniker": "D:\\reps\\cp\\cp\\views\\AddProductPage.xaml",
-              "RelativeDocumentMoniker": "cp\\views\\AddProductPage.xaml",
-              "ToolTip": "D:\\reps\\cp\\cp\\views\\AddProductPage.xaml",
-              "RelativeToolTip": "cp\\views\\AddProductPage.xaml",
+              "DocumentIndex": 18,
+              "Title": "OrderDetailsPage.xaml.cs",
+              "DocumentMoniker": "D:\\reps\\cp\\cp\\views\\OrderDetailsPage.xaml.cs",
+              "RelativeDocumentMoniker": "cp\\views\\OrderDetailsPage.xaml.cs",
+              "ToolTip": "D:\\reps\\cp\\cp\\views\\OrderDetailsPage.xaml.cs",
+              "RelativeToolTip": "cp\\views\\OrderDetailsPage.xaml.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAuwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T12:30:53.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "EditUserPage.xaml.cs",
+              "DocumentMoniker": "D:\\reps\\cp\\cp\\views\\EditUserPage.xaml.cs",
+              "RelativeDocumentMoniker": "cp\\views\\EditUserPage.xaml.cs",
+              "ToolTip": "D:\\reps\\cp\\cp\\views\\EditUserPage.xaml.cs",
+              "RelativeToolTip": "cp\\views\\EditUserPage.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwB0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T15:51:53.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "FlowerDetailsPage.xaml.cs",
+              "DocumentMoniker": "D:\\reps\\cp\\cp\\views\\FlowerDetailsPage.xaml.cs",
+              "RelativeDocumentMoniker": "cp\\views\\FlowerDetailsPage.xaml.cs",
+              "ToolTip": "D:\\reps\\cp\\cp\\views\\FlowerDetailsPage.xaml.cs",
+              "RelativeToolTip": "cp\\views\\FlowerDetailsPage.xaml.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwBcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T08:49:36.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CatalogPage.xaml",
+              "DocumentMoniker": "D:\\reps\\cp\\cp\\views\\CatalogPage.xaml",
+              "RelativeDocumentMoniker": "cp\\views\\CatalogPage.xaml",
+              "ToolTip": "D:\\reps\\cp\\cp\\views\\CatalogPage.xaml",
+              "RelativeToolTip": "cp\\views\\CatalogPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-30T10:19:25.223Z",
+              "WhenOpened": "2025-04-28T12:04:25.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "EditProductViewModel.cs",
+              "DocumentMoniker": "D:\\reps\\cp\\cp\\viewModels\\EditProductViewModel.cs",
+              "RelativeDocumentMoniker": "cp\\viewModels\\EditProductViewModel.cs",
+              "ToolTip": "D:\\reps\\cp\\cp\\viewModels\\EditProductViewModel.cs",
+              "RelativeToolTip": "cp\\viewModels\\EditProductViewModel.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAuwFIAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T05:32:44.545Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 28,
-              "Title": "EditProductPage.xaml",
-              "DocumentMoniker": "D:\\reps\\cp\\cp\\views\\EditProductPage.xaml",
-              "RelativeDocumentMoniker": "cp\\views\\EditProductPage.xaml",
-              "ToolTip": "D:\\reps\\cp\\cp\\views\\EditProductPage.xaml",
-              "RelativeToolTip": "cp\\views\\EditProductPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-30T10:55:16.733Z",
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "D:\\reps\\cp\\cp\\models\\CartItem.cs",
+              "RelativeDocumentMoniker": "cp\\models\\CartItem.cs",
+              "ToolTip": "D:\\reps\\cp\\cp\\models\\CartItem.cs",
+              "RelativeToolTip": "cp\\models\\CartItem.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAowBsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T06:38:56.82Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "App.xaml",
-              "DocumentMoniker": "D:\\reps\\cp\\cp\\App.xaml",
-              "RelativeDocumentMoniker": "cp\\App.xaml",
-              "ToolTip": "D:\\reps\\cp\\cp\\App.xaml",
-              "RelativeToolTip": "cp\\App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-13T19:56:27.873Z",
+              "DocumentIndex": 26,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "D:\\reps\\cp\\cp\\models\\OrderItem.cs",
+              "RelativeDocumentMoniker": "cp\\models\\OrderItem.cs",
+              "ToolTip": "D:\\reps\\cp\\cp\\models\\OrderItem.cs",
+              "RelativeToolTip": "cp\\models\\OrderItem.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAQwBIAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T06:39:14.195Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 25,
+              "Title": "Order.cs",
+              "DocumentMoniker": "D:\\reps\\cp\\cp\\models\\Order.cs",
+              "RelativeDocumentMoniker": "cp\\models\\Order.cs",
+              "ToolTip": "D:\\reps\\cp\\cp\\models\\Order.cs",
+              "RelativeToolTip": "cp\\models\\Order.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAqwBsAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T04:05:51.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
               "Title": "FlowerShopDbContextFactory.cs",
               "DocumentMoniker": "D:\\reps\\cp\\cp\\models\\FlowerShopDbContextFactory.cs",
               "RelativeDocumentMoniker": "cp\\models\\FlowerShopDbContextFactory.cs",
@@ -601,7 +591,185 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Flower.cs",
+              "DocumentMoniker": "D:\\reps\\cp\\cp\\models\\Flower.cs",
+              "RelativeDocumentMoniker": "cp\\models\\Flower.cs",
+              "ToolTip": "D:\\reps\\cp\\cp\\models\\Flower.cs",
+              "RelativeToolTip": "cp\\models\\Flower.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T12:04:36.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "D:\\reps\\cp\\cp\\models\\Cart.cs",
+              "RelativeDocumentMoniker": "cp\\models\\Cart.cs",
+              "ToolTip": "D:\\reps\\cp\\cp\\models\\Cart.cs",
+              "RelativeToolTip": "cp\\models\\Cart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T06:38:34.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 31,
+              "Title": "AddProductPage.xaml",
+              "DocumentMoniker": "D:\\reps\\cp\\cp\\views\\AddProductPage.xaml",
+              "RelativeDocumentMoniker": "cp\\views\\AddProductPage.xaml",
+              "ToolTip": "D:\\reps\\cp\\cp\\views\\AddProductPage.xaml",
+              "RelativeToolTip": "cp\\views\\AddProductPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-30T10:19:25.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "D:\\reps\\cp\\cp\\views\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "cp\\views\\LoginPage.xaml",
+              "ToolTip": "D:\\reps\\cp\\cp\\views\\LoginPage.xaml",
+              "RelativeToolTip": "cp\\views\\LoginPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-28T13:54:38.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "EditUserViewModel.cs",
+              "DocumentMoniker": "D:\\reps\\cp\\cp\\viewModels\\EditUserViewModel.cs",
+              "RelativeDocumentMoniker": "cp\\viewModels\\EditUserViewModel.cs",
+              "ToolTip": "D:\\reps\\cp\\cp\\viewModels\\EditUserViewModel.cs",
+              "RelativeToolTip": "cp\\viewModels\\EditUserViewModel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwCoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T15:52:42.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "CartPage.xaml.cs",
+              "DocumentMoniker": "D:\\reps\\cp\\cp\\views\\CartPage.xaml.cs",
+              "RelativeDocumentMoniker": "cp\\views\\CartPage.xaml.cs",
+              "ToolTip": "D:\\reps\\cp\\cp\\views\\CartPage.xaml.cs",
+              "RelativeToolTip": "cp\\views\\CartPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T07:10:14.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\reps\\cp\\cp\\App.xaml.cs",
+              "RelativeDocumentMoniker": "cp\\App.xaml.cs",
+              "ToolTip": "D:\\reps\\cp\\cp\\App.xaml.cs",
+              "RelativeToolTip": "cp\\App.xaml.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwCgAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T19:56:31.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "BaseViewModel.cs",
+              "DocumentMoniker": "D:\\reps\\cp\\cp\\viewModels\\BaseViewModel.cs",
+              "RelativeDocumentMoniker": "cp\\viewModels\\BaseViewModel.cs",
+              "ToolTip": "D:\\reps\\cp\\cp\\viewModels\\BaseViewModel.cs",
+              "RelativeToolTip": "cp\\viewModels\\BaseViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T19:59:42.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "D:\\reps\\cp\\cp\\viewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "cp\\viewModels\\LoginViewModel.cs",
+              "ToolTip": "D:\\reps\\cp\\cp\\viewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "cp\\viewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAewEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T13:55:40.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "FlowerShopDbContext.cs",
+              "DocumentMoniker": "D:\\reps\\cp\\cp\\models\\FlowerShopDbContext.cs",
+              "RelativeDocumentMoniker": "cp\\models\\FlowerShopDbContext.cs",
+              "ToolTip": "D:\\reps\\cp\\cp\\models\\FlowerShopDbContext.cs",
+              "RelativeToolTip": "cp\\models\\FlowerShopDbContext.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAgwBkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T20:16:45.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\reps\\cp\\cp\\services\\AuthService.cs",
+              "RelativeDocumentMoniker": "cp\\services\\AuthService.cs",
+              "ToolTip": "D:\\reps\\cp\\cp\\services\\AuthService.cs",
+              "RelativeToolTip": "cp\\services\\AuthService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBUAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T14:07:29.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "D:\\reps\\cp\\cp\\commands\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "cp\\commands\\RelayCommand.cs",
+              "ToolTip": "D:\\reps\\cp\\cp\\commands\\RelayCommand.cs",
+              "RelativeToolTip": "cp\\commands\\RelayCommand.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAUwCgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T20:02:27.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "EditProductPage.xaml",
+              "DocumentMoniker": "D:\\reps\\cp\\cp\\views\\EditProductPage.xaml",
+              "RelativeDocumentMoniker": "cp\\views\\EditProductPage.xaml",
+              "ToolTip": "D:\\reps\\cp\\cp\\views\\EditProductPage.xaml",
+              "RelativeToolTip": "cp\\views\\EditProductPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-30T10:55:16.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\reps\\cp\\cp\\App.xaml",
+              "RelativeDocumentMoniker": "cp\\App.xaml",
+              "ToolTip": "D:\\reps\\cp\\cp\\App.xaml",
+              "RelativeToolTip": "cp\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-13T19:56:27.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
               "Title": "BooleanToVisibilityConverter.cs",
               "DocumentMoniker": "D:\\reps\\cp\\cp\\helpers\\BooleanToVisibilityConverter.cs",
               "RelativeDocumentMoniker": "cp\\helpers\\BooleanToVisibilityConverter.cs",
@@ -614,31 +782,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\reps\\cp\\cp\\appsettings.json",
-              "RelativeDocumentMoniker": "cp\\appsettings.json",
-              "ToolTip": "D:\\reps\\cp\\cp\\appsettings.json",
-              "RelativeToolTip": "cp\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-28T13:44:40.973Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "ProfilePage.xaml.cs",
-              "DocumentMoniker": "D:\\reps\\cp\\cp\\views\\ProfilePage.xaml.cs",
-              "RelativeDocumentMoniker": "cp\\views\\ProfilePage.xaml.cs",
-              "ToolTip": "D:\\reps\\cp\\cp\\views\\ProfilePage.xaml.cs",
-              "RelativeToolTip": "cp\\views\\ProfilePage.xaml.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T13:00:42.677Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 44,
               "Title": "CatalogPage.xaml.cs",
               "DocumentMoniker": "D:\\reps\\cp\\cp\\views\\CatalogPage.xaml.cs",
               "RelativeDocumentMoniker": "cp\\views\\CatalogPage.xaml.cs",
@@ -646,80 +790,37 @@
               "RelativeToolTip": "cp\\views\\CatalogPage.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T16:11:01.384Z"
+              "WhenOpened": "2025-05-03T16:11:01.384Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 45,
               "Title": "EditUserPage.xaml",
               "DocumentMoniker": "D:\\reps\\cp\\cp\\views\\EditUserPage.xaml",
               "RelativeDocumentMoniker": "cp\\views\\EditUserPage.xaml",
               "ToolTip": "D:\\reps\\cp\\cp\\views\\EditUserPage.xaml",
               "RelativeToolTip": "cp\\views\\EditUserPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-03T15:51:07.563Z"
+              "WhenOpened": "2025-05-03T15:51:07.563Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "EditUserPage.xaml.cs",
-              "DocumentMoniker": "D:\\reps\\cp\\cp\\views\\EditUserPage.xaml.cs",
-              "RelativeDocumentMoniker": "cp\\views\\EditUserPage.xaml.cs",
-              "ToolTip": "D:\\reps\\cp\\cp\\views\\EditUserPage.xaml.cs",
-              "RelativeToolTip": "cp\\views\\EditUserPage.xaml.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T15:51:53.614Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "ProfilePage.xaml",
-              "DocumentMoniker": "D:\\reps\\cp\\cp\\views\\ProfilePage.xaml",
-              "RelativeDocumentMoniker": "cp\\views\\ProfilePage.xaml",
-              "ToolTip": "D:\\reps\\cp\\cp\\views\\ProfilePage.xaml",
-              "RelativeToolTip": "cp\\views\\ProfilePage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-13T20:33:59.096Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "LoginPage.xaml",
-              "DocumentMoniker": "D:\\reps\\cp\\cp\\views\\LoginPage.xaml",
-              "RelativeDocumentMoniker": "cp\\views\\LoginPage.xaml",
-              "ToolTip": "D:\\reps\\cp\\cp\\views\\LoginPage.xaml",
-              "RelativeToolTip": "cp\\views\\LoginPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-28T13:54:38.761Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 46,
               "Title": "EditProductPage.xaml.cs",
               "DocumentMoniker": "D:\\reps\\cp\\cp\\views\\EditProductPage.xaml.cs",
               "RelativeDocumentMoniker": "cp\\views\\EditProductPage.xaml.cs",
               "ToolTip": "D:\\reps\\cp\\cp\\views\\EditProductPage.xaml.cs",
               "RelativeToolTip": "cp\\views\\EditProductPage.xaml.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwBoAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T10:59:45.915Z"
+              "WhenOpened": "2025-04-30T10:59:45.915Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\reps\\cp\\cp\\views\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "cp\\views\\MainWindow.xaml.cs",
-              "ToolTip": "D:\\reps\\cp\\cp\\views\\MainWindow.xaml.cs",
-              "RelativeToolTip": "cp\\views\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAowBMAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T20:05:05.365Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 48,
               "Title": "LoginPage.xaml.cs",
               "DocumentMoniker": "D:\\reps\\cp\\cp\\views\\LoginPage.xaml.cs",
               "RelativeDocumentMoniker": "cp\\views\\LoginPage.xaml.cs",
@@ -727,11 +828,12 @@
               "RelativeToolTip": "cp\\views\\LoginPage.xaml.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAUwBkAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T13:55:02.041Z"
+              "WhenOpened": "2025-04-28T13:55:02.041Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 47,
               "Title": "AssemblyInfo.cs",
               "DocumentMoniker": "D:\\reps\\cp\\cp\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "cp\\AssemblyInfo.cs",
@@ -739,23 +841,12 @@
               "RelativeToolTip": "cp\\AssemblyInfo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T14:19:50.653Z"
+              "WhenOpened": "2025-05-03T14:19:50.653Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "FlowerDetailsPage.xaml.cs",
-              "DocumentMoniker": "D:\\reps\\cp\\cp\\views\\FlowerDetailsPage.xaml.cs",
-              "RelativeDocumentMoniker": "cp\\views\\FlowerDetailsPage.xaml.cs",
-              "ToolTip": "D:\\reps\\cp\\cp\\views\\FlowerDetailsPage.xaml.cs",
-              "RelativeToolTip": "cp\\views\\FlowerDetailsPage.xaml.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAQwBcAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T08:49:36.449Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 49,
               "Title": "AddProductPage.xaml.cs",
               "DocumentMoniker": "D:\\reps\\cp\\cp\\views\\AddProductPage.xaml.cs",
               "RelativeDocumentMoniker": "cp\\views\\AddProductPage.xaml.cs",
@@ -763,23 +854,12 @@
               "RelativeToolTip": "cp\\views\\AddProductPage.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T10:58:53.757Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "RegisterPage.xaml",
-              "DocumentMoniker": "D:\\reps\\cp\\cp\\views\\RegisterPage.xaml",
-              "RelativeDocumentMoniker": "cp\\views\\RegisterPage.xaml",
-              "ToolTip": "D:\\reps\\cp\\cp\\views\\RegisterPage.xaml",
-              "RelativeToolTip": "cp\\views\\RegisterPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-30T08:54:28.045Z",
+              "WhenOpened": "2025-04-30T10:58:53.757Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 51,
               "Title": "basket.svg",
               "DocumentMoniker": "D:\\reps\\cp\\cp\\assets\\svg\\basket.svg",
               "RelativeDocumentMoniker": "cp\\assets\\svg\\basket.svg",
@@ -787,11 +867,12 @@
               "RelativeToolTip": "cp\\assets\\svg\\basket.svg",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAGAAAAAAAAAA==",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKTSURBVDhPjVNLSFRRGP7unTsz9w75uOaMZlMNpo1aFFJRodRGN7UwatMiKgga3JgVRBSNSA8RooUFLRycCCpc9ITIFi0EW\u002BhCW/gONYUcxplsQL13nKv3dM6ZGV\u002BE9N37c\u002B455/\u002B\u002B/7s/5whYA7/fP5L63BSCIDxvbGxsAiEktZQEE6Brm6K1tXWS5TU0NNQyjsiZKQgCBgBChQ2Q\u002BfswpytgDLmg9zihD9XBNJfhcrlstPoeqlVPRS6uCBDy1broLnN29PkxPeaFFmpC79gOdEu9sB8KQRt\u002Bz/NUVbUGAoGpJIfc5j2gZIuv3fam/sCNGrdjGLGwE23hR\u002BiMeBCKAbXlOTgfr0VW9QfqD4iEZ5BIJNAWDI5yB75X0tXqwrc1JZk90MKVUEq/4UplFc4W5UKwiHjaO4tx90NWiYfT5cQuj4dRITLrZfn9104XtOD3\u002BE4z7/BrqIoKZ4YM37E8XNifA4vdiuCIApPzWY9Wmy9h6UfOpd13t89FstEceyF2PJlAfNHkm6y6xSbxcTASpyuMyFT4NoeI6PV6mzEvvIy0oO\u002BXPVGULaMs186jVLVil0zzF\u002BI4ki\u002BnqjP\u002BGgemrp0Z\u002BHn8T0d0nyrOTky\u002B8x0tNoxE0iZrcSqXz5lAcroCcXkeBcGpyzcnowRTDk9xoDuEmbkE5vRlfB6cRcWzIXibv\u002BNTf5ST0y7SEBa6MGIaOFje2VUnZSgPTFECMZM9YCeLde6cdwvuVLlXrVMFWXGAHqRRaUlDezyEic6tlbFBbW/oS8nHbf0RDZIooDDLipPeTJwozIJJH4EIoG/y1/6Fe/5bj6lFousa0WjoWjoWiLYhGNidWHcXDNhOsVGWFSg0ZCUdDigbIo11Zv73Oq8C\u002BAsr5V2IWWNA0gAAAABJRU5ErkJggg==",
-              "WhenOpened": "2025-04-28T12:04:45.845Z"
+              "WhenOpened": "2025-04-28T12:04:45.845Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 50,
               "Title": "profile_icon.svg",
               "DocumentMoniker": "D:\\reps\\cp\\cp\\assets\\svg\\profile_icon.svg",
               "RelativeDocumentMoniker": "cp\\assets\\svg\\profile_icon.svg",
@@ -799,7 +880,8 @@
               "RelativeToolTip": "cp\\assets\\svg\\profile_icon.svg",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKTSURBVDhPjVNLSFRRGP7unTsz9w75uOaMZlMNpo1aFFJRodRGN7UwatMiKgga3JgVRBSNSA8RooUFLRycCCpc9ITIFi0EW\u002BhCW/gONYUcxplsQL13nKv3dM6ZGV\u002BE9N37c\u002B455/\u002B\u002B/7s/5whYA7/fP5L63BSCIDxvbGxsAiEktZQEE6Brm6K1tXWS5TU0NNQyjsiZKQgCBgBChQ2Q\u002BfswpytgDLmg9zihD9XBNJfhcrlstPoeqlVPRS6uCBDy1broLnN29PkxPeaFFmpC79gOdEu9sB8KQRt\u002Bz/NUVbUGAoGpJIfc5j2gZIuv3fam/sCNGrdjGLGwE23hR\u002BiMeBCKAbXlOTgfr0VW9QfqD4iEZ5BIJNAWDI5yB75X0tXqwrc1JZk90MKVUEq/4UplFc4W5UKwiHjaO4tx90NWiYfT5cQuj4dRITLrZfn9104XtOD3\u002BE4z7/BrqIoKZ4YM37E8XNifA4vdiuCIApPzWY9Wmy9h6UfOpd13t89FstEceyF2PJlAfNHkm6y6xSbxcTASpyuMyFT4NoeI6PV6mzEvvIy0oO\u002BXPVGULaMs186jVLVil0zzF\u002BI4ki\u002BnqjP\u002BGgemrp0Z\u002BHn8T0d0nyrOTky\u002B8x0tNoxE0iZrcSqXz5lAcroCcXkeBcGpyzcnowRTDk9xoDuEmbkE5vRlfB6cRcWzIXibv\u002BNTf5ST0y7SEBa6MGIaOFje2VUnZSgPTFECMZM9YCeLde6cdwvuVLlXrVMFWXGAHqRRaUlDezyEic6tlbFBbW/oS8nHbf0RDZIooDDLipPeTJwozIJJH4EIoG/y1/6Fe/5bj6lFousa0WjoWjoWiLYhGNidWHcXDNhOsVGWFSg0ZCUdDigbIo11Zv73Oq8C\u002BAsr5V2IWWNA0gAAAABJRU5ErkJggg==",
-              "WhenOpened": "2025-04-28T12:04:46.613Z"
+              "WhenOpened": "2025-04-28T12:04:46.613Z",
+              "EditorCaption": ""
             }
           ]
         }
