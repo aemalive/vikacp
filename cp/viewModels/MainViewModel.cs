@@ -1,16 +1,17 @@
-﻿using cp.viewModels;
-using cp;
+﻿using cp;
+using cp.commands;
+using cp.services;
+using cp.viewModels;
+using cp.views;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Windows.Input;
-using cp.views;
-using cp.commands;
-using cp.services;
+using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Input;
 
 namespace cp.viewModels
 {
@@ -37,22 +38,40 @@ namespace cp.viewModels
 
         private void NavigateToPage(string pageName)
         {
-            Page page = pageName switch
+            if (pageName == "CartPage")
+            {
+                if (!AuthService.IsAuthenticated)
+                {
+                    MessageBox.Show("Вы не авторизованы. Пожалуйста, войдите в систему.", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Warning);
+                    return;
+                }
+
+                if (AuthService.CurrentUser?.Role == "ADMIN")
+                {
+                    MessageBox.Show("Доступ в корзину доступен только для пользователей.", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Warning);
+                    return;
+                }
+            }
+
+
+
+            if (pageName == "ProfilePage" && (AuthService.CurrentUser?.Role == "GUEST" || !AuthService.IsAuthenticated))
+            {
+                CurrentPage = new LoginPage();
+                return;
+            }
+
+            CurrentPage = pageName switch
             {
                 "LoginPage" => new LoginPage(),
                 "RegisterPage" => new RegisterPage(),
                 "CatalogPage" => new CatalogPage(),
-                "BasketPage" => new BasketPage(),
-                "ProfilePage" => AuthService.CurrentUser?.Role == "GUEST"
-                        ? new LoginPage()  
-                        : AuthService.IsAuthenticated
-                            ? (Page)new ProfilePage(new ProfileViewModel(NavigateToPage))
-                            : new LoginPage(),  
+                "CartPage" => new CartPage(),
+                "ProfilePage" => new ProfilePage(new ProfileViewModel(NavigateToPage)),
                 _ => CurrentPage
             };
-
-            CurrentPage = page;
         }
+
     }
 
 }

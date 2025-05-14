@@ -8428,7 +8428,7 @@
   },
   "packageFolders": {
     "C:\\Users\\aborigen\\.nuget\\packages\\": {},
-    "D:\\vs\\sdk\\NuGetPackages": {}
+    "D:\\vs\\shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
@@ -8440,7 +8440,7 @@
       "outputPath": "D:\\reps\\cp\\cp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\vs\\sdk\\NuGetPackages"
+        "D:\\vs\\shared\\NuGetPackages"
       ],
       "configFilePaths": [
         "C:\\Users\\aborigen\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8470,7 +8470,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0-windows7.0": {
@@ -8534,7 +8534,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

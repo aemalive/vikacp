@@ -5,7 +5,7 @@
     <Compile Update="views\AddProductPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="views\BasketPage.xaml.cs">
+    <Compile Update="views\CartPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="views\CatalogPage.xaml.cs">
@@ -24,6 +24,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="views\MainWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="views\OrderPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="views\ProfilePage.xaml.cs">

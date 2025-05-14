@@ -14,7 +14,7 @@
     "additionalProbingPaths": [
       "C:\\Users\\aborigen\\.dotnet\\store\\|arch|\\|tfm|",
       "C:\\Users\\aborigen\\.nuget\\packages",
-      "D:\\vs\\sdk\\NuGetPackages"
+      "D:\\vs\\shared\\NuGetPackages"
     ],
     "configProperties": {
       "System.Reflection.NullabilityInfoContext.IsSupported": true,

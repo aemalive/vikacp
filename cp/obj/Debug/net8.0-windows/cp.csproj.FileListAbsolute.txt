@@ -505,7 +505,6 @@ D:\reps\cp\cp\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Threading.
 D:\reps\cp\cp\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Windows.Extensions.dll
 D:\reps\cp\cp\obj\Debug\net8.0-windows\cp.csproj.AssemblyReference.cache
 D:\reps\cp\cp\obj\Debug\net8.0-windows\views\AddProductPage.g.cs
-D:\reps\cp\cp\obj\Debug\net8.0-windows\views\BasketPage.g.cs
 D:\reps\cp\cp\obj\Debug\net8.0-windows\views\CatalogPage.g.cs
 D:\reps\cp\cp\obj\Debug\net8.0-windows\views\EditProductPage.g.cs
 D:\reps\cp\cp\obj\Debug\net8.0-windows\views\FlowerDetailsPage.g.cs
@@ -519,7 +518,6 @@ D:\reps\cp\cp\obj\Debug\net8.0-windows\cp_MarkupCompile.cache
 D:\reps\cp\cp\obj\Debug\net8.0-windows\cp_MarkupCompile.lref
 D:\reps\cp\cp\obj\Debug\net8.0-windows\App.baml
 D:\reps\cp\cp\obj\Debug\net8.0-windows\views\AddProductPage.baml
-D:\reps\cp\cp\obj\Debug\net8.0-windows\views\BasketPage.baml
 D:\reps\cp\cp\obj\Debug\net8.0-windows\views\CatalogPage.baml
 D:\reps\cp\cp\obj\Debug\net8.0-windows\views\EditProductPage.baml
 D:\reps\cp\cp\obj\Debug\net8.0-windows\views\FlowerDetailsPage.baml
@@ -541,3 +539,7 @@ D:\reps\cp\cp\obj\Debug\net8.0-windows\cp.genruntimeconfig.cache
 D:\reps\cp\cp\obj\Debug\net8.0-windows\ref\cp.dll
 D:\reps\cp\cp\obj\Debug\net8.0-windows\views\EditUserPage.g.cs
 D:\reps\cp\cp\obj\Debug\net8.0-windows\views\EditUserPage.baml
+D:\reps\cp\cp\obj\Debug\net8.0-windows\views\CartPage.g.cs
+D:\reps\cp\cp\obj\Debug\net8.0-windows\views\CartPage.baml
+D:\reps\cp\cp\obj\Debug\net8.0-windows\views\OrderPage.g.cs
+D:\reps\cp\cp\obj\Debug\net8.0-windows\views\OrderPage.baml

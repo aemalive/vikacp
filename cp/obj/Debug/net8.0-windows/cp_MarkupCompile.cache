@@ -8,13 +8,13 @@ D:\reps\cp\cp\obj\Debug\net8.0-windows\
 cp
 none
 false
-TRACE;DEBUG;NET;NET8_0;NETCOREAPP
+TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 D:\reps\cp\cp\App.xaml
-10-1241959739
+111997793128
 
-38706227268
-264-2090017860
-views\AddProductPage.xaml;views\BasketPage.xaml;views\CatalogPage.xaml;views\EditProductPage.xaml;views\EditUserPage.xaml;views\FlowerDetailsPage.xaml;views\LoginPage.xaml;views\MainWindow.xaml;views\ProfilePage.xaml;views\RegisterPage.xaml;
+61-1931165243
+264-1628488117
+views\AddProductPage.xaml;views\CartPage.xaml;views\CatalogPage.xaml;views\EditProductPage.xaml;views\EditUserPage.xaml;views\FlowerDetailsPage.xaml;views\LoginPage.xaml;views\MainWindow.xaml;views\OrderPage.xaml;views\ProfilePage.xaml;views\RegisterPage.xaml;
 
 False
 

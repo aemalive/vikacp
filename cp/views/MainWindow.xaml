@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:cp.views"
         xmlns:vms="clr-namespace:cp.viewModels"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="720" Width="1280">
 
 
     <Window.DataContext>
@@ -43,7 +43,7 @@
                     Foreground="Black" />
             <Button Grid.Column="2"
                     Command="{Binding NavigateCommand}"
-                    CommandParameter="BasketPage"
+                    CommandParameter="CartPage"
                     Margin="10,0"
                     VerticalAlignment="Center"
                     HorizontalAlignment="Right"

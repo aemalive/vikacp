@@ -1,14 +1,16 @@
-﻿using System;
+﻿using cp.commands;
+using cp.models;
+using cp.services;
+using cp.views;
+using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using cp.commands;
-using cp.models;
+using System.Windows;
 using System.Windows.Input;
-using cp.views;
-using cp.services;
 
 namespace cp.viewModels
 {
@@ -31,11 +33,12 @@ namespace cp.viewModels
         public ICommand OpenDetailsCommand { get; }
 
         public bool IsAdmin => AuthService.CurrentUser?.Role == "ADMIN";
+        public bool IsUser => AuthService.CurrentUser?.Role == "USER";
 
         public ICommand AddProductCommand { get; }
 
         public ICommand EditProductCommand { get; }
-
+        public ICommand AddToCartCommand { get; }
 
         public CatalogViewModel()
         {
@@ -48,6 +51,8 @@ namespace cp.viewModels
             EditProductCommand = new RelayCommand<Flower>(EditProduct);
 
             ResetFiltersCommand = new RelayCommand(ResetFilters);
+
+            AddToCartCommand = new RelayCommand<Flower>(AddToCart);
         }
 
         private void OpenDetails(Flower flower)
@@ -127,6 +132,49 @@ namespace cp.viewModels
             SelectedSortOption = null;
             ApplyFilters();
         }
+        private void AddToCart(Flower flower)
+        {
+            var currentUser = AuthService.CurrentUser;
+
+
+            using (var db = new FlowerShopDbContext())
+            {
+                var cart = db.Carts
+                    .Include(c => c.Items)
+                    .FirstOrDefault(c => c.UserId == currentUser.Id);
+
+                if (cart == null)
+                {
+                    cart = new Cart
+                    {
+                        UserId = currentUser.Id,
+                        Items = new List<CartItem>()
+                    };
+                    db.Carts.Add(cart);
+                }
+
+                var existingItem = cart.Items.FirstOrDefault(i => i.FlowerId == flower.Id);
+
+                if (existingItem != null)
+                {
+                    existingItem.Quantity += 1;
+                }
+                else
+                {
+                    cart.Items.Add(new CartItem
+                    {
+                        FlowerId = flower.Id,
+                        Quantity = 1
+                    });
+                }
+
+                db.SaveChanges();
+            }
+
+            MessageBox.Show($"Цветок «{flower.Name}» добавлен в корзину.");
+        }
+
+
 
     }
 }
