@@ -3,20 +3,19 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:cp.views"
         xmlns:vms="clr-namespace:cp.viewModels"
         mc:Ignorable="d"
-        Title="MainWindow" Height="720" Width="1280">
-
+        Title="{DynamicResource MainWindow_Title}"
+        Height="720" Width="700">
 
     <Window.DataContext>
         <vms:MainViewModel />
     </Window.DataContext>
-    
+
     <Window.Resources>
         <BooleanToVisibilityConverter x:Key="BoolToVis"/>
     </Window.Resources>
-    
+
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
@@ -30,8 +29,15 @@
                 <ColumnDefinition Width="Auto"/>
                 <ColumnDefinition Width="Auto"/>
             </Grid.ColumnDefinitions>
-
-            <Button Content="Каталог"
+            
+            <ComboBox Grid.Column="0"
+                      Width="120" Margin="10,0"
+                      ItemsSource="{Binding Languages}"
+                      SelectedItem="{Binding SelectedLanguage}"
+                      DisplayMemberPath="Name"
+                      VerticalAlignment="Center"/>
+            
+            <Button Content="{DynamicResource Btn_Catalog}"
                     Command="{Binding NavigateCommand}"
                     CommandParameter="CatalogPage"
                     Margin="10,0"

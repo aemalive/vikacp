@@ -1,0 +1,26 @@
+﻿<ResourceDictionary  
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"  
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"  
+    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="MainWindow_Title">Главное окно</sys:String>
+    <sys:String x:Key="Btn_Catalog">Каталог</sys:String>
+
+    <sys:String x:Key="Msg_NotAuthenticated_Text">Вы не авторизованы. Пожалуйста, войдите в систему.</sys:String>
+    <sys:String x:Key="Msg_NotAuthenticated_Caption">Ошибка</sys:String>
+
+    <sys:String x:Key="Msg_AdminNoAccess_Text">Доступ в корзину доступен только для пользователей.</sys:String>
+    <sys:String x:Key="Msg_AdminNoAccess_Caption">Ошибка</sys:String>
+    <sys:String x:Key="Msg_DeleteConfirm_Text">Вы уверены, что хотите удалить товар: {0}?</sys:String>
+    <sys:String x:Key="Msg_DeleteConfirm_Caption">Подтверждение удаления</sys:String>
+
+    <sys:String x:Key="Msg_AddedToCart_Text">Товар {0} был добавлен в вашу корзину.</sys:String>
+
+    <sys:String x:Key="CatalogPage_Title">Каталог</sys:String>
+    <sys:String x:Key="Btn_Reset">Сбросить</sys:String>
+    <sys:String x:Key="Btn_AddProduct">Добавить товар</sys:String>
+    <sys:String x:Key="Btn_EditProduct">Редактировать товар</sys:String>
+    <sys:String x:Key="Btn_DeleteProduct">Удалить товар</sys:String>
+    <sys:String x:Key="Btn_AddToCart">Добавить в корзину</sys:String>
+    <sys:String x:Key="PriceLabel">Цена:</sys:String>
+</ResourceDictionary>

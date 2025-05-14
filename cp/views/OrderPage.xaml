@@ -23,27 +23,26 @@
         <TextBlock Text="Информация о заказе"
                    FontSize="24" 
                    FontWeight="Bold" 
-                   Grid.Row="0"
-                   Margin="0 0 0 20" />
+                   Grid.Row="0" />
 
-        <StackPanel Grid.Row="1" Margin="0 0 0 10">
-            <StackPanel Margin="0 0 0 10">
-                <Label Content="Адрес" HorizontalAlignment="Left"/>
-                <TextBox Text="{Binding Address}" Width="300" Margin="0,5"/>
+        <StackPanel Grid.Row="1">
+            <StackPanel >
+                <Label Content="Адрес" HorizontalAlignment="Center" />
+                <TextBox Text="{Binding Address}" Width="300" />
             </StackPanel>
 
-            <StackPanel Margin="0 0 0 10">
-                <Label Content="Время доставки" HorizontalAlignment="Left"/>
-                <TextBox Text="{Binding DeliveryTime}" Width="300" Margin="0,5"/>
+            <StackPanel >
+                <Label Content="Время доставки"  HorizontalAlignment="Center"/>
+                <TextBox Text="{Binding DeliveryTime}" Width="300"/>
             </StackPanel>
 
-            <StackPanel Margin="0 0 0 10">
-                <Label Content="Комментарий" HorizontalAlignment="Left"/>
-                <TextBox Text="{Binding Comment}" Width="300" Margin="0,5"/>
+            <StackPanel >
+                <Label Content="Комментарий"  HorizontalAlignment="Center"/>
+                <TextBox Text="{Binding Comment}" Width="300"/>
             </StackPanel>
         </StackPanel>
 
-        <ScrollViewer Grid.Row="2" VerticalScrollBarVisibility="Auto" Margin="0 0 0 10">
+        <ScrollViewer Grid.Row="2" VerticalScrollBarVisibility="Auto">
             <StackPanel>
                 <ItemsControl ItemsSource="{Binding Order.OrderItems}">
                     <ItemsControl.ItemTemplate>
@@ -51,17 +50,17 @@
                             <Border BorderBrush="Gray" BorderThickness="1" Padding="10" Margin="5">
                                 <StackPanel Orientation="Horizontal">
 
-                                    <StackPanel Orientation="Vertical" Width="200">
+                                    <StackPanel Orientation="Vertical" Width="200" HorizontalAlignment="Left">
                                         <TextBlock Text="{Binding Flower.Name}" FontWeight="Bold" FontSize="16"/>
                                         <TextBlock Text="{Binding Price, StringFormat='Цена: {0:C}'}"/>
                                     </StackPanel>
 
-                                    <StackPanel Orientation="Vertical" Margin="10,0,0,0" Width="100">
+                                    <StackPanel Orientation="Vertical"  Width="100" HorizontalAlignment="Center">
                                         <TextBlock Text="Количество"/>
                                         <TextBlock Text="{Binding Quantity}"/>
                                     </StackPanel>
 
-                                    <StackPanel Orientation="Vertical" Margin="10,0,0,0" Width="100">
+                                    <StackPanel Orientation="Vertical"  Width="100" HorizontalAlignment="Right">
                                         <TextBlock Text="Сумма"/>
                                         <TextBlock Text="{Binding Total, StringFormat={}{0:C}}"/>
                                     </StackPanel>

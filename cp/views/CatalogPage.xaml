@@ -3,11 +3,10 @@
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-      xmlns:local="clr-namespace:cp.views"
       xmlns:vms="clr-namespace:cp.viewModels"
-      mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
-      Title="CatalogPage">
+      mc:Ignorable="d"
+      Title="{DynamicResource CatalogPage_Title}"
+      d:DesignHeight="450" d:DesignWidth="800">
 
     <Page.DataContext>
         <vms:CatalogViewModel />
@@ -17,31 +16,35 @@
         <BooleanToVisibilityConverter x:Key="BoolToVis" />
     </Page.Resources>
 
-
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
-        <StackPanel Orientation="Horizontal" Margin="0,0,0,10" Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Stretch" >
+        <StackPanel Orientation="Horizontal" Margin="0,0,0,10" Grid.Row="0">
 
             <TextBox Width="200"
-                 Margin="0,0,10,0"
-                 Text="{Binding SearchText, UpdateSourceTrigger=PropertyChanged}" />
-
+                     Margin="0,0,10,0"
+                     Text="{Binding SearchText, UpdateSourceTrigger=PropertyChanged}" />
             <ComboBox Width="150"
-                  Margin="0,0,10,0"
-                  SelectedItem="{Binding SelectedSortOption}"
-                  ItemsSource="{Binding SortOptions}" />
+                      Margin="0,0,10,0"
+                      SelectedItem="{Binding SelectedSortOption}"
+                      ItemsSource="{Binding SortOptions}">
+                <ComboBox.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding}" />
+                    </DataTemplate>
+                </ComboBox.ItemTemplate>
+            </ComboBox>
 
-            <Button Content="Сбросить"
-                Command="{Binding ResetFiltersCommand}"
-                Margin="0,0,10,0" />
+            <Button Content="{DynamicResource Btn_Reset}"
+                    Command="{Binding ResetFiltersCommand}"
+                    Margin="0,0,10,0" />
 
-            <Button Content="Добавить товар"
-                Visibility="{Binding IsAdmin, Converter={StaticResource BoolToVis}}"
-                Command="{Binding AddProductCommand}" />
+            <Button Content="{DynamicResource Btn_AddProduct}"
+                    Visibility="{Binding IsAdmin, Converter={StaticResource BoolToVis}}"
+                    Command="{Binding AddProductCommand}" />
         </StackPanel>
 
         <ListBox Grid.Row="1"
@@ -49,41 +52,42 @@
                  SelectedItem="{Binding SelectedFlower}" 
                  Margin="10">
             <ListBox.ItemTemplate>
+
                 <DataTemplate>
-                    <Border BorderBrush="Gray" BorderThickness="1" Padding="10" Margin="5">
-                        <StackPanel Orientation="Horizontal" Margin="5">
-                            <Image Source="{Binding ImageURL}" Width="100" Height="100" Margin="10"/>
+                    <StackPanel Orientation="Horizontal" Margin="5">
+                        <Image Source="{Binding ImageURL}" Width="100" Height="100" Margin="10"/>
 
-                            <StackPanel Orientation="Vertical" Margin="10,0,0,0">
-                                <TextBlock Text="{Binding Name}" FontWeight="Bold" FontSize="16"/>
-                                <TextBlock Text="{Binding Price, StringFormat='Цена: {0:C}'}" Margin="0,5,0,0"/>
-                                <TextBlock Text="{Binding Description}" TextWrapping="Wrap" Width="300" Margin="0,5,0,0"/>
+                        <StackPanel Orientation="Vertical" Margin="10,0,0,0">
+                            <TextBlock Text="{Binding Name}" FontWeight="Bold" FontSize="16"/>
 
-                                <Button Content="Редактировать"
+                            <TextBlock Margin="0,5,0,0">
+                                    <Run Text="{DynamicResource PriceLabel}"/>
+                                    <Run Text="{Binding Price, StringFormat=' {0:C}'}"/>
+                            </TextBlock>
+
+                            <TextBlock Text="{Binding Description}" TextWrapping="Wrap" Width="300" Margin="0,5,0,0"/>
+
+                            <Button Content="{DynamicResource Btn_EditProduct}"
                                         Command="{Binding DataContext.EditProductCommand, RelativeSource={RelativeSource AncestorType=ListBox}}"
                                         CommandParameter="{Binding}"
                                         Visibility="{Binding DataContext.IsAdmin, 
                                                             RelativeSource={RelativeSource AncestorType=ListBox}, 
                                                             Converter={StaticResource BoolToVis}}"/>
-                                <Button Content="Удалить"
-        Command="{Binding DataContext.DeleteProductCommand, RelativeSource={RelativeSource AncestorType=ListBox}}"
-        CommandParameter="{Binding}"
-        Visibility="{Binding DataContext.IsAdmin, RelativeSource={RelativeSource AncestorType=ListBox}, Converter={StaticResource BoolToVis}}"
-        Margin="0,5,0,0"/>
+                            <Button Content="{DynamicResource Btn_DeleteProduct}"
+                                        Command="{Binding DataContext.DeleteProductCommand, RelativeSource={RelativeSource AncestorType=ListBox}}"
+                                        CommandParameter="{Binding}"
+                                        Visibility="{Binding DataContext.IsAdmin, RelativeSource={RelativeSource AncestorType=ListBox}, Converter={StaticResource BoolToVis}}"
+                                        Margin="0,5,0,0"/>
 
-                                <Button Content="Добавить в корзину"
-        Command="{Binding DataContext.AddToCartCommand, RelativeSource={RelativeSource AncestorType=ListBox}}"
-        CommandParameter="{Binding}"
-        Visibility="{Binding DataContext.IsUser, RelativeSource={RelativeSource AncestorType=ListBox}, Converter={StaticResource BoolToVis}}"
-        Margin="0,5,0,0"
-        Background="Green" Foreground="White"/>
-                            </StackPanel>
+                            <Button Content="{DynamicResource Btn_AddToCart}"
+                                        Command="{Binding DataContext.AddToCartCommand, RelativeSource={RelativeSource AncestorType=ListBox}}"
+                                        CommandParameter="{Binding}"
+                                        Visibility="{Binding DataContext.IsUser, RelativeSource={RelativeSource AncestorType=ListBox}, Converter={StaticResource BoolToVis}}"
+                                        Margin="0,5,0,0"/>
                         </StackPanel>
-                    </Border>
+                    </StackPanel>
                 </DataTemplate>
             </ListBox.ItemTemplate>
         </ListBox>
-
     </Grid>
-
 </Page>

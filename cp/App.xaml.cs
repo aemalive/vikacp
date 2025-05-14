@@ -7,6 +7,7 @@ using cp.views;
 using cp.models;
 using cp.viewModels;
 using Microsoft.Extensions.Hosting;
+using System.Globalization;
 
 namespace cp
 {
@@ -54,5 +55,21 @@ namespace cp
             _host.Dispose();
             base.OnExit(e);
         }
+        public void LoadLanguageDictionary(string culture)
+        {
+            var ci = new CultureInfo(culture);
+            Thread.CurrentThread.CurrentCulture = ci;
+            Thread.CurrentThread.CurrentUICulture = ci;
+
+            var dictUri = new Uri($"/cp;component/localization/Resources.{culture}.xaml", UriKind.Relative);
+            var langDict = new ResourceDictionary() { Source = dictUri };
+
+            var merged = Resources.MergedDictionaries;
+            if (merged.Count > 0)
+                merged[0] = langDict;
+            else
+                merged.Add(langDict);
+        }
     }
+
 }

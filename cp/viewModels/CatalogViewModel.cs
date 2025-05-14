@@ -78,10 +78,13 @@ namespace cp.viewModels
         private void DeleteProduct(Flower flower)
         {
             if (flower == null) return;
+            var textTmpl = (string)Application.Current.FindResource("Msg_DeleteConfirm_Text");
+            var caption = (string)Application.Current.FindResource("Msg_DeleteConfirm_Caption");
+            var text = string.Format(textTmpl, flower.Name);
 
-            var result = MessageBox.Show($"Вы уверены, что хотите удалить «{flower.Name}»?", "Подтверждение удаления", MessageBoxButton.YesNo, MessageBoxImage.Warning);
-            if (result != MessageBoxResult.Yes)
-                return;
+            var result = MessageBox.Show(text, caption, MessageBoxButton.YesNo, MessageBoxImage.Warning);
+            if (result != MessageBoxResult.Yes) return;
+
 
             using (var db = new FlowerShopDbContext())
             {
@@ -193,7 +196,9 @@ namespace cp.viewModels
                 db.SaveChanges();
             }
 
-            MessageBox.Show($"Цветок «{flower.Name}» добавлен в корзину.");
+            var textTmpl = (string)Application.Current.FindResource("Msg_AddedToCart_Text");
+            var text = string.Format(textTmpl, flower.Name);
+            MessageBox.Show(text);
         }
 
 

@@ -1,10 +1,12 @@
 ﻿using cp;
 using cp.commands;
+using cp.helpers;
 using cp.services;
 using cp.viewModels;
 using cp.views;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Configuration;
 using System.Linq;
 using System.Text;
@@ -17,6 +19,23 @@ namespace cp.viewModels
 {
     public class MainViewModel : BaseViewModel
     {
+        public ObservableCollection<LanguageItem> Languages { get; }
+        private LanguageItem _selectedLanguage;
+        public LanguageItem SelectedLanguage
+        {
+            get => _selectedLanguage;
+            set
+            {
+                if (_selectedLanguage != value)
+                {
+                    _selectedLanguage = value;
+                    OnPropertyChanged();
+                    ChangeLanguageCommand.Execute(value);
+                }
+            }
+        }
+
+        public ICommand ChangeLanguageCommand { get; }
         private Page _currentPage;
         public Page CurrentPage
         {
@@ -34,6 +53,18 @@ namespace cp.viewModels
         {
             NavigateCommand = new RelayCommand<string>(NavigateToPage);
             CurrentPage = new CatalogPage();
+            Languages = new ObservableCollection<LanguageItem>
+            {
+                new LanguageItem { Name = "Русский", CultureCode = "ru-RU" },
+                new LanguageItem { Name = "English", CultureCode = "en-US" }
+            };
+            _selectedLanguage = Languages[0];
+
+            ChangeLanguageCommand = new RelayCommand<LanguageItem>(lang =>
+            {
+                var app = Application.Current as cp.App;
+                app?.LoadLanguageDictionary(lang.CultureCode);
+            });
         }
 
         private void NavigateToPage(string pageName)

@@ -546,3 +546,5 @@ D:\reps\cp\cp\bin\Debug\net8.0-windows\cp.pdb
 D:\reps\cp\cp\obj\Debug\net8.0-windows\cp.genruntimeconfig.cache
 D:\reps\cp\cp\obj\Debug\net8.0-windows\ref\cp.dll
 D:\reps\cp\cp\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+D:\reps\cp\cp\obj\Debug\net8.0-windows\localization\Resources.ru-RU.baml
+D:\reps\cp\cp\obj\Debug\net8.0-windows\localization\Resources.en-US.baml

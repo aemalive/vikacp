@@ -46,13 +46,12 @@
                  Margin="0,0,0,10">
             <ListBox.ItemTemplate>
                 <DataTemplate>
-                    <Border BorderBrush="Gray" BorderThickness="1" Padding="10" Margin="5">
-                        <StackPanel Orientation="Vertical">
-                            <TextBlock Text="{Binding Username}" FontWeight="Bold" FontSize="16"/>
-                            <TextBlock Text="{Binding FullName}" Margin="0,5,0,0"/>
-                            <TextBlock Text="{Binding Role}" Margin="0,5,0,0"/>
+                    <StackPanel Orientation="Vertical">
+                        <TextBlock Text="{Binding Username}" FontWeight="Bold" FontSize="16"/>
+                        <TextBlock Text="{Binding FullName}" Margin="0,5,0,0"/>
+                        <TextBlock Text="{Binding Role}" Margin="0,5,0,0"/>
 
-                            <Button Content="Редактировать"
+                        <Button Content="Редактировать"
                                     Command="{Binding DataContext.EditUserCommand, RelativeSource={RelativeSource AncestorType=ListBox}}"
                                     CommandParameter="{Binding}"
                                     Visibility="{Binding DataContext.IsAdmin, 
@@ -60,8 +59,7 @@
                                                         Converter={StaticResource BoolToVis}}"
                                     Width="100"
                                     Margin="0,10,0,0"/>
-                        </StackPanel>
-                    </Border>
+                    </StackPanel>
                 </DataTemplate>
             </ListBox.ItemTemplate>
         </ListBox>
@@ -72,12 +70,10 @@
          Margin="0,0,0,10">
             <ListBox.ItemTemplate>
                 <DataTemplate>
-                    <Border BorderBrush="Gray" BorderThickness="1" Padding="10" Margin="5">
-                        <StackPanel Orientation="Vertical">
-                            <TextBlock Text="{Binding OrderDate, StringFormat='Дата заказа: {0:dd.MM.yyyy HH:mm}'}" FontWeight="Bold"/>
-                            <TextBlock Text="{Binding TotalPrice, StringFormat='Сумма: {0:C}'}" Margin="0,5,0,0"/>
-                        </StackPanel>
-                    </Border>
+                    <StackPanel Orientation="Vertical">
+                        <TextBlock Text="{Binding OrderDate, StringFormat='Дата заказа: {0:dd.MM.yyyy HH:mm}'}" FontWeight="Bold"/>
+                        <TextBlock Text="{Binding TotalPrice, StringFormat='Сумма: {0:C}'}" Margin="0,5,0,0"/>
+                    </StackPanel>
                 </DataTemplate>
             </ListBox.ItemTemplate>
         </ListBox>
