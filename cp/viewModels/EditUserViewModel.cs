@@ -49,6 +49,12 @@ namespace cp.viewModels
             get => User.Email;
             set { User.Email = value; OnPropertyChanged(); }
         }
+        public string PreferredAddress
+        {
+            get => User.PreferredAddress;
+            set { User.PreferredAddress = value; OnPropertyChanged(); }
+        }
+
 
         public ICommand SaveChangesCommand { get; }
         public ICommand ResetPasswordCommand { get; }

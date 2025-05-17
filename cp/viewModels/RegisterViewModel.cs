@@ -1,8 +1,10 @@
-﻿using System;
-using System.Windows;
-using System.Windows.Input;
-using cp.commands;
+﻿using cp.commands;
 using cp.models;
+using cp.views;
+using System;
+using System.Windows;
+using System.Windows.Documents;
+using System.Windows.Input;
 
 namespace cp.viewModels
 {
@@ -12,6 +14,7 @@ namespace cp.viewModels
         private string _password;
         private string _fullName;
         private string _email;
+        private string _confirmPassword;
 
         public string Username
         {
@@ -37,6 +40,11 @@ namespace cp.viewModels
             set { _email = value; OnPropertyChanged(); }
         }
 
+        public string ConfirmPassword
+        {
+            get => _confirmPassword;
+            set { _confirmPassword = value; OnPropertyChanged(); }
+        }
         public ICommand RegisterCommand { get; }
 
         public RegisterViewModel()
@@ -47,40 +55,66 @@ namespace cp.viewModels
         private void RegisterUser()
         {
             if (string.IsNullOrWhiteSpace(Username) ||
-                string.IsNullOrWhiteSpace(Password) ||
-                string.IsNullOrWhiteSpace(Email))
+        string.IsNullOrWhiteSpace(Password) ||
+        string.IsNullOrWhiteSpace(ConfirmPassword) ||
+        string.IsNullOrWhiteSpace(FullName) ||
+        string.IsNullOrWhiteSpace(Email))
             {
                 MessageBox.Show("Все поля должны быть заполнены.", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Warning);
                 return;
             }
 
-            var user = new User
+            if (Password.Length < 8 || Password.Length > 30)
             {
-                Username = Username,
-                Password = Password,
-                FullName = FullName,
-                Email = Email,
-                Role = "USER"
-            };
+                MessageBox.Show("Пароль должен быть от 8 до 30 символов.", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Warning);
+                return;
+            }
 
-            try
+            if (Password != ConfirmPassword)
             {
-                using (var db = new FlowerShopDbContext())
+                MessageBox.Show("Пароли не совпадают.", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Warning);
+                return;
+            }
+
+            if (!System.Text.RegularExpressions.Regex.IsMatch(Email, @"^[^@\s]+@[^@\s]+\.[^@\s]+$"))
+            {
+                MessageBox.Show("Неверный формат email.", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Warning);
+                return;
+            }
+
+            using (var db = new FlowerShopDbContext())
+            {
+                if (db.Users.Any(u => u.Username == Username))
+                {
+                    MessageBox.Show("Имя пользователя уже занято.", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Warning);
+                    return;
+                }
+
+                var user = new User
+                {
+                    Username = Username,
+                    Password = Password,
+                    FullName = FullName,
+                    Email = Email,
+                    Role = "USER"
+                };
+
+                try
                 {
                     db.Users.Add(user);
                     db.SaveChanges();
+
+                    MessageBox.Show($"Пользователь {user.Username} успешно зарегистрирован!", "Успех", MessageBoxButton.OK, MessageBoxImage.Information);
+
+                    var page = new LoginPage();
+                    (App.Current.MainWindow.DataContext as MainViewModel).CurrentPage = page;
+
+                    Username = Password = ConfirmPassword = FullName = Email = string.Empty;
                 }
-
-                MessageBox.Show($"Пользователь {user.Username} успешно зарегистрирован!", "Успех", MessageBoxButton.OK, MessageBoxImage.Information);
-
-                Username = string.Empty;
-                Password = string.Empty;
-                FullName = string.Empty;
-                Email = string.Empty;
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show($"Ошибка при регистрации: {ex.Message}", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Ошибка при регистрации: {ex.Message}", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
+                }
             }
         }
     }

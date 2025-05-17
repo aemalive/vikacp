@@ -11,6 +11,7 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 using System.Windows.Input;
 using System.Windows.Navigation;
 
@@ -38,6 +39,9 @@ namespace cp.viewModels
 
         public ICommand LogoutCommand { get; }
         public ICommand OpenDetailsCommand { get; }
+        public ICommand DeleteUserCommand { get; }
+        public ICommand EditOwnProfileCommand { get; }
+
 
         private readonly Action<string> _navigate;
 
@@ -53,6 +57,9 @@ namespace cp.viewModels
             Users = new ObservableCollection<User>(db.Users.ToList());
 
             EditUserCommand = new RelayCommand<User>(EditUser);
+            DeleteUserCommand = new RelayCommand<User>(DeleteUser);
+
+            EditOwnProfileCommand = new RelayCommand(EditOwnProfile);
 
             if (IsCustomer)
             {
@@ -70,6 +77,11 @@ namespace cp.viewModels
         private void OpenDetails(Order order)
         {
             var page = new OrderDetailsPage(order);
+            (App.Current.MainWindow.DataContext as MainViewModel).CurrentPage = page;
+        }
+        private void EditOwnProfile()
+        {
+            var page = new EditUserPage(AuthService.CurrentUser); 
             (App.Current.MainWindow.DataContext as MainViewModel).CurrentPage = page;
         }
 
@@ -99,6 +111,32 @@ namespace cp.viewModels
             var page = new EditUserPage(user); 
             (App.Current.MainWindow.DataContext as MainViewModel).CurrentPage = page;
         }
+
+        private void DeleteUser(User user)
+        {
+            if (user == null || user.Id == AuthService.CurrentUser.Id)
+                return;
+
+            var result = System.Windows.MessageBox.Show(
+                $"Вы уверены, что хотите удалить пользователя \"{user.Username}\"?",
+                "Подтверждение удаления",
+                MessageBoxButton.YesNo,
+                MessageBoxImage.Warning);
+
+            if (result == MessageBoxResult.Yes)
+            {
+                using var db = new FlowerShopDbContext();
+                var userToDelete = db.Users.FirstOrDefault(u => u.Id == user.Id);
+
+                if (userToDelete != null)
+                {
+                    db.Users.Remove(userToDelete);
+                    db.SaveChanges();
+                    Users.Remove(user); 
+                }
+            }
+        }
+
 
     }
 }

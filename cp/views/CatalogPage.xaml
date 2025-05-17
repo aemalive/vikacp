@@ -65,7 +65,6 @@
                                     <Run Text="{Binding Price, StringFormat=' {0:C}'}"/>
                             </TextBlock>
 
-                            <TextBlock Text="{Binding Description}" TextWrapping="Wrap" Width="300" Margin="0,5,0,0"/>
 
                             <Button Content="{DynamicResource Btn_EditProduct}"
                                         Command="{Binding DataContext.EditProductCommand, RelativeSource={RelativeSource AncestorType=ListBox}}"

@@ -15,6 +15,8 @@ namespace cp.models
         public string Role { get; set; }
         public string Email { get; set; }
 
+        public string? PreferredAddress { get; set; }
+
         public ICollection<Order> Orders { get; set; }
         public ICollection<Review> Reviews { get; set; }
     }

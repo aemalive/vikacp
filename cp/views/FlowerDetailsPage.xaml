@@ -4,14 +4,16 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:cp.views"
-      xmlns:vms="clr-namespace:cp.viewModels"
+      xmlns:vms="clr-namespace:cp.viewModels" xmlns:helpers="clr-namespace:cp.helpers"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
       Title="FlowerDetailsPage">
 
     <Page.Resources>
         <BooleanToVisibilityConverter x:Key="BoolToVis" />
+        <helpers:ReviewDeleteVisibilityConverter x:Key="ReviewDeleteVisibilityConverter"/>
     </Page.Resources>
+
 
     <ScrollViewer VerticalScrollBarVisibility="Auto">
         <Grid Background="#FAFAFA" Margin="30">
@@ -33,7 +35,6 @@
             <StackPanel Grid.Row="0" Grid.Column="1" Margin="20">
                 <TextBlock Text="{Binding Name}" FontSize="28" FontWeight="Bold" Foreground="#333"/>
                 <TextBlock Text="{Binding Price, StringFormat='Цена: {0:C}'}" FontSize="20" Foreground="#666" Margin="0,10,0,0"/>
-                <TextBlock Text="Описание:" FontWeight="SemiBold" Margin="0,20,0,5" FontSize="16"/>
                 <TextBlock Text="{Binding Description}" TextWrapping="Wrap" FontSize="14" Foreground="#444"/>
                <Button Content="Добавить в корзину"
         Command="{Binding AddToCartCommand}"
@@ -62,7 +63,7 @@
                     <TextBlock Text="Текст отзыва:" Grid.Row="1" Grid.Column="0" VerticalAlignment="Top" Margin="0,5"/>
                     <TextBox Text="{Binding ReviewContent, Mode=TwoWay}" Grid.Row="1" Grid.Column="1" Margin="5" AcceptsReturn="True" Height="80" IsEnabled="{Binding IsUserAuthenticated}"/>
 
-                    <TextBlock Text="Оценка (1-5):" Grid.Row="2" Grid.Column="0" VerticalAlignment="Center" Margin="0,5"/>
+                    <TextBlock Text="Оценка (0-10):" Grid.Row="2" Grid.Column="0" VerticalAlignment="Center" Margin="0,5"/>
                     <TextBox Text="{Binding ReviewScore, Mode=TwoWay}" Grid.Row="2" Grid.Column="1" Margin="5" IsEnabled="{Binding IsUserAuthenticated}"/>
                 </Grid>
 
@@ -85,13 +86,21 @@
                                     </StackPanel>
                                     <TextBlock Text="{Binding Content}" TextWrapping="Wrap" Margin="0,5,0,0"/>
                                     <TextBlock Text="{Binding Score, StringFormat=Оценка: {0}}" Foreground="#888" FontSize="12"/>
+                                    
+                                    <Button Content="Удалить"
+        Command="{Binding DataContext.DeleteReviewCommand, RelativeSource={RelativeSource AncestorType=Page}}"
+        CommandParameter="{Binding}"
+        Margin="0,5,0,0"
+        HorizontalAlignment="Right">
+                                        <Button.Visibility>
+                                            <MultiBinding Converter="{StaticResource ReviewDeleteVisibilityConverter}">
+                                                <Binding Path="DataContext.AuthenticatedUser" RelativeSource="{RelativeSource AncestorType=Page}" />
+                                                <Binding Path="UserId"/>
+                                                <Binding Path="DataContext.IsAdmin" RelativeSource="{RelativeSource AncestorType=Page}" />
+                                            </MultiBinding>
+                                        </Button.Visibility>
+                                    </Button>
 
-                                    <Button Content="Удалить" 
-                    Visibility="{Binding DataContext.IsAdmin, RelativeSource={RelativeSource AncestorType=Page},  Converter={StaticResource BoolToVis}}" 
-                    Command="{Binding DataContext.DeleteReviewCommand, RelativeSource={RelativeSource AncestorType=Page}}" 
-                    CommandParameter="{Binding}" 
-                    Margin="0,5,0,0"
-                    HorizontalAlignment="Right"/>
                                 </StackPanel>
                             </Border>
                         </DataTemplate>

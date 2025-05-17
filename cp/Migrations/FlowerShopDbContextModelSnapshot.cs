@@ -75,7 +75,6 @@ namespace cp.Migrations
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Description")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<string>("ImageURL")
@@ -220,6 +219,9 @@ namespace cp.Migrations
 
                     b.Property<string>("Password")
                         .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("PreferredAddress")
                         .HasColumnType("text");
 
                     b.Property<string>("Role")

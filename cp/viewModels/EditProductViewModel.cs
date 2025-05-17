@@ -66,6 +66,29 @@ namespace cp.viewModels
         {
             using (var db = new FlowerShopDbContext())
             {
+                if (string.IsNullOrWhiteSpace(ImageURL))
+                {
+                    MessageBox.Show("Пожалуйста, выберите изображение.", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Warning);
+                    return;
+                }
+
+                if (string.IsNullOrWhiteSpace(Name))
+                {
+                    MessageBox.Show("Название обязательно для заполнения.", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Warning);
+                    return;
+                }
+
+                if (!decimal.TryParse(Price, out var price))
+                {
+                    MessageBox.Show("Введите корректную стоимость.", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Warning);
+                    return;
+                }
+
+                if (price < 15 || price > 800)
+                {
+                    MessageBox.Show("Стоимость должна быть от 15 до 800 рублей.", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Warning);
+                    return;
+                }
                 db.Flowers.Update(Flower);
                 db.SaveChanges();
             }

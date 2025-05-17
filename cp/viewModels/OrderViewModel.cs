@@ -36,6 +36,7 @@ namespace cp.viewModels
             get => _comment;
             set { _comment = value; OnPropertyChanged(); }
         }
+
         public Order Order { get; set; }
 
         public decimal TotalAmount => OrderItems.Sum(i => i.Price * i.Quantity);
@@ -47,7 +48,22 @@ namespace cp.viewModels
         {
             ConfirmOrderCommand = new RelayCommand(OnConfirmOrder);
             CancelOrderCommand = new RelayCommand(OnCancelOrder);
+            LoadPreferredAddress(); 
             LoadOrder();
+        }
+
+        private void LoadPreferredAddress()
+        {
+            using var db = new FlowerShopDbContext();
+            var user = db.Users
+                         .Where(u => u.Id == AuthService.CurrentUser.Id)
+                         .Select(u => new { u.PreferredAddress })
+                         .FirstOrDefault();
+
+            if (user != null && !string.IsNullOrWhiteSpace(user.PreferredAddress))
+            {
+                Address = user.PreferredAddress;
+            }
         }
 
         private void LoadOrder()
@@ -75,6 +91,7 @@ namespace cp.viewModels
 
             OnPropertyChanged(nameof(TotalAmount));
         }
+
         private Cart GetCartFromDb()
         {
             using var db = new FlowerShopDbContext();
@@ -96,11 +113,15 @@ namespace cp.viewModels
                 MessageBox.Show("Пожалуйста, укажите адрес доставки.");
                 return;
             }
+
             var result = MessageBox.Show(
                            $"Подтверждение заказа",
                            "Вы хотите подтвердить заказ",
                            MessageBoxButton.YesNo,
                            MessageBoxImage.Question);
+
+            if (result != MessageBoxResult.Yes)
+                return;
 
             var newOrder = new Order
             {
@@ -125,8 +146,8 @@ namespace cp.viewModels
             }
 
             ClearCart();
-
         }
+
         private void ClearCart()
         {
             using (var db = new FlowerShopDbContext())
@@ -135,12 +156,13 @@ namespace cp.viewModels
                     .Include(c => c.Items)
                     .FirstOrDefault(c => c.UserId == AuthService.CurrentUser.Id);
 
-                if (cart != null && cart.Items != null) 
+                if (cart != null && cart.Items != null)
                 {
                     db.CartItems.RemoveRange(cart.Items);
                     db.SaveChanges();
                 }
             }
+
             var mainVm = (Application.Current.MainWindow.DataContext as MainViewModel);
             mainVm.CurrentPage = new CartPage();
         }
@@ -165,4 +187,5 @@ namespace cp.viewModels
             }
         }
     }
+
 }

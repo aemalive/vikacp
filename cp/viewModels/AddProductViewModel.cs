@@ -68,10 +68,27 @@ namespace cp.viewModels
 
         private void AddProduct()
         {
-            if (string.IsNullOrWhiteSpace(Name) ||
-                !decimal.TryParse(Price, out var price))
+            if (string.IsNullOrWhiteSpace(ImageURL))
             {
-                MessageBox.Show("Введите корректные значения для всех полей.", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Warning);
+                MessageBox.Show("Пожалуйста, выберите изображение.", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Warning);
+                return;
+            }
+
+            if (string.IsNullOrWhiteSpace(Name))
+            {
+                MessageBox.Show("Название обязательно для заполнения.", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Warning);
+                return;
+            }
+
+            if (!decimal.TryParse(Price, out var price))
+            {
+                MessageBox.Show("Введите корректную стоимость.", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Warning);
+                return;
+            }
+
+            if (price < 15 || price > 800)
+            {
+                MessageBox.Show("Стоимость должна быть от 15 до 800 рублей.", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Warning);
                 return;
             }
 
@@ -83,14 +100,22 @@ namespace cp.viewModels
                 ImageURL = ImageURL
             };
 
-            using (var db = new FlowerShopDbContext())
+            try
             {
-                db.Flowers.Add(flower);
-                db.SaveChanges();
-            }
+                using (var db = new FlowerShopDbContext())
+                {
+                    db.Flowers.Add(flower);
+                    db.SaveChanges();
+                }
 
-            MessageBox.Show("Товар успешно добавлен!", "Успех", MessageBoxButton.OK, MessageBoxImage.Information);
-            (App.Current.MainWindow.DataContext as MainViewModel).CurrentPage = new CatalogPage();
+                MessageBox.Show("Товар успешно добавлен!", "Успех", MessageBoxButton.OK, MessageBoxImage.Information);
+                (App.Current.MainWindow.DataContext as MainViewModel).CurrentPage = new CatalogPage();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Ошибка при добавлении товара: {ex.Message}", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
         }
+
     }
 }

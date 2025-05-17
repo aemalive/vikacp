@@ -34,7 +34,7 @@
 
         <TextBlock Grid.Row="3" Grid.Column="0" Text="URL изображения:" VerticalAlignment="Center"/>
         <StackPanel Grid.Row="3" Grid.Column="1" Orientation="Horizontal" Margin="5">
-            <TextBox Width="300" Text="{Binding ImageURL, UpdateSourceTrigger=PropertyChanged}" IsReadOnly="True"/>
+            <TextBox Width="300" Text="{Binding ImageURL, UpdateSourceTrigger=PropertyChanged}"/>
             <Button Content="Выбрать..." Command="{Binding SelectImageCommand}" Margin="5,0,0,0"/>
         </StackPanel>
         

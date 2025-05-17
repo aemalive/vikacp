@@ -44,6 +44,10 @@
         <TextBox   Grid.Row="4" Grid.Column="1"
                    Text="{Binding Email, UpdateSourceTrigger=PropertyChanged}"
                    Margin="5"/>
+        <TextBlock Grid.Row="3" Grid.Column="0" Text="Предпочтительный адрес:" VerticalAlignment="Center"/>
+        <TextBox   Grid.Row="3" Grid.Column="1"
+           Text="{Binding PreferredAddress, UpdateSourceTrigger=PropertyChanged}"
+           Margin="5"/>
 
         <StackPanel Grid.Row="5" Grid.ColumnSpan="2"
                     Orientation="Horizontal"

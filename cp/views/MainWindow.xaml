@@ -6,7 +6,7 @@
         xmlns:vms="clr-namespace:cp.viewModels"
         mc:Ignorable="d"
         Title="{DynamicResource MainWindow_Title}"
-        Height="720" Width="700">
+        Height="780" Width="700">
 
     <Window.DataContext>
         <vms:MainViewModel />
