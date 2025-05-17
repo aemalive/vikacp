@@ -72,15 +72,23 @@ namespace cp.viewModels
             db.Users.Update(User);
             db.SaveChanges();
 
-            MessageBox.Show("Пользователь успешно обновлён!", "Успех", MessageBoxButton.OK, MessageBoxImage.Information);
+            string message = TryFindResource("UserUpdated") ?? "Пользователь успешно обновлён!";
+            string caption = TryFindResource("Success") ?? "Успех";
+
+            MessageBox.Show(message, caption, MessageBoxButton.OK, MessageBoxImage.Information);
 
             var mainVm = App.Current.MainWindow.DataContext as MainViewModel;
             if (mainVm != null)
             {
                 Action<string> nav = pageName => mainVm.NavigateCommand.Execute(pageName);
-
                 mainVm.CurrentPage = new ProfilePage(new ProfileViewModel(nav));
             }
         }
+
+        private string? TryFindResource(string key)
+        {
+            return Application.Current.TryFindResource(key) as string;
+        }
+
     }
 }

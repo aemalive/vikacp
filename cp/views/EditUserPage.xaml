@@ -25,37 +25,49 @@
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
 
-        <TextBlock Grid.Row="0" Grid.Column="0" Text="Логин:" VerticalAlignment="Center"/>
-        <TextBox   Grid.Row="0" Grid.Column="1"
-                   Text="{Binding Username, UpdateSourceTrigger=PropertyChanged}"
-                   Margin="5"/>
+        <TextBlock Grid.Row="0" Grid.Column="0" 
+                   Text="{DynamicResource Username}" 
+                   VerticalAlignment="Center"/>
+        <TextBox Grid.Row="0" Grid.Column="1"
+                 Text="{Binding Username, UpdateSourceTrigger=PropertyChanged}"
+                 Margin="5"/>
 
-        <TextBlock Grid.Row="1" Grid.Column="0" Text="Пароль:" VerticalAlignment="Center"/>
+        <TextBlock Grid.Row="1" Grid.Column="0" 
+                   Text="{DynamicResource Password}" 
+                   VerticalAlignment="Center"/>
         <TextBox Grid.Row="1" Grid.Column="1"
-                     Text="{Binding Password, UpdateSourceTrigger=PropertyChanged}"
-                     Margin="5"/>
+                 Text="{Binding Password, UpdateSourceTrigger=PropertyChanged}"
+                 Margin="5"/>
 
-        <TextBlock Grid.Row="2" Grid.Column="0" Text="ФИО:" VerticalAlignment="Center"/>
-        <TextBox   Grid.Row="2" Grid.Column="1"
-                   Text="{Binding FullName, UpdateSourceTrigger=PropertyChanged}"
-                   Margin="5"/>
+        <TextBlock Grid.Row="2" Grid.Column="0" 
+                   Text="{DynamicResource FullName}" 
+                   VerticalAlignment="Center"/>
+        <TextBox Grid.Row="2" Grid.Column="1"
+                 Text="{Binding FullName, UpdateSourceTrigger=PropertyChanged}"
+                 Margin="5"/>
 
-        <TextBlock Grid.Row="4" Grid.Column="0" Text="Email:" VerticalAlignment="Center"/>
-        <TextBox   Grid.Row="4" Grid.Column="1"
-                   Text="{Binding Email, UpdateSourceTrigger=PropertyChanged}"
-                   Margin="5"/>
-        <TextBlock Grid.Row="3" Grid.Column="0" Text="Предпочтительный адрес:" VerticalAlignment="Center"/>
-        <TextBox   Grid.Row="3" Grid.Column="1"
-           Text="{Binding PreferredAddress, UpdateSourceTrigger=PropertyChanged}"
-           Margin="5"/>
+        <TextBlock Grid.Row="3" Grid.Column="0" 
+                   Text="{DynamicResource PreferredAddress}" 
+                   VerticalAlignment="Center"/>
+        <TextBox Grid.Row="3" Grid.Column="1"
+                 Text="{Binding PreferredAddress, UpdateSourceTrigger=PropertyChanged}"
+                 Margin="5"/>
+
+        <TextBlock Grid.Row="4" Grid.Column="0" 
+                   Text="{DynamicResource Email}" 
+                   VerticalAlignment="Center"/>
+        <TextBox Grid.Row="4" Grid.Column="1"
+                 Text="{Binding Email, UpdateSourceTrigger=PropertyChanged}"
+                 Margin="5"/>
 
         <StackPanel Grid.Row="5" Grid.ColumnSpan="2"
                     Orientation="Horizontal"
                     HorizontalAlignment="Right"
                     Margin="0,20,0,0">
-            <Button Content="Сохранить"
+            <Button Content="{DynamicResource Save}"
                     Command="{Binding SaveChangesCommand}"
                     Padding="10,5"/>
         </StackPanel>
     </Grid>
+
 </Page>

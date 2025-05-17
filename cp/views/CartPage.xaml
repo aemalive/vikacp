@@ -11,6 +11,7 @@
     <Page.DataContext>
         <vms:CartViewModel />
     </Page.DataContext>
+    
     <Grid Margin="20">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
@@ -18,7 +19,7 @@
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
 
-        <TextBlock Text="Корзина" 
+        <TextBlock Text="{DynamicResource CartTitle}" 
                    FontSize="24" 
                    FontWeight="Bold" 
                    Margin="0 0 0 20" />
@@ -33,11 +34,15 @@
 
                                     <StackPanel Orientation="Vertical" Width="200">
                                         <TextBlock Text="{Binding Flower.Name}" FontWeight="Bold" FontSize="16"/>
-                                        <TextBlock Text="{Binding Flower.Price, StringFormat='Цена: {0:C}'}"/>
+                                        <TextBlock FontSize="14" FontWeight="Bold">
+                    <Run Text="{DynamicResource PriceLabel}"/>
+                    <Run Text=" "/>
+                    <Run Text="{Binding Flower.Price, Mode=OneWay, StringFormat={}{0:C}}"/>
+                                        </TextBlock>
                                     </StackPanel>
 
                                     <StackPanel Orientation="Vertical" Margin="10,0,0,0" Width="150">
-                                        <TextBlock Text="Количество"/>
+                                        <TextBlock Text="{DynamicResource QuantityLabel}"/>
                                         <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="0,5,0,0">
                                             <Button Content="-" Width="25" Height="25"
                             Command="{Binding DataContext.DecreaseQuantityCommand, RelativeSource={RelativeSource AncestorType=Page}}"
@@ -50,11 +55,11 @@
                                     </StackPanel>
 
                                     <StackPanel Orientation="Vertical" Margin="10,0,0,0" Width="100">
-                                        <TextBlock Text="Сумма"/>
+                                        <TextBlock Text="{DynamicResource SumLabel}"/>
                                         <TextBlock Text="{Binding Total, StringFormat={}{0:C}}"/>
                                     </StackPanel>
 
-                                    <Button Content="Удалить" Width="80" Height="30" Margin="10,0,0,0"
+                                    <Button Content="{DynamicResource DeleteButton}" Width="80" Height="30" Margin="10,0,0,0"
                     Command="{Binding DataContext.RemoveItemCommand, RelativeSource={RelativeSource AncestorType=Page}}"
                     CommandParameter="{Binding}" />
                                 </StackPanel>
@@ -69,10 +74,13 @@
         <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0 20 0 0" VerticalAlignment="Center" >
 
             <StackPanel Margin="0 20 20 0" VerticalAlignment="Center">
-                <TextBlock FontSize="14" FontWeight="Bold" Text="{Binding TotalPrice, StringFormat=Итого: {0:C}}" />
-            </StackPanel>
+                <TextBlock FontSize="14" FontWeight="Bold">
+                    <Run Text="{DynamicResource TotalLabel}"/>
+                    <Run Text=" "/>
+                    <Run Text="{Binding TotalPrice, Mode=OneWay, StringFormat={}{0:C}}"/>
+                </TextBlock> </StackPanel>
 
-            <Button Content="Оформить заказ" 
+            <Button Content="{DynamicResource CheckoutButton}" 
             Width="150" 
             Height="30" 
             Command="{Binding OnGoOrderCommand}" />

@@ -29,4 +29,104 @@
     <sys:String x:Key="Sort_ByPriceDesc">By price (desc)</sys:String>
 
 
+    <sys:String x:Key="FlowerDetailsPage_Title">Flower Details</sys:String>
+    <sys:String x:Key="LeaveReviewLabel">Leave a review:</sys:String>
+    <sys:String x:Key="ReviewTitleLabel">Review Title:</sys:String>
+    <sys:String x:Key="ReviewContentLabel">Review Text:</sys:String>
+    <sys:String x:Key="ReviewScoreLabel">Rating (0–10):</sys:String>
+    <sys:String x:Key="Btn_SubmitReview">Submit Review</sys:String>
+    <sys:String x:Key="ReviewsLabel">Reviews:</sys:String>
+    <sys:String x:Key="Btn_DeleteReview">Delete</sys:String>
+
+    <sys:String x:Key="NameLabel">Name:</sys:String>
+    <sys:String x:Key="DescriptionLabel">Description:</sys:String>
+    <sys:String x:Key="ImageLabel">Image:</sys:String>
+    <sys:String x:Key="ChooseButton">Browse...</sys:String>
+    <sys:String x:Key="AddProductButton">Add Product</sys:String>
+
+    <sys:String x:Key="CartTitle">Cart</sys:String>
+    <sys:String x:Key="QuantityLabel">Quantity</sys:String>
+    <sys:String x:Key="SumLabel">Sum</sys:String>
+    <sys:String x:Key="DeleteButton">Delete</sys:String>
+    <sys:String x:Key="TotalLabel">Total:</sys:String>
+    <sys:String x:Key="CheckoutButton">Checkout</sys:String>
+    <sys:String x:Key="Yes">Yes</sys:String>
+    <sys:String x:Key="No">No</sys:String>
+
+    <sys:String x:Key="Btn_SaveChanges">Save Changes</sys:String>
+
+    <sys:String x:Key="Err_SelectImage">Please select an image.</sys:String>
+    <sys:String x:Key="Err_NameRequired">Name is required.</sys:String>
+    <sys:String x:Key="Err_InvalidPrice">Enter a valid price.</sys:String>
+    <sys:String x:Key="Err_PriceRange">Price must be between 15 and 800 rubles.</sys:String>
+    <sys:String x:Key="Success_SaveChanges">Changes have been saved successfully!</sys:String>
+    <sys:String x:Key="Success_Title">Success</sys:String>
+    <sys:String x:Key="Error_Title">Error</sys:String>
+    <sys:String x:Key="Dialog_SelectImageTitle">Select an Image</sys:String>
+    <sys:String x:Key="Dialog_SelectImageFilter">Images (*.png;*.jpg;*.jpeg)|*.png;*.jpg;*.jpeg</sys:String>
+
+    <sys:String x:Key="Username">Username:</sys:String>
+    <sys:String x:Key="Password">Password:</sys:String>
+    <sys:String x:Key="FullName">Full Name:</sys:String>
+    <sys:String x:Key="PreferredAddress">Preferred Address:</sys:String>
+    <sys:String x:Key="Email">Email:</sys:String>
+    <sys:String x:Key="Save">Save</sys:String>
+
+    <sys:String x:Key="UserUpdated">User successfully updated!</sys:String>
+    <sys:String x:Key="Success">Success</sys:String>
+
+    <sys:String x:Key="LoginTitle">Login</sys:String>
+    <sys:String x:Key="LoginLabel">Username</sys:String>
+    <sys:String x:Key="LoginWatermark">Enter username</sys:String>
+    <sys:String x:Key="PasswordLabel">Password</sys:String>
+    <sys:String x:Key="LoginButton">Login</sys:String>
+    <sys:String x:Key="RegisterButton">Register</sys:String>
+
+    <sys:String x:Key="LoginErrorMessage">Invalid username or password</sys:String>
+    <sys:String x:Key="LoginErrorTitle">Error</sys:String>
+    
+    <sys:String x:Key="OrderAddressLabel">Address:</sys:String>
+    <sys:String x:Key="OrderDeliveryTimeLabel">Delivery Time:</sys:String>
+    <sys:String x:Key="OrderCommentLabel">Comment:</sys:String>
+    <sys:String x:Key="OrderTotalAmountLabel">Total Amount:</sys:String>
+    <sys:String x:Key="OrderItemPriceLabel">Price:</sys:String>
+    <sys:String x:Key="OrderDetailsTitle">Order Details</sys:String>
+    <sys:String x:Key="OrderAddress">Address: {0}</sys:String>
+    <sys:String x:Key="OrderDeliveryTime">Delivery Time: {0}</sys:String>
+    <sys:String x:Key="OrderComment">Comment: {0}</sys:String>
+    <sys:String x:Key="OrderTotalAmount">Total Amount: {0:C}</sys:String>
+    <sys:String x:Key="OrderItemPrice">Price: {0:C}</sys:String>
+    <sys:String x:Key="OrderItemQuantity">Quantity</sys:String>
+
+
+    <sys:String x:Key="OrderInfoTitle">Order Information</sys:String>
+    <sys:String x:Key="OrderItemQuantityLabel">Quantity</sys:String>
+    <sys:String x:Key="OrderItemSumLabel">Sum</sys:String>
+    <sys:String x:Key="ConfirmOrderButton">Confirm Order</sys:String>
+    <sys:String x:Key="CancelOrderButton">Cancel Order</sys:String>
+
+    <sys:String x:Key="Order_EnterDeliveryTime">Please specify the delivery time.</sys:String>
+    <sys:String x:Key="Order_EnterAddress">Please specify the delivery address.</sys:String>
+    <sys:String x:Key="Order_ConfirmTitle">Order Confirmation</sys:String>
+    <sys:String x:Key="Order_ConfirmMessage">Do you want to confirm the order?</sys:String>
+    <sys:String x:Key="Order_CancelConfirmTitle">Cancel Confirmation</sys:String>
+    <sys:String x:Key="Order_CancelConfirmMessage">Are you sure you want to cancel the order?</sys:String>
+
+
+    <sys:String x:Key="Profile_AdminSection">Admin Section</sys:String>
+    <sys:String x:Key="Profile_CustomerSection">Customer Section</sys:String>
+    <sys:String x:Key="Profile_LogoutButton">Log Out</sys:String>
+    <sys:String x:Key="Profile_EditOwnProfileButton">Edit Profile</sys:String>
+    <sys:String x:Key="Profile_EditUserButton">Edit</sys:String>
+    <sys:String x:Key="Profile_DeleteUserButton">Delete</sys:String>
+    <sys:String x:Key="Order_Date">Order date:</sys:String>
+
+    <sys:String x:Key="Register_Title">Registration</sys:String>
+    <sys:String x:Key="Register_Username">Username</sys:String>
+    <sys:String x:Key="Register_Password">Password</sys:String>
+    <sys:String x:Key="Register_ConfirmPassword">Confirm Password</sys:String>
+    <sys:String x:Key="Register_FullName">Full Name</sys:String>
+    <sys:String x:Key="Register_Email">Email</sys:String>
+    <sys:String x:Key="Register_Button">Register</sys:String>
+
 </ResourceDictionary>

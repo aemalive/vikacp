@@ -68,32 +68,33 @@ namespace cp.viewModels
             {
                 if (string.IsNullOrWhiteSpace(ImageURL))
                 {
-                    MessageBox.Show("Пожалуйста, выберите изображение.", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Warning);
+                    MessageBox.Show(GetString("Err_SelectImage"), GetString("Error_Title"), MessageBoxButton.OK, MessageBoxImage.Warning);
                     return;
                 }
 
                 if (string.IsNullOrWhiteSpace(Name))
                 {
-                    MessageBox.Show("Название обязательно для заполнения.", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Warning);
+                    MessageBox.Show(GetString("Err_NameRequired"), GetString("Error_Title"), MessageBoxButton.OK, MessageBoxImage.Warning);
                     return;
                 }
 
                 if (!decimal.TryParse(Price, out var price))
                 {
-                    MessageBox.Show("Введите корректную стоимость.", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Warning);
+                    MessageBox.Show(GetString("Err_InvalidPrice"), GetString("Error_Title"), MessageBoxButton.OK, MessageBoxImage.Warning);
                     return;
                 }
 
                 if (price < 15 || price > 800)
                 {
-                    MessageBox.Show("Стоимость должна быть от 15 до 800 рублей.", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Warning);
+                    MessageBox.Show(GetString("Err_PriceRange"), GetString("Error_Title"), MessageBoxButton.OK, MessageBoxImage.Warning);
                     return;
                 }
+
                 db.Flowers.Update(Flower);
                 db.SaveChanges();
             }
 
-            MessageBox.Show("Изменения успешно сохранены!", "Успех", MessageBoxButton.OK, MessageBoxImage.Information);
+            MessageBox.Show(GetString("Success_SaveChanges"), GetString("Success_Title"), MessageBoxButton.OK, MessageBoxImage.Information);
 
             (App.Current.MainWindow.DataContext as MainViewModel).CurrentPage = new CatalogPage();
         }
@@ -101,8 +102,8 @@ namespace cp.viewModels
         {
             var dialog = new OpenFileDialog
             {
-                Filter = "Изображения (*.png;*.jpg;*.jpeg)|*.png;*.jpg;*.jpeg",
-                Title = "Выберите изображение"
+                Filter = GetString("Dialog_SelectImageFilter"),
+                Title = GetString("Dialog_SelectImageTitle")
             };
 
             if (dialog.ShowDialog() == true)
@@ -110,5 +111,9 @@ namespace cp.viewModels
                 ImageURL = dialog.FileName;
             }
         }
+
+        private string GetString(string key) =>
+    Application.Current.TryFindResource(key) as string ?? $"[{key}]";
+
     }
 }

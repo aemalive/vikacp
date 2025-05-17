@@ -20,24 +20,23 @@
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
 
-        <TextBlock Text="Информация о заказе"
-                   FontSize="24" 
-                   FontWeight="Bold" 
-                   Grid.Row="0" />
+        <TextBlock FontSize="24" FontWeight="Bold" Grid.Row="0" Margin="0 0 0 10">
+            <Run Text="{DynamicResource OrderInfoTitle}"/>
+        </TextBlock>
 
-        <StackPanel Grid.Row="1">
-            <StackPanel >
-                <Label Content="Адрес" HorizontalAlignment="Center" />
+        <StackPanel Grid.Row="1" Margin="0 0 0 20">
+            <StackPanel>
+                <Label HorizontalAlignment="Center" Content="{DynamicResource OrderAddressLabel}" />
                 <TextBox Text="{Binding Address}" Width="300" />
             </StackPanel>
 
-            <StackPanel >
-                <Label Content="Время доставки"  HorizontalAlignment="Center"/>
+            <StackPanel>
+                <Label HorizontalAlignment="Center" Content="{DynamicResource OrderDeliveryTimeLabel}" />
                 <TextBox Text="{Binding DeliveryTime}" Width="300"/>
             </StackPanel>
 
-            <StackPanel >
-                <Label Content="Комментарий"  HorizontalAlignment="Center"/>
+            <StackPanel>
+                <Label HorizontalAlignment="Center" Content="{DynamicResource OrderCommentLabel}" />
                 <TextBox Text="{Binding Comment}" Width="300"/>
             </StackPanel>
         </StackPanel>
@@ -51,18 +50,22 @@
                                 <StackPanel Orientation="Horizontal">
 
                                     <StackPanel Orientation="Vertical" Width="200" HorizontalAlignment="Left">
-                                        <TextBlock Text="{Binding Flower.Name}" FontWeight="Bold" FontSize="16"/>
-                                        <TextBlock Text="{Binding Price, StringFormat='Цена: {0:C}'}"/>
+                                        <TextBlock FontWeight="Bold" FontSize="16" Text="{Binding Flower.Name}" />
+                                        <TextBlock FontSize="14">
+                                            <Run Text="{DynamicResource OrderItemPriceLabel}"/>
+                                            <Run Text=" "/>
+                                            <Run Text="{Binding Price, StringFormat={}{0:C}}"/>
+                                        </TextBlock>
                                     </StackPanel>
 
-                                    <StackPanel Orientation="Vertical"  Width="100" HorizontalAlignment="Center">
-                                        <TextBlock Text="Количество"/>
-                                        <TextBlock Text="{Binding Quantity}"/>
+                                    <StackPanel Orientation="Vertical" Width="100" HorizontalAlignment="Center">
+                                        <TextBlock FontSize="14" Text="{DynamicResource OrderItemQuantityLabel}"/>
+                                        <TextBlock FontSize="14" Text="{Binding Quantity}"/>
                                     </StackPanel>
 
-                                    <StackPanel Orientation="Vertical"  Width="100" HorizontalAlignment="Right">
-                                        <TextBlock Text="Сумма"/>
-                                        <TextBlock Text="{Binding Total, StringFormat={}{0:C}}"/>
+                                    <StackPanel Orientation="Vertical" Width="100" HorizontalAlignment="Right">
+                                        <TextBlock FontSize="14" Text="{DynamicResource OrderItemSumLabel}"/>
+                                        <TextBlock FontSize="14" Text="{Binding Total, StringFormat={}{0:C}}"/>
                                     </StackPanel>
                                 </StackPanel>
                             </Border>
@@ -73,9 +76,14 @@
         </ScrollViewer>
 
         <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0 20 0 0">
-            <TextBlock Text="{Binding TotalAmount, StringFormat='Общая сумма: {0:C}'}" FontSize="18" FontWeight="Bold" VerticalAlignment="Center" Margin="20"/>
-            <Button Content="Подтвердить заказ" Width="150" Height="30" Command="{Binding ConfirmOrderCommand}" Margin="20"/>
-            <Button Content="Отменить заказ" Width="150" Height="30" Command="{Binding CancelOrderCommand}" Margin="20"/>
+            <TextBlock FontSize="18" FontWeight="Bold" VerticalAlignment="Center" Margin="20">
+    <Run Text="{DynamicResource OrderTotalAmountLabel}" />
+    <Run Text=" " />
+    <Run Text="{Binding TotalAmount, Mode=OneWay, StringFormat={}{0:C}}" />
+            </TextBlock>
+
+            <Button Content="{DynamicResource ConfirmOrderButton}" Width="150" Height="30" Command="{Binding ConfirmOrderCommand}" Margin="20"/>
+            <Button Content="{DynamicResource CancelOrderButton}" Width="150" Height="30" Command="{Binding CancelOrderCommand}" Margin="20"/>
         </StackPanel>
     </Grid>
 </Page>

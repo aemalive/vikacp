@@ -105,18 +105,20 @@ namespace cp.viewModels
         {
             if (string.IsNullOrEmpty(DeliveryTime))
             {
-                MessageBox.Show("Пожалуйста, укажите время доставки.");
+                MessageBox.Show(
+                    (string)Application.Current.Resources["Order_EnterDeliveryTime"]);
                 return;
             }
             if (string.IsNullOrEmpty(Address))
             {
-                MessageBox.Show("Пожалуйста, укажите адрес доставки.");
+                MessageBox.Show(
+                    (string)Application.Current.Resources["Order_EnterAddress"]);
                 return;
             }
 
             var result = MessageBox.Show(
-                           $"Подтверждение заказа",
-                           "Вы хотите подтвердить заказ",
+                           (string)Application.Current.Resources["Order_ConfirmMessage"],
+                           (string)Application.Current.Resources["Order_ConfirmTitle"],
                            MessageBoxButton.YesNo,
                            MessageBoxImage.Question);
 
@@ -166,12 +168,11 @@ namespace cp.viewModels
             var mainVm = (Application.Current.MainWindow.DataContext as MainViewModel);
             mainVm.CurrentPage = new CartPage();
         }
-
         private void OnCancelOrder()
         {
             var result = MessageBox.Show(
-                "Вы уверены, что хотите отменить заказ?",
-                "Подтверждение отмены",
+                (string)Application.Current.Resources["Order_CancelConfirmMessage"],
+                (string)Application.Current.Resources["Order_CancelConfirmTitle"],
                 MessageBoxButton.YesNo,
                 MessageBoxImage.Question);
 
@@ -186,6 +187,7 @@ namespace cp.viewModels
                 mainVm.CurrentPage = new CartPage();
             }
         }
+
     }
 
 }

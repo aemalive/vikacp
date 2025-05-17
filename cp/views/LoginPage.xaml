@@ -8,27 +8,27 @@
     <Page.DataContext>
         <vms:LoginViewModel/>
     </Page.DataContext>
-
+    
     <Grid Margin="40">
         <StackPanel Width="300" VerticalAlignment="Center" HorizontalAlignment="Center">
-            <TextBlock Text="Вход" FontSize="24" Margin="0,0,0,20" HorizontalAlignment="Center"/>
+            <TextBlock Text="{DynamicResource LoginTitle}" FontSize="24" Margin="0,0,0,20" HorizontalAlignment="Center"/>
 
-            <Label Content="Логин" HorizontalAlignment="Left"/>
+            <Label Content="{DynamicResource LoginLabel}" HorizontalAlignment="Left"/>
             <xctk:WatermarkTextBox  
-                Watermark="Введите логин"  
+                Watermark="{DynamicResource LoginWatermark}"  
                 Text="{Binding Username, UpdateSourceTrigger=PropertyChanged}"  
                 Margin="0,5"  
                 Width="300"/>
 
-            <Label Content="Пароль" HorizontalAlignment="Left"/>
+            <Label Content="{DynamicResource PasswordLabel}" HorizontalAlignment="Left"/>
             <PasswordBox PasswordChanged="PwdBox_PasswordChanged" Margin="0,5" Width="300"/>
 
-            <Button Content="Войти"
-              Command="{Binding LoginCommand}"
-              Margin="0,20,0,0"/>
-            <Button Content="Регистрация"
-              Command="{Binding GoToRegisterCommand}"
-              Style="{StaticResource LinkButton}" />
+            <Button Content="{DynamicResource LoginButton}"
+                    Command="{Binding LoginCommand}"
+                    Margin="0,20,0,0"/>
+            <Button Content="{DynamicResource RegisterButton}"
+                    Command="{Binding GoToRegisterCommand}"
+                    Style="{StaticResource LinkButton}" />
         </StackPanel>
     </Grid>
 

@@ -67,7 +67,10 @@ namespace cp.viewModels
             }
             else
             {
-                MessageBox.Show("Неверный логин или пароль", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Warning);
+                string errorMessage = Application.Current.Resources["LoginErrorMessage"] as string ?? "Неверный логин или пароль";
+                string errorTitle = Application.Current.Resources["LoginErrorTitle"] as string ?? "Ошибка";
+
+                MessageBox.Show(errorMessage, errorTitle, MessageBoxButton.OK, MessageBoxImage.Warning);
             }
         }
 

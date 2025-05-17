@@ -9,7 +9,6 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="EditProductPage">
 
-
     <Grid Margin="30">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
@@ -23,23 +22,40 @@
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
 
-        <TextBlock Grid.Row="0" Grid.Column="0" Text="Название:" VerticalAlignment="Center"/>
-        <TextBox Grid.Row="0" Grid.Column="1" Text="{Binding Name, UpdateSourceTrigger=PropertyChanged}" Margin="5"/>
+        <TextBlock Grid.Row="0" Grid.Column="0" 
+                   Text="{DynamicResource NameLabel}" 
+                   VerticalAlignment="Center"/>
+        <TextBox Grid.Row="0" Grid.Column="1" 
+                 Text="{Binding Name, UpdateSourceTrigger=PropertyChanged}" 
+                 Margin="5"/>
 
-        <TextBlock Grid.Row="1" Grid.Column="0" Text="Цена:" VerticalAlignment="Center"/>
-        <TextBox Grid.Row="1" Grid.Column="1" Text="{Binding Price, UpdateSourceTrigger=PropertyChanged}" Margin="5"/>
+        <TextBlock Grid.Row="1" Grid.Column="0" 
+                   Text="{DynamicResource PriceLabel}" 
+                   VerticalAlignment="Center"/>
+        <TextBox Grid.Row="1" Grid.Column="1" 
+                 Text="{Binding Price, UpdateSourceTrigger=PropertyChanged}" 
+                 Margin="5"/>
 
-        <TextBlock Grid.Row="2" Grid.Column="0" Text="Описание:" VerticalAlignment="Top" Margin="0,5"/>
-        <TextBox Grid.Row="2" Grid.Column="1" Text="{Binding Description, UpdateSourceTrigger=PropertyChanged}" Margin="5" AcceptsReturn="True" Height="80"/>
+        <TextBlock Grid.Row="2" Grid.Column="0" 
+                   Text="{DynamicResource DescriptionLabel}" 
+                   VerticalAlignment="Top" Margin="0,5"/>
+        <TextBox Grid.Row="2" Grid.Column="1" 
+                 Text="{Binding Description, UpdateSourceTrigger=PropertyChanged}" 
+                 Margin="5" AcceptsReturn="True" Height="80"/>
 
-        <TextBlock Grid.Row="3" Grid.Column="0" Text="URL изображения:" VerticalAlignment="Center"/>
+        <TextBlock Grid.Row="3" Grid.Column="0" 
+                   Text="{DynamicResource ImageLabel}" 
+                   VerticalAlignment="Center"/>
         <StackPanel Grid.Row="3" Grid.Column="1" Orientation="Horizontal" Margin="5">
-            <TextBox Width="300" Text="{Binding ImageURL, UpdateSourceTrigger=PropertyChanged}"/>
-            <Button Content="Выбрать..." Command="{Binding SelectImageCommand}" Margin="5,0,0,0"/>
+            <TextBox Width="300" 
+                     Text="{Binding ImageURL, UpdateSourceTrigger=PropertyChanged}"/>
+            <Button Content="{DynamicResource ChooseButton}" 
+                    Command="{Binding SelectImageCommand}" 
+                    Margin="5,0,0,0"/>
         </StackPanel>
-        
+
         <Button Grid.Row="4" Grid.ColumnSpan="2"
-                Content="Сохранить изменения"
+                Content="{DynamicResource Btn_SaveChanges}"
                 Command="{Binding SaveChangesCommand}"
                 Margin="10"
                 HorizontalAlignment="Right"

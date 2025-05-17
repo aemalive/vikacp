@@ -58,7 +58,6 @@ namespace cp.viewModels
             _flower = flower;
             SubmitReviewCommand = new RelayCommand(SubmitReview);
             DeleteReviewCommand = new RelayCommand<Review>(DeleteReview, CanDeleteReview);
-            //DeleteReviewCommand = new RelayCommand<Review>(DeleteReview, r => IsAdmin);
             AddToCartCommand = new RelayCommand<Flower>(AddToCart);
 
             LoadReviews();

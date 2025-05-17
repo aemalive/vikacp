@@ -87,9 +87,16 @@ namespace cp.viewModels
         {
             if (item == null) return;
 
+            string messageTemplate = Application.Current.Resources["Msg_DeleteConfirm_Text"] as string;
+            string caption = Application.Current.Resources["Msg_DeleteConfirm_Caption"] as string;
+            string yesText = Application.Current.Resources["Yes"] as string ?? "Yes";
+            string noText = Application.Current.Resources["No"] as string ?? "No";
+
+            string message = string.Format(messageTemplate ?? "Удалить товар \"{0}\" из корзины?", item.Flower?.Name);
+
             var result = MessageBox.Show(
-                $"Удалить товар \"{item.Flower?.Name}\" из корзины?",
-                "Подтверждение удаления",
+                message,
+                caption ?? "Подтверждение удаления",
                 MessageBoxButton.YesNo,
                 MessageBoxImage.Question);
 
@@ -107,6 +114,7 @@ namespace cp.viewModels
             CartItems.Remove(item);
             OnPropertyChanged(nameof(TotalPrice));
         }
+
 
 
         private void UpdateItemInDb(CartItem item)

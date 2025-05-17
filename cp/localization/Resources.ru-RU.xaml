@@ -27,4 +27,103 @@
     <sys:String x:Key="Sort_ByPriceAsc">По цене (возр.)</sys:String>
     <sys:String x:Key="Sort_ByPriceDesc">По цене (убыв.)</sys:String>
 
+    <sys:String x:Key="FlowerDetailsPage_Title">Детали цветка</sys:String>
+    <sys:String x:Key="LeaveReviewLabel">Оставить отзыв:</sys:String>
+    <sys:String x:Key="ReviewTitleLabel">Заголовок отзыва:</sys:String>
+    <sys:String x:Key="ReviewContentLabel">Текст отзыва:</sys:String>
+    <sys:String x:Key="ReviewScoreLabel">Оценка (0-10):</sys:String>
+    <sys:String x:Key="Btn_SubmitReview">Отправить отзыв</sys:String>
+    <sys:String x:Key="ReviewsLabel">Отзывы:</sys:String>
+    <sys:String x:Key="Btn_DeleteReview">Удалить</sys:String>
+
+
+
+    <sys:String x:Key="NameLabel">Название:</sys:String>
+    <sys:String x:Key="DescriptionLabel">Описание:</sys:String>
+    <sys:String x:Key="ImageLabel">Изображение:</sys:String>
+    <sys:String x:Key="ChooseButton">Выбрать...</sys:String>
+    <sys:String x:Key="AddProductButton">Добавить товар</sys:String>
+
+    <sys:String x:Key="CartTitle">Корзина</sys:String>
+    <sys:String x:Key="QuantityLabel">Количество</sys:String>
+    <sys:String x:Key="SumLabel">Сумма</sys:String>
+    <sys:String x:Key="DeleteButton">Удалить</sys:String>
+    <sys:String x:Key="TotalLabel">Итого:</sys:String>
+    <sys:String x:Key="CheckoutButton">Оформить заказ</sys:String>
+    <sys:String x:Key="Yes">Да</sys:String>
+    <sys:String x:Key="No">Нет</sys:String>
+
+    <sys:String x:Key="Btn_SaveChanges">Сохранить изменения</sys:String>
+
+    <sys:String x:Key="Err_SelectImage">Пожалуйста, выберите изображение.</sys:String>
+    <sys:String x:Key="Err_NameRequired">Название обязательно для заполнения.</sys:String>
+    <sys:String x:Key="Err_InvalidPrice">Введите корректную стоимость.</sys:String>
+    <sys:String x:Key="Err_PriceRange">Стоимость должна быть от 15 до 800 рублей.</sys:String>
+    <sys:String x:Key="Success_SaveChanges">Изменения успешно сохранены!</sys:String>
+    <sys:String x:Key="Success_Title">Успех</sys:String>
+    <sys:String x:Key="Error_Title">Ошибка</sys:String>
+    <sys:String x:Key="Dialog_SelectImageTitle">Выберите изображение</sys:String>
+    <sys:String x:Key="Dialog_SelectImageFilter">Изображения (*.png;*.jpg;*.jpeg)|*.png;*.jpg;*.jpeg</sys:String>
+
+    <sys:String x:Key="Username">Логин:</sys:String>
+    <sys:String x:Key="Password">Пароль:</sys:String>
+    <sys:String x:Key="FullName">ФИО:</sys:String>
+    <sys:String x:Key="PreferredAddress">Предпочтительный адрес:</sys:String>
+    <sys:String x:Key="Email">Email:</sys:String>
+    <sys:String x:Key="Save">Сохранить</sys:String>
+
+    <sys:String x:Key="UserUpdated">Пользователь успешно обновлён!</sys:String>
+    <sys:String x:Key="Success">Успех</sys:String>
+
+    <sys:String x:Key="LoginTitle">Вход</sys:String>
+    <sys:String x:Key="LoginLabel">Логин</sys:String>
+    <sys:String x:Key="LoginWatermark">Введите логин</sys:String>
+    <sys:String x:Key="PasswordLabel">Пароль</sys:String>
+    <sys:String x:Key="LoginButton">Войти</sys:String>
+    <sys:String x:Key="RegisterButton">Регистрация</sys:String>
+    <sys:String x:Key="LoginErrorMessage">Неверный логин или пароль</sys:String>
+    <sys:String x:Key="LoginErrorTitle">Ошибка</sys:String>
+
+    <sys:String x:Key="OrderDetailsTitle">Подробности заказа</sys:String>
+    <sys:String x:Key="OrderAddress">Адрес: {0}</sys:String>
+    <sys:String x:Key="OrderDeliveryTime">Время доставки: {0}</sys:String>
+    <sys:String x:Key="OrderComment">Комментарий: {0}</sys:String>
+    <sys:String x:Key="OrderTotalAmount">Общая сумма: {0:C}</sys:String>
+    <sys:String x:Key="OrderItemPrice">Цена: {0:C}</sys:String>
+    <sys:String x:Key="OrderItemQuantity">Количество</sys:String>
+
+    <sys:String x:Key="OrderAddressLabel">Адрес:</sys:String>
+    <sys:String x:Key="OrderDeliveryTimeLabel">Время доставки:</sys:String>
+    <sys:String x:Key="OrderCommentLabel">Комментарий:</sys:String>
+    <sys:String x:Key="OrderTotalAmountLabel">Общая сумма:</sys:String>
+    <sys:String x:Key="OrderItemPriceLabel">Цена:</sys:String>
+
+    <sys:String x:Key="OrderInfoTitle">Информация о заказе</sys:String>
+    <sys:String x:Key="OrderItemQuantityLabel">Количество</sys:String>
+    <sys:String x:Key="OrderItemSumLabel">Сумма</sys:String>
+    <sys:String x:Key="ConfirmOrderButton">Подтвердить заказ</sys:String>
+    <sys:String x:Key="CancelOrderButton">Отменить заказ</sys:String>
+
+    <sys:String x:Key="Order_EnterDeliveryTime">Пожалуйста, укажите время доставки.</sys:String>
+    <sys:String x:Key="Order_EnterAddress">Пожалуйста, укажите адрес доставки.</sys:String>
+    <sys:String x:Key="Order_ConfirmTitle">Подтверждение заказа</sys:String>
+    <sys:String x:Key="Order_ConfirmMessage">Вы хотите подтвердить заказ?</sys:String>
+    <sys:String x:Key="Order_CancelConfirmTitle">Подтверждение отмены</sys:String>
+    <sys:String x:Key="Order_CancelConfirmMessage">Вы уверены, что хотите отменить заказ?</sys:String>
+
+    <sys:String x:Key="Profile_AdminSection">Админский раздел</sys:String>
+    <sys:String x:Key="Profile_CustomerSection">Пользовательский раздел</sys:String>
+    <sys:String x:Key="Profile_LogoutButton">Выйти</sys:String>
+    <sys:String x:Key="Profile_EditOwnProfileButton">Редактировать профиль</sys:String>
+    <sys:String x:Key="Profile_EditUserButton">Редактировать</sys:String>
+    <sys:String x:Key="Profile_DeleteUserButton">Удалить</sys:String>
+    <sys:String x:Key="Order_Date">Дата заказа:</sys:String>
+
+    <sys:String x:Key="Register_Title">Регистрация</sys:String>
+    <sys:String x:Key="Register_Username">Имя пользователя</sys:String>
+    <sys:String x:Key="Register_Password">Пароль</sys:String>
+    <sys:String x:Key="Register_ConfirmPassword">Повторите пароль</sys:String>
+    <sys:String x:Key="Register_FullName">Полное имя</sys:String>
+    <sys:String x:Key="Register_Email">Электронная почта</sys:String>
+    <sys:String x:Key="Register_Button">Зарегистрироваться</sys:String>
 </ResourceDictionary>
