@@ -24,4 +24,9 @@
     <sys:String x:Key="Btn_DeleteProduct">Delete Product</sys:String>
     <sys:String x:Key="Btn_AddToCart">Add to Cart</sys:String>
     <sys:String x:Key="PriceLabel">Price:</sys:String>
+    <sys:String x:Key="Sort_ByName">By name</sys:String>
+    <sys:String x:Key="Sort_ByPriceAsc">By price (asc)</sys:String>
+    <sys:String x:Key="Sort_ByPriceDesc">By price (desc)</sys:String>
+
+
 </ResourceDictionary>

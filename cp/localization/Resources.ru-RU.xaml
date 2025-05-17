@@ -23,4 +23,8 @@
     <sys:String x:Key="Btn_DeleteProduct">Удалить товар</sys:String>
     <sys:String x:Key="Btn_AddToCart">Добавить в корзину</sys:String>
     <sys:String x:Key="PriceLabel">Цена:</sys:String>
+    <sys:String x:Key="Sort_ByName">По названию</sys:String>
+    <sys:String x:Key="Sort_ByPriceAsc">По цене (возр.)</sys:String>
+    <sys:String x:Key="Sort_ByPriceDesc">По цене (убыв.)</sys:String>
+
 </ResourceDictionary>

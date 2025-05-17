@@ -6,14 +6,24 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.ComponentModel;
+using System.DirectoryServices;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Input;
 
+
 namespace cp.viewModels
 {
+    public class SortOption
+    {
+        public string Key { get; set; }
+        public string DisplayName => (string)Application.Current.FindResource(Key);
+    }
+
     public class CatalogViewModel : BaseViewModel
     {
         private Flower _selectedFlower;
@@ -46,6 +56,13 @@ namespace cp.viewModels
             using var db = new FlowerShopDbContext();
             _allFlowers = new ObservableCollection<Flower>(db.Flowers.ToList());
             FilteredFlowers = new ObservableCollection<Flower>(_allFlowers);
+            SortOptions = new ObservableCollection<SortOption>
+{
+    new SortOption { Key = "Sort_ByName" },
+    new SortOption { Key = "Sort_ByPriceAsc" },
+    new SortOption { Key = "Sort_ByPriceDesc" }
+};
+            SelectedSortOption = SortOptions[0];
 
             OpenDetailsCommand = new RelayCommand<Flower>(OpenDetails);
             AddProductCommand = new RelayCommand(OpenAddProductPage);
@@ -115,10 +132,10 @@ namespace cp.viewModels
 
         public ObservableCollection<Flower> FilteredFlowers { get; set; } = new();
 
-        public List<string> SortOptions { get; } = new() { "По названию", "По цене (возр.)", "По цене (убыв.)" };
+        public ObservableCollection<SortOption> SortOptions { get; }
 
-        private string _selectedSortOption;
-        public string SelectedSortOption
+        private SortOption _selectedSortOption;
+        public SortOption SelectedSortOption
         {
             get => _selectedSortOption;
             set
@@ -129,6 +146,7 @@ namespace cp.viewModels
             }
         }
 
+
         public ICommand ResetFiltersCommand { get; }
 
         private void ApplyFilters()
@@ -138,13 +156,14 @@ namespace cp.viewModels
             if (!string.IsNullOrWhiteSpace(SearchText))
                 filtered = filtered.Where(f => f.Name.Contains(SearchText, StringComparison.OrdinalIgnoreCase));
 
-            filtered = SelectedSortOption switch
+            filtered = SelectedSortOption?.Key switch
             {
-                "По названию" => filtered.OrderBy(f => f.Name),
-                "По цене (возр.)" => filtered.OrderBy(f => f.Price),
-                "По цене (убыв.)" => filtered.OrderByDescending(f => f.Price),
+                "Sort_ByName" => filtered.OrderBy(f => f.Name),
+                "Sort_ByPriceAsc" => filtered.OrderBy(f => f.Price),
+                "Sort_ByPriceDesc" => filtered.OrderByDescending(f => f.Price),
                 _ => filtered
             };
+
 
             FilteredFlowers.Clear();
             foreach (var flower in filtered)
