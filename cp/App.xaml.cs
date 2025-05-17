@@ -55,6 +55,9 @@ namespace cp
             _host.Dispose();
             base.OnExit(e);
         }
+
+        public event EventHandler LanguageChanged;
+
         public void LoadLanguageDictionary(string culture)
         {
             var ci = new CultureInfo(culture);
@@ -69,6 +72,8 @@ namespace cp
                 merged[0] = langDict;
             else
                 merged.Add(langDict);
+
+            LanguageChanged?.Invoke(this, EventArgs.Empty);
         }
     }
 

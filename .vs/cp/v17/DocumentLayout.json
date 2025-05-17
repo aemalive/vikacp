@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "D:\\reps\\cp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\viewmodels\\catalogviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\viewmodels\\catalogviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\views\\catalogpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -25,14 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\localization\\resources.en-us.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\localization\\resources.en-us.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\viewmodels\\catalogviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\viewmodels\\catalogviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\views\\editproductpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -129,10 +133,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\viewmodels\\cartviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\viewmodels\\cartviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|solutionrelative:cp\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CD66BBA1-8C83-42D6-9488-1DA838560932}|cp\\cp.csproj|d:\\reps\\cp\\cp\\views\\registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -246,44 +246,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CatalogPage.xaml",
-              "DocumentMoniker": "D:\\reps\\cp\\cp\\views\\CatalogPage.xaml",
-              "RelativeDocumentMoniker": "cp\\views\\CatalogPage.xaml",
-              "ToolTip": "D:\\reps\\cp\\cp\\views\\CatalogPage.xaml",
-              "RelativeToolTip": "cp\\views\\CatalogPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-28T12:04:25.856Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "CatalogViewModel.cs",
               "DocumentMoniker": "D:\\reps\\cp\\cp\\viewModels\\CatalogViewModel.cs",
               "RelativeDocumentMoniker": "cp\\viewModels\\CatalogViewModel.cs",
               "ToolTip": "D:\\reps\\cp\\cp\\viewModels\\CatalogViewModel.cs",
               "RelativeToolTip": "cp\\viewModels\\CatalogViewModel.cs",
-              "ViewState": "AgIAAMIAAAAAAAAAAAAuwN0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAuwGYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-14T14:25:41.883Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Resources.ru-RU.xaml",
-              "DocumentMoniker": "D:\\reps\\cp\\cp\\localization\\Resources.ru-RU.xaml",
-              "RelativeDocumentMoniker": "cp\\localization\\Resources.ru-RU.xaml",
-              "ToolTip": "D:\\reps\\cp\\cp\\localization\\Resources.ru-RU.xaml",
-              "RelativeToolTip": "cp\\localization\\Resources.ru-RU.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-14T14:06:22.959Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "OrderPage.xaml",
               "DocumentMoniker": "D:\\reps\\cp\\cp\\views\\OrderPage.xaml",
               "RelativeDocumentMoniker": "cp\\views\\OrderPage.xaml",
@@ -294,19 +270,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Resources.en-US.xaml",
               "DocumentMoniker": "D:\\reps\\cp\\cp\\localization\\Resources.en-US.xaml",
               "RelativeDocumentMoniker": "cp\\localization\\Resources.en-US.xaml",
               "ToolTip": "D:\\reps\\cp\\cp\\localization\\Resources.en-US.xaml",
               "RelativeToolTip": "cp\\localization\\Resources.en-US.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-14T14:06:55.843Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T14:06:55.843Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "App.xaml",
               "DocumentMoniker": "D:\\reps\\cp\\cp\\App.xaml",
               "RelativeDocumentMoniker": "cp\\App.xaml",
@@ -318,57 +293,90 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "EditProductPage.xaml",
               "DocumentMoniker": "D:\\reps\\cp\\cp\\views\\EditProductPage.xaml",
               "RelativeDocumentMoniker": "cp\\views\\EditProductPage.xaml",
               "ToolTip": "D:\\reps\\cp\\cp\\views\\EditProductPage.xaml",
               "RelativeToolTip": "cp\\views\\EditProductPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-30T10:55:16.733Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T10:55:16.733Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "D:\\reps\\cp\\cp\\App.xaml.cs",
               "RelativeDocumentMoniker": "cp\\App.xaml.cs",
               "ToolTip": "D:\\reps\\cp\\cp\\App.xaml.cs",
               "RelativeToolTip": "cp\\App.xaml.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAcwEsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADQAAAAAAAAAAAAmwFAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-13T19:56:31.69Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\reps\\cp\\cp\\views\\MainWindow.xaml",
               "RelativeDocumentMoniker": "cp\\views\\MainWindow.xaml",
               "ToolTip": "D:\\reps\\cp\\cp\\views\\MainWindow.xaml",
               "RelativeToolTip": "cp\\views\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-13T19:54:41.622Z",
+              "WhenOpened": "2025-04-13T19:54:41.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "D:\\reps\\cp\\cp\\viewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "cp\\viewModels\\LoginViewModel.cs",
+              "ToolTip": "D:\\reps\\cp\\cp\\viewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "cp\\viewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAADQAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T13:55:40.64Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "MainViewModel.cs",
               "DocumentMoniker": "D:\\reps\\cp\\cp\\viewModels\\MainViewModel.cs",
               "RelativeDocumentMoniker": "cp\\viewModels\\MainViewModel.cs",
               "ToolTip": "D:\\reps\\cp\\cp\\viewModels\\MainViewModel.cs",
               "RelativeToolTip": "cp\\viewModels\\MainViewModel.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAmwEQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAuwGwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-13T20:01:31.204Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 7,
+              "Title": "Resources.ru-RU.xaml",
+              "DocumentMoniker": "D:\\reps\\cp\\cp\\localization\\Resources.ru-RU.xaml",
+              "RelativeDocumentMoniker": "cp\\localization\\Resources.ru-RU.xaml",
+              "ToolTip": "D:\\reps\\cp\\cp\\localization\\Resources.ru-RU.xaml",
+              "RelativeToolTip": "cp\\localization\\Resources.ru-RU.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-14T14:06:22.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CatalogPage.xaml",
+              "DocumentMoniker": "D:\\reps\\cp\\cp\\views\\CatalogPage.xaml",
+              "RelativeDocumentMoniker": "cp\\views\\CatalogPage.xaml",
+              "ToolTip": "D:\\reps\\cp\\cp\\views\\CatalogPage.xaml",
+              "RelativeToolTip": "cp\\views\\CatalogPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-28T12:04:25.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "EditUserPage.xaml",
               "DocumentMoniker": "D:\\reps\\cp\\cp\\views\\EditUserPage.xaml",
               "RelativeDocumentMoniker": "cp\\views\\EditUserPage.xaml",
@@ -379,7 +387,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "OrderDetailsPage.xaml",
               "DocumentMoniker": "D:\\reps\\cp\\cp\\views\\OrderDetailsPage.xaml",
               "RelativeDocumentMoniker": "cp\\views\\OrderDetailsPage.xaml",
@@ -390,7 +398,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "OrderViewModel.cs",
               "DocumentMoniker": "D:\\reps\\cp\\cp\\viewModels\\OrderViewModel.cs",
               "RelativeDocumentMoniker": "cp\\viewModels\\OrderViewModel.cs",
@@ -402,7 +410,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "OrderDetailsViewModel.cs",
               "DocumentMoniker": "D:\\reps\\cp\\cp\\viewModels\\OrderDetailsViewModel.cs",
               "RelativeDocumentMoniker": "cp\\viewModels\\OrderDetailsViewModel.cs",
@@ -414,7 +422,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "EditUserViewModel.cs",
               "DocumentMoniker": "D:\\reps\\cp\\cp\\viewModels\\EditUserViewModel.cs",
               "RelativeDocumentMoniker": "cp\\viewModels\\EditUserViewModel.cs",
@@ -426,7 +434,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "EditProductViewModel.cs",
               "DocumentMoniker": "D:\\reps\\cp\\cp\\viewModels\\EditProductViewModel.cs",
               "RelativeDocumentMoniker": "cp\\viewModels\\EditProductViewModel.cs",
@@ -438,7 +446,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "EditUserPage.xaml.cs",
               "DocumentMoniker": "D:\\reps\\cp\\cp\\views\\EditUserPage.xaml.cs",
               "RelativeDocumentMoniker": "cp\\views\\EditUserPage.xaml.cs",
@@ -450,7 +458,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "RegisterViewModel.cs",
               "DocumentMoniker": "D:\\reps\\cp\\cp\\viewModels\\RegisterViewModel.cs",
               "RelativeDocumentMoniker": "cp\\viewModels\\RegisterViewModel.cs",
@@ -462,7 +470,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\reps\\cp\\cp\\models\\User.cs",
               "RelativeDocumentMoniker": "cp\\models\\User.cs",
@@ -474,7 +482,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "ProfilePage.xaml",
               "DocumentMoniker": "D:\\reps\\cp\\cp\\views\\ProfilePage.xaml",
               "RelativeDocumentMoniker": "cp\\views\\ProfilePage.xaml",
@@ -485,7 +493,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "ProfileViewModel.cs",
               "DocumentMoniker": "D:\\reps\\cp\\cp\\viewModels\\ProfileViewModel.cs",
               "RelativeDocumentMoniker": "cp\\viewModels\\ProfileViewModel.cs",
@@ -497,7 +505,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "FlowerDetailsPage.xaml",
               "DocumentMoniker": "D:\\reps\\cp\\cp\\views\\FlowerDetailsPage.xaml",
               "RelativeDocumentMoniker": "cp\\views\\FlowerDetailsPage.xaml",
@@ -508,7 +516,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "FlowerDetailsViewModel.cs",
               "DocumentMoniker": "D:\\reps\\cp\\cp\\viewModels\\FlowerDetailsViewModel.cs",
               "RelativeDocumentMoniker": "cp\\viewModels\\FlowerDetailsViewModel.cs",
@@ -520,7 +528,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "BooleanToVisibilityConverter.cs",
               "DocumentMoniker": "D:\\reps\\cp\\cp\\helpers\\BooleanToVisibilityConverter.cs",
               "RelativeDocumentMoniker": "cp\\helpers\\BooleanToVisibilityConverter.cs",
@@ -532,7 +540,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "ReviewDeleteVisibilityConverter.cs",
               "DocumentMoniker": "D:\\reps\\cp\\cp\\helpers\\ReviewDeleteVisibilityConverter.cs",
               "RelativeDocumentMoniker": "cp\\helpers\\ReviewDeleteVisibilityConverter.cs",
@@ -544,7 +552,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "AddProductViewModel.cs",
               "DocumentMoniker": "D:\\reps\\cp\\cp\\viewModels\\AddProductViewModel.cs",
               "RelativeDocumentMoniker": "cp\\viewModels\\AddProductViewModel.cs",
@@ -556,7 +564,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "Flower.cs",
               "DocumentMoniker": "D:\\reps\\cp\\cp\\models\\Flower.cs",
               "RelativeDocumentMoniker": "cp\\models\\Flower.cs",
@@ -568,7 +576,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "CartPage.xaml",
               "DocumentMoniker": "D:\\reps\\cp\\cp\\views\\CartPage.xaml",
               "RelativeDocumentMoniker": "cp\\views\\CartPage.xaml",
@@ -579,7 +587,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "Order.cs",
               "DocumentMoniker": "D:\\reps\\cp\\cp\\models\\Order.cs",
               "RelativeDocumentMoniker": "cp\\models\\Order.cs",
@@ -591,7 +599,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "Review.cs",
               "DocumentMoniker": "D:\\reps\\cp\\cp\\models\\Review.cs",
               "RelativeDocumentMoniker": "cp\\models\\Review.cs",
@@ -603,7 +611,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "AddProductPage.xaml",
               "DocumentMoniker": "D:\\reps\\cp\\cp\\views\\AddProductPage.xaml",
               "RelativeDocumentMoniker": "cp\\views\\AddProductPage.xaml",
@@ -614,7 +622,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "CartViewModel.cs",
               "DocumentMoniker": "D:\\reps\\cp\\cp\\viewModels\\CartViewModel.cs",
               "RelativeDocumentMoniker": "cp\\viewModels\\CartViewModel.cs",
@@ -623,18 +631,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-14T06:58:57.094Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "LoginViewModel.cs",
-              "DocumentMoniker": "D:\\reps\\cp\\cp\\viewModels\\LoginViewModel.cs",
-              "RelativeDocumentMoniker": "cp\\viewModels\\LoginViewModel.cs",
-              "ToolTip": "D:\\reps\\cp\\cp\\viewModels\\LoginViewModel.cs",
-              "RelativeToolTip": "cp\\viewModels\\LoginViewModel.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAAADQAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T13:55:40.64Z"
             },
             {
               "$type": "Document",

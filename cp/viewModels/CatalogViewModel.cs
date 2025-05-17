@@ -18,11 +18,25 @@ using System.Windows.Input;
 
 namespace cp.viewModels
 {
-    public class SortOption
+    public class SortOption : INotifyPropertyChanged
     {
         public string Key { get; set; }
+
         public string DisplayName => (string)Application.Current.FindResource(Key);
+
+        public void RefreshDisplayName()
+        {
+            OnPropertyChanged(nameof(DisplayName));
+        }
+
+        public event PropertyChangedEventHandler PropertyChanged;
+
+        protected void OnPropertyChanged([CallerMemberName] string name = null)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
+        }
     }
+
 
     public class CatalogViewModel : BaseViewModel
     {
@@ -57,21 +71,34 @@ namespace cp.viewModels
             _allFlowers = new ObservableCollection<Flower>(db.Flowers.ToList());
             FilteredFlowers = new ObservableCollection<Flower>(_allFlowers);
             SortOptions = new ObservableCollection<SortOption>
-{
-    new SortOption { Key = "Sort_ByName" },
-    new SortOption { Key = "Sort_ByPriceAsc" },
-    new SortOption { Key = "Sort_ByPriceDesc" }
-};
+    {
+        new SortOption { Key = "Sort_ByName" },
+        new SortOption { Key = "Sort_ByPriceAsc" },
+        new SortOption { Key = "Sort_ByPriceDesc" }
+    };
+
+            foreach (var sortOption in SortOptions)
+            {
+                sortOption.RefreshDisplayName();
+            }
+
             SelectedSortOption = SortOptions[0];
 
             OpenDetailsCommand = new RelayCommand<Flower>(OpenDetails);
             AddProductCommand = new RelayCommand(OpenAddProductPage);
             EditProductCommand = new RelayCommand<Flower>(EditProduct);
             DeleteProductCommand = new RelayCommand<Flower>(DeleteProduct);
-
             ResetFiltersCommand = new RelayCommand(ResetFilters);
-
             AddToCartCommand = new RelayCommand<Flower>(AddToCart);
+
+            (App.Current as App).LanguageChanged += OnLanguageChanged;
+        }
+        private void OnLanguageChanged(object sender, EventArgs e)
+        {
+            foreach (var option in SortOptions)
+            {
+                option.RefreshDisplayName();
+            }
         }
 
         private void OpenDetails(Flower flower)
